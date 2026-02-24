@@ -1,0 +1,1366 @@
+running... mode= train cuda= True epochs= 1
+logging to: /data1/yanjing/MMTL-UniAD-main/mmtl_outputs/train_20251228_013330.log
+Total epochs to run: 1
+Loaded dataloader and loss function.
+Optimizer loaded.
+No checkpoint found, starting from scratch
+
+===== Epoch 1/1 =====
+2.846214771270752
+Epoch: 0, Subepoch: 0, Loss: 6.277986, batch_size: 2, total_acc1: 0.000000, total_acc2: 50.000000, total_acc3: 100.000000, total_acc4: 0.000000
+Epoch: 0, Subepoch: 1, Loss: 5.623924, batch_size: 2, total_acc1: 0.000000, total_acc2: 50.000000, total_acc3: 100.000000, total_acc4: 50.000000
+Epoch: 0, Subepoch: 2, Loss: 7.089727, batch_size: 2, total_acc1: 16.666668, total_acc2: 50.000000, total_acc3: 66.666672, total_acc4: 33.333336
+Epoch: 0, Subepoch: 3, Loss: 5.743521, batch_size: 2, total_acc1: 25.000000, total_acc2: 62.500000, total_acc3: 75.000000, total_acc4: 50.000000
+Epoch: 0, Subepoch: 4, Loss: 7.060099, batch_size: 2, total_acc1: 20.000000, total_acc2: 50.000000, total_acc3: 60.000000, total_acc4: 40.000000
+Epoch: 0, Subepoch: 5, Loss: 6.809980, batch_size: 2, total_acc1: 25.000000, total_acc2: 58.333336, total_acc3: 50.000000, total_acc4: 33.333336
+Epoch: 0, Subepoch: 6, Loss: 6.803914, batch_size: 2, total_acc1: 28.571430, total_acc2: 57.142860, total_acc3: 42.857143, total_acc4: 28.571430
+Epoch: 0, Subepoch: 7, Loss: 6.694809, batch_size: 2, total_acc1: 25.000000, total_acc2: 56.250000, total_acc3: 37.500000, total_acc4: 31.250000
+Epoch: 0, Subepoch: 8, Loss: 6.438280, batch_size: 2, total_acc1: 22.222223, total_acc2: 55.555557, total_acc3: 44.444447, total_acc4: 38.888889
+Epoch: 0, Subepoch: 9, Loss: 6.838851, batch_size: 2, total_acc1: 20.000000, total_acc2: 50.000000, total_acc3: 40.000000, total_acc4: 35.000000
+Epoch: 0, Subepoch: 10, Loss: 7.097041, batch_size: 2, total_acc1: 18.181818, total_acc2: 50.000000, total_acc3: 36.363636, total_acc4: 31.818182
+Epoch: 0, Subepoch: 11, Loss: 7.313363, batch_size: 2, total_acc1: 16.666668, total_acc2: 50.000000, total_acc3: 37.500000, total_acc4: 33.333336
+Epoch: 0, Subepoch: 12, Loss: 7.061741, batch_size: 2, total_acc1: 23.076923, total_acc2: 46.153847, total_acc3: 38.461540, total_acc4: 34.615387
+Epoch: 0, Subepoch: 13, Loss: 7.283640, batch_size: 2, total_acc1: 25.000002, total_acc2: 46.428574, total_acc3: 39.285717, total_acc4: 32.142860
+Epoch: 0, Subepoch: 14, Loss: 7.418040, batch_size: 2, total_acc1: 26.666668, total_acc2: 43.333336, total_acc3: 40.000004, total_acc4: 33.333336
+Epoch: 0, Subepoch: 15, Loss: 7.274519, batch_size: 2, total_acc1: 28.125000, total_acc2: 43.750000, total_acc3: 43.750000, total_acc4: 34.375000
+Epoch: 0, Subepoch: 16, Loss: 7.435788, batch_size: 2, total_acc1: 26.470589, total_acc2: 41.176472, total_acc3: 44.117649, total_acc4: 35.294117
+Epoch: 0, Subepoch: 17, Loss: 7.331249, batch_size: 2, total_acc1: 25.000000, total_acc2: 41.666668, total_acc3: 44.444447, total_acc4: 36.111111
+Epoch: 0, Subepoch: 18, Loss: 7.584707, batch_size: 2, total_acc1: 23.684210, total_acc2: 39.473686, total_acc3: 44.736843, total_acc4: 36.842106
+Epoch: 0, Subepoch: 19, Loss: 7.673685, batch_size: 2, total_acc1: 22.500000, total_acc2: 37.500000, total_acc3: 42.500000, total_acc4: 35.000000
+Epoch: 0, Subepoch: 20, Loss: 7.754716, batch_size: 2, total_acc1: 21.428572, total_acc2: 35.714287, total_acc3: 42.857143, total_acc4: 35.714287
+Epoch: 0, Subepoch: 21, Loss: 7.632304, batch_size: 2, total_acc1: 20.454546, total_acc2: 36.363636, total_acc3: 45.454548, total_acc4: 34.090912
+Epoch: 0, Subepoch: 22, Loss: 7.585820, batch_size: 2, total_acc1: 21.739130, total_acc2: 36.956524, total_acc3: 45.652176, total_acc4: 34.782608
+Epoch: 0, Subepoch: 23, Loss: 7.637590, batch_size: 2, total_acc1: 22.916668, total_acc2: 35.416668, total_acc3: 43.750000, total_acc4: 33.333336
+Epoch: 0, Subepoch: 24, Loss: 7.557746, batch_size: 2, total_acc1: 24.000000, total_acc2: 34.000000, total_acc3: 44.000000, total_acc4: 32.000000
+Epoch: 0, Subepoch: 25, Loss: 7.437278, batch_size: 2, total_acc1: 25.000000, total_acc2: 32.692310, total_acc3: 44.230770, total_acc4: 34.615387
+Epoch: 0, Subepoch: 26, Loss: 7.506438, batch_size: 2, total_acc1: 25.925926, total_acc2: 31.481482, total_acc3: 42.592594, total_acc4: 33.333332
+Epoch: 0, Subepoch: 27, Loss: 7.324481, batch_size: 2, total_acc1: 28.571430, total_acc2: 30.357143, total_acc3: 42.857143, total_acc4: 35.714287
+Epoch: 0, Subepoch: 28, Loss: 7.209548, batch_size: 2, total_acc1: 31.034483, total_acc2: 29.310345, total_acc3: 41.379311, total_acc4: 36.206898
+Epoch: 0, Subepoch: 29, Loss: 7.041730, batch_size: 2, total_acc1: 33.333336, total_acc2: 30.000002, total_acc3: 41.666668, total_acc4: 36.666668
+Epoch: 0, Subepoch: 30, Loss: 7.229678, batch_size: 2, total_acc1: 33.870968, total_acc2: 30.645161, total_acc3: 40.322578, total_acc4: 38.709675
+Epoch: 0, Subepoch: 31, Loss: 7.493318, batch_size: 2, total_acc1: 34.375000, total_acc2: 29.687500, total_acc3: 40.625000, total_acc4: 39.062500
+Epoch: 0, Subepoch: 32, Loss: 7.629039, batch_size: 2, total_acc1: 34.848484, total_acc2: 30.303032, total_acc3: 42.424244, total_acc4: 37.878788
+Epoch: 0, Subepoch: 33, Loss: 7.910857, batch_size: 2, total_acc1: 33.823528, total_acc2: 30.882353, total_acc3: 41.176472, total_acc4: 38.235294
+Epoch: 0, Subepoch: 34, Loss: 8.015679, batch_size: 2, total_acc1: 32.857143, total_acc2: 31.428572, total_acc3: 40.000000, total_acc4: 37.142857
+Epoch: 0, Subepoch: 35, Loss: 8.108722, batch_size: 2, total_acc1: 31.944445, total_acc2: 31.944445, total_acc3: 40.277779, total_acc4: 36.111111
+Epoch: 0, Subepoch: 36, Loss: 8.265797, batch_size: 2, total_acc1: 31.081081, total_acc2: 31.081081, total_acc3: 39.189190, total_acc4: 36.486488
+Epoch: 0, Subepoch: 37, Loss: 8.302257, batch_size: 2, total_acc1: 31.578947, total_acc2: 31.578947, total_acc3: 38.157894, total_acc4: 36.842106
+Epoch: 0, Subepoch: 38, Loss: 8.303320, batch_size: 2, total_acc1: 30.769232, total_acc2: 32.051281, total_acc3: 38.461540, total_acc4: 37.179489
+Epoch: 0, Subepoch: 39, Loss: 8.211475, batch_size: 2, total_acc1: 31.250000, total_acc2: 32.500000, total_acc3: 37.500000, total_acc4: 38.750000
+Epoch: 0, Subepoch: 40, Loss: 8.288580, batch_size: 2, total_acc1: 30.487804, total_acc2: 32.926826, total_acc3: 37.804878, total_acc4: 39.024387
+Epoch: 0, Subepoch: 41, Loss: 8.136517, batch_size: 2, total_acc1: 30.952381, total_acc2: 34.523811, total_acc3: 39.285713, total_acc4: 40.476192
+Epoch: 0, Subepoch: 42, Loss: 8.036840, batch_size: 2, total_acc1: 32.558140, total_acc2: 34.883720, total_acc3: 40.697674, total_acc4: 41.860466
+Epoch: 0, Subepoch: 43, Loss: 7.984122, batch_size: 2, total_acc1: 34.090912, total_acc2: 35.227272, total_acc3: 40.909092, total_acc4: 42.045456
+Epoch: 0, Subepoch: 44, Loss: 8.006424, batch_size: 2, total_acc1: 33.333336, total_acc2: 35.555557, total_acc3: 41.111111, total_acc4: 42.222221
+Epoch: 0, Subepoch: 45, Loss: 7.912382, batch_size: 2, total_acc1: 33.695652, total_acc2: 36.956524, total_acc3: 42.391304, total_acc4: 41.304348
+Epoch: 0, Subepoch: 46, Loss: 8.093493, batch_size: 2, total_acc1: 32.978722, total_acc2: 36.170212, total_acc3: 42.553188, total_acc4: 40.425529
+Epoch: 0, Subepoch: 47, Loss: 8.246694, batch_size: 2, total_acc1: 32.291668, total_acc2: 35.416668, total_acc3: 42.708336, total_acc4: 40.625000
+Epoch: 0, Subepoch: 48, Loss: 8.134864, batch_size: 2, total_acc1: 31.632652, total_acc2: 35.714287, total_acc3: 43.877548, total_acc4: 41.836735
+Epoch: 0, Subepoch: 49, Loss: 8.195427, batch_size: 2, total_acc1: 31.000000, total_acc2: 35.000000, total_acc3: 44.000000, total_acc4: 42.000000
+Epoch: 0, Subepoch: 50, Loss: 8.152303, batch_size: 2, total_acc1: 31.372551, total_acc2: 35.294121, total_acc3: 45.098042, total_acc4: 41.176472
+Epoch: 0, Subepoch: 51, Loss: 8.114773, batch_size: 2, total_acc1: 30.769232, total_acc2: 36.538464, total_acc3: 46.153847, total_acc4: 40.384617
+Epoch: 0, Subepoch: 52, Loss: 8.236468, batch_size: 2, total_acc1: 30.188679, total_acc2: 36.792454, total_acc3: 45.283020, total_acc4: 40.566040
+Epoch: 0, Subepoch: 53, Loss: 8.497004, batch_size: 2, total_acc1: 29.629629, total_acc2: 36.111111, total_acc3: 44.444447, total_acc4: 39.814816
+Epoch: 0, Subepoch: 54, Loss: 8.564025, batch_size: 2, total_acc1: 30.000000, total_acc2: 35.454544, total_acc3: 44.545452, total_acc4: 40.909088
+Epoch: 0, Subepoch: 55, Loss: 8.516139, batch_size: 2, total_acc1: 30.357143, total_acc2: 36.607143, total_acc3: 44.642860, total_acc4: 41.071430
+Epoch: 0, Subepoch: 56, Loss: 8.409655, batch_size: 2, total_acc1: 30.701756, total_acc2: 36.842106, total_acc3: 45.614037, total_acc4: 42.105263
+Epoch: 0, Subepoch: 57, Loss: 8.412102, batch_size: 2, total_acc1: 31.034483, total_acc2: 36.206898, total_acc3: 46.551723, total_acc4: 43.103447
+Epoch: 0, Subepoch: 58, Loss: 8.649666, batch_size: 2, total_acc1: 30.508474, total_acc2: 35.593220, total_acc3: 45.762711, total_acc4: 42.372883
+Epoch: 0, Subepoch: 59, Loss: 8.706960, batch_size: 2, total_acc1: 30.000002, total_acc2: 35.000000, total_acc3: 45.833336, total_acc4: 42.500004
+Epoch: 0, Subepoch: 60, Loss: 8.667844, batch_size: 2, total_acc1: 29.508196, total_acc2: 36.065571, total_acc3: 45.901638, total_acc4: 42.622948
+Epoch: 0, Subepoch: 61, Loss: 8.611157, batch_size: 2, total_acc1: 29.032257, total_acc2: 35.483871, total_acc3: 45.967739, total_acc4: 43.548386
+Epoch: 0, Subepoch: 62, Loss: 8.603544, batch_size: 2, total_acc1: 29.365082, total_acc2: 34.920635, total_acc3: 46.825401, total_acc4: 43.650795
+Epoch: 0, Subepoch: 63, Loss: 8.631695, batch_size: 2, total_acc1: 28.906250, total_acc2: 35.156250, total_acc3: 46.875000, total_acc4: 44.531250
+Epoch: 0, Subepoch: 64, Loss: 8.564043, batch_size: 2, total_acc1: 29.230770, total_acc2: 36.153847, total_acc3: 47.692307, total_acc4: 44.615383
+Epoch: 0, Subepoch: 65, Loss: 8.599098, batch_size: 2, total_acc1: 28.787880, total_acc2: 35.606060, total_acc3: 47.727276, total_acc4: 44.696972
+Epoch: 0, Subepoch: 66, Loss: 8.642508, batch_size: 2, total_acc1: 28.358208, total_acc2: 35.074627, total_acc3: 47.761192, total_acc4: 44.029850
+Epoch: 0, Subepoch: 67, Loss: 8.667949, batch_size: 2, total_acc1: 27.941177, total_acc2: 35.294117, total_acc3: 47.794117, total_acc4: 44.117649
+Epoch: 0, Subepoch: 68, Loss: 8.649592, batch_size: 2, total_acc1: 27.536232, total_acc2: 35.507248, total_acc3: 47.101452, total_acc4: 44.927536
+Epoch: 0, Subepoch: 69, Loss: 8.663749, batch_size: 2, total_acc1: 28.571428, total_acc2: 35.714287, total_acc3: 46.428570, total_acc4: 45.000000
+Epoch: 0, Subepoch: 70, Loss: 8.633480, batch_size: 2, total_acc1: 28.873240, total_acc2: 35.211266, total_acc3: 46.478874, total_acc4: 45.070423
+Epoch: 0, Subepoch: 71, Loss: 8.652984, batch_size: 2, total_acc1: 28.472223, total_acc2: 36.111111, total_acc3: 47.222221, total_acc4: 44.444447
+Epoch: 0, Subepoch: 72, Loss: 8.619519, batch_size: 2, total_acc1: 29.452055, total_acc2: 36.986301, total_acc3: 47.260273, total_acc4: 43.835617
+Epoch: 0, Subepoch: 73, Loss: 8.620537, batch_size: 2, total_acc1: 29.729731, total_acc2: 36.486488, total_acc3: 47.297298, total_acc4: 43.243244
+Epoch: 0, Subepoch: 74, Loss: 8.692517, batch_size: 2, total_acc1: 30.000000, total_acc2: 36.000000, total_acc3: 46.666668, total_acc4: 43.333336
+Epoch: 0, Subepoch: 75, Loss: 8.729036, batch_size: 2, total_acc1: 30.921053, total_acc2: 35.526318, total_acc3: 46.052631, total_acc4: 42.763157
+Epoch: 0, Subepoch: 76, Loss: 8.762335, batch_size: 2, total_acc1: 30.519480, total_acc2: 35.064934, total_acc3: 46.103897, total_acc4: 42.857143
+Epoch: 0, Subepoch: 77, Loss: 8.697097, batch_size: 2, total_acc1: 31.410257, total_acc2: 35.256413, total_acc3: 46.153847, total_acc4: 42.948719
+Epoch: 0, Subepoch: 78, Loss: 8.716047, batch_size: 2, total_acc1: 31.645571, total_acc2: 34.810127, total_acc3: 46.835445, total_acc4: 42.405064
+Epoch: 0, Subepoch: 79, Loss: 8.703406, batch_size: 2, total_acc1: 31.875000, total_acc2: 34.375000, total_acc3: 46.875000, total_acc4: 42.500000
+Epoch: 0, Subepoch: 80, Loss: 8.687815, batch_size: 2, total_acc1: 31.481482, total_acc2: 33.950619, total_acc3: 47.530865, total_acc4: 41.975307
+Epoch: 0, Subepoch: 81, Loss: 8.647562, batch_size: 2, total_acc1: 31.707315, total_acc2: 33.536583, total_acc3: 48.170731, total_acc4: 41.463413
+Epoch: 0, Subepoch: 82, Loss: 8.628672, batch_size: 2, total_acc1: 31.325300, total_acc2: 33.734940, total_acc3: 48.192768, total_acc4: 41.566265
+Epoch: 0, Subepoch: 83, Loss: 8.599359, batch_size: 2, total_acc1: 31.547619, total_acc2: 33.928574, total_acc3: 48.214287, total_acc4: 41.666668
+Epoch: 0, Subepoch: 84, Loss: 8.558932, batch_size: 2, total_acc1: 32.352943, total_acc2: 33.529411, total_acc3: 48.823532, total_acc4: 42.352943
+Epoch: 0, Subepoch: 85, Loss: 8.554206, batch_size: 2, total_acc1: 32.558140, total_acc2: 33.720932, total_acc3: 48.255814, total_acc4: 41.860466
+Epoch: 0, Subepoch: 86, Loss: 8.574701, batch_size: 2, total_acc1: 32.758621, total_acc2: 33.333332, total_acc3: 48.275864, total_acc4: 41.379311
+Epoch: 0, Subepoch: 87, Loss: 8.547878, batch_size: 2, total_acc1: 32.954548, total_acc2: 33.522728, total_acc3: 48.863636, total_acc4: 41.477276
+Epoch: 0, Subepoch: 88, Loss: 8.533779, batch_size: 2, total_acc1: 33.146069, total_acc2: 33.146069, total_acc3: 48.876404, total_acc4: 41.573032
+Epoch: 0, Subepoch: 89, Loss: 8.502716, batch_size: 2, total_acc1: 33.333336, total_acc2: 32.777779, total_acc3: 49.444447, total_acc4: 41.111111
+Epoch: 0, Subepoch: 90, Loss: 8.488353, batch_size: 2, total_acc1: 33.516483, total_acc2: 32.967033, total_acc3: 49.450550, total_acc4: 40.659340
+Epoch: 0, Subepoch: 91, Loss: 8.488924, batch_size: 2, total_acc1: 33.152176, total_acc2: 32.608696, total_acc3: 49.456524, total_acc4: 40.217392
+Epoch: 0, Subepoch: 92, Loss: 8.446611, batch_size: 2, total_acc1: 32.795700, total_acc2: 32.795700, total_acc3: 49.462364, total_acc4: 39.784946
+Epoch: 0, Subepoch: 93, Loss: 8.391078, batch_size: 2, total_acc1: 33.510635, total_acc2: 32.978722, total_acc3: 50.000000, total_acc4: 39.893616
+Epoch: 0, Subepoch: 94, Loss: 8.378905, batch_size: 2, total_acc1: 33.157898, total_acc2: 33.157898, total_acc3: 50.526318, total_acc4: 40.000000
+Epoch: 0, Subepoch: 95, Loss: 8.320095, batch_size: 2, total_acc1: 33.854168, total_acc2: 33.333336, total_acc3: 50.520836, total_acc4: 40.104168
+Epoch: 0, Subepoch: 96, Loss: 8.296886, batch_size: 2, total_acc1: 33.505154, total_acc2: 33.505154, total_acc3: 51.030926, total_acc4: 40.206184
+Epoch: 0, Subepoch: 97, Loss: 8.343002, batch_size: 2, total_acc1: 33.673470, total_acc2: 33.163265, total_acc3: 50.510204, total_acc4: 39.795918
+Epoch: 0, Subepoch: 98, Loss: 8.278766, batch_size: 2, total_acc1: 34.343433, total_acc2: 33.333332, total_acc3: 51.010101, total_acc4: 40.404041
+Epoch: 0, Subepoch: 99, Loss: 8.246793, batch_size: 2, total_acc1: 34.000000, total_acc2: 33.000000, total_acc3: 51.000000, total_acc4: 40.500000
+Epoch: 0, Subepoch: 100, Loss: 8.208166, batch_size: 2, total_acc1: 34.158417, total_acc2: 32.673267, total_acc3: 51.485149, total_acc4: 40.099010
+Epoch: 0, Subepoch: 101, Loss: 8.191439, batch_size: 2, total_acc1: 34.803925, total_acc2: 32.843140, total_acc3: 51.960785, total_acc4: 39.705883
+Epoch: 0, Subepoch: 102, Loss: 8.172095, batch_size: 2, total_acc1: 34.951458, total_acc2: 33.009708, total_acc3: 51.941750, total_acc4: 39.805824
+Epoch: 0, Subepoch: 103, Loss: 8.136830, batch_size: 2, total_acc1: 35.096153, total_acc2: 33.653847, total_acc3: 51.923080, total_acc4: 39.903847
+Epoch: 0, Subepoch: 104, Loss: 8.084536, batch_size: 2, total_acc1: 35.714287, total_acc2: 34.285717, total_acc3: 51.904762, total_acc4: 40.000000
+Epoch: 0, Subepoch: 105, Loss: 8.074399, batch_size: 2, total_acc1: 35.849056, total_acc2: 33.962265, total_acc3: 52.358490, total_acc4: 40.094341
+Epoch: 0, Subepoch: 106, Loss: 8.053227, batch_size: 2, total_acc1: 36.448597, total_acc2: 33.644859, total_acc3: 52.336449, total_acc4: 39.719624
+Epoch: 0, Subepoch: 107, Loss: 8.005256, batch_size: 2, total_acc1: 36.574074, total_acc2: 34.259258, total_acc3: 52.777779, total_acc4: 40.277779
+Epoch: 0, Subepoch: 108, Loss: 7.959018, batch_size: 2, total_acc1: 37.155960, total_acc2: 34.862385, total_acc3: 52.752293, total_acc4: 40.366970
+Epoch: 0, Subepoch: 109, Loss: 7.947686, batch_size: 2, total_acc1: 36.818180, total_acc2: 35.454544, total_acc3: 52.727272, total_acc4: 40.454544
+Epoch: 0, Subepoch: 110, Loss: 7.906800, batch_size: 2, total_acc1: 37.387390, total_acc2: 35.585587, total_acc3: 53.153156, total_acc4: 40.540543
+Epoch: 0, Subepoch: 111, Loss: 7.896389, batch_size: 2, total_acc1: 37.053574, total_acc2: 35.267860, total_acc3: 53.571430, total_acc4: 40.625000
+Epoch: 0, Subepoch: 112, Loss: 7.868386, batch_size: 2, total_acc1: 37.610619, total_acc2: 35.398232, total_acc3: 53.539822, total_acc4: 40.707966
+Epoch: 0, Subepoch: 113, Loss: 7.838592, batch_size: 2, total_acc1: 37.280701, total_acc2: 35.526318, total_acc3: 53.508774, total_acc4: 41.228069
+Epoch: 0, Subepoch: 114, Loss: 7.828639, batch_size: 2, total_acc1: 37.391304, total_acc2: 35.652172, total_acc3: 53.913040, total_acc4: 41.304344
+Epoch: 0, Subepoch: 115, Loss: 7.837083, batch_size: 2, total_acc1: 37.500000, total_acc2: 35.344826, total_acc3: 53.879311, total_acc4: 40.948277
+Epoch: 0, Subepoch: 116, Loss: 7.813422, batch_size: 2, total_acc1: 37.606838, total_acc2: 35.042736, total_acc3: 53.418804, total_acc4: 41.452995
+Epoch: 0, Subepoch: 117, Loss: 7.797858, batch_size: 2, total_acc1: 37.711864, total_acc2: 35.169491, total_acc3: 52.966103, total_acc4: 41.525425
+Epoch: 0, Subepoch: 118, Loss: 7.759321, batch_size: 2, total_acc1: 37.815128, total_acc2: 35.714287, total_acc3: 53.361347, total_acc4: 41.596642
+Epoch: 0, Subepoch: 119, Loss: 7.732199, batch_size: 2, total_acc1: 37.916668, total_acc2: 35.833336, total_acc3: 53.333336, total_acc4: 42.083336
+Epoch: 0, Subepoch: 120, Loss: 7.706782, batch_size: 2, total_acc1: 38.016529, total_acc2: 36.363636, total_acc3: 53.305782, total_acc4: 41.735535
+Epoch: 0, Subepoch: 121, Loss: 7.719111, batch_size: 2, total_acc1: 38.114754, total_acc2: 36.475407, total_acc3: 52.868851, total_acc4: 41.393440
+Epoch: 0, Subepoch: 122, Loss: 7.759577, batch_size: 2, total_acc1: 37.804878, total_acc2: 36.178860, total_acc3: 52.439022, total_acc4: 41.056908
+Epoch: 0, Subepoch: 123, Loss: 7.761197, batch_size: 2, total_acc1: 37.500000, total_acc2: 35.887096, total_acc3: 52.419353, total_acc4: 41.129032
+Epoch: 0, Subepoch: 124, Loss: 7.761831, batch_size: 2, total_acc1: 37.600002, total_acc2: 35.600002, total_acc3: 52.000004, total_acc4: 40.800003
+Epoch: 0, Subepoch: 125, Loss: 7.727856, batch_size: 2, total_acc1: 38.095242, total_acc2: 36.111115, total_acc3: 51.984131, total_acc4: 40.873016
+Epoch: 0, Subepoch: 126, Loss: 7.709321, batch_size: 2, total_acc1: 38.188976, total_acc2: 36.220470, total_acc3: 51.968502, total_acc4: 40.551182
+Epoch: 0, Subepoch: 127, Loss: 7.680624, batch_size: 2, total_acc1: 38.281250, total_acc2: 36.328125, total_acc3: 51.953125, total_acc4: 41.015625
+Epoch: 0, Subepoch: 128, Loss: 7.653612, batch_size: 2, total_acc1: 38.372093, total_acc2: 36.434109, total_acc3: 51.937984, total_acc4: 41.085270
+Epoch: 0, Subepoch: 129, Loss: 7.622364, batch_size: 2, total_acc1: 38.846153, total_acc2: 36.153847, total_acc3: 52.307693, total_acc4: 41.153847
+Epoch: 0, Subepoch: 130, Loss: 7.616519, batch_size: 2, total_acc1: 38.549618, total_acc2: 36.641220, total_acc3: 52.290077, total_acc4: 41.221375
+Epoch: 0, Subepoch: 131, Loss: 7.608500, batch_size: 2, total_acc1: 38.636364, total_acc2: 36.742424, total_acc3: 52.272728, total_acc4: 41.287880
+Epoch: 0, Subepoch: 132, Loss: 7.601532, batch_size: 2, total_acc1: 39.097744, total_acc2: 36.466167, total_acc3: 51.879700, total_acc4: 40.977444
+Epoch: 0, Subepoch: 133, Loss: 7.584740, batch_size: 2, total_acc1: 39.179104, total_acc2: 36.567162, total_acc3: 51.865669, total_acc4: 41.044777
+Epoch: 0, Subepoch: 134, Loss: 7.566685, batch_size: 2, total_acc1: 39.629627, total_acc2: 36.666664, total_acc3: 51.851852, total_acc4: 41.111111
+Epoch: 0, Subepoch: 135, Loss: 7.564185, batch_size: 2, total_acc1: 40.073528, total_acc2: 36.397060, total_acc3: 51.838234, total_acc4: 41.176472
+Epoch: 0, Subepoch: 136, Loss: 7.562452, batch_size: 2, total_acc1: 40.145985, total_acc2: 36.131386, total_acc3: 51.459854, total_acc4: 40.875912
+Epoch: 0, Subepoch: 137, Loss: 7.566095, batch_size: 2, total_acc1: 40.217392, total_acc2: 35.869564, total_acc3: 51.086956, total_acc4: 40.579712
+Epoch: 0, Subepoch: 138, Loss: 7.548592, batch_size: 2, total_acc1: 40.647484, total_acc2: 36.330936, total_acc3: 51.079140, total_acc4: 40.287769
+Epoch: 0, Subepoch: 139, Loss: 7.526105, batch_size: 2, total_acc1: 40.714287, total_acc2: 36.428570, total_acc3: 51.071430, total_acc4: 40.357143
+Epoch: 0, Subepoch: 140, Loss: 7.529178, batch_size: 2, total_acc1: 40.780140, total_acc2: 36.170212, total_acc3: 50.709217, total_acc4: 40.070919
+Epoch: 0, Subepoch: 141, Loss: 7.509644, batch_size: 2, total_acc1: 41.197182, total_acc2: 35.915493, total_acc3: 50.704224, total_acc4: 40.140842
+Epoch: 0, Subepoch: 142, Loss: 7.482204, batch_size: 2, total_acc1: 41.258739, total_acc2: 36.013985, total_acc3: 51.048950, total_acc4: 40.209789
+Epoch: 0, Subepoch: 143, Loss: 7.454428, batch_size: 2, total_acc1: 41.666668, total_acc2: 36.458332, total_acc3: 50.694447, total_acc4: 40.277779
+Epoch: 0, Subepoch: 144, Loss: 7.453973, batch_size: 2, total_acc1: 41.724136, total_acc2: 36.551723, total_acc3: 50.689655, total_acc4: 40.344826
+Epoch: 0, Subepoch: 145, Loss: 7.419883, batch_size: 2, total_acc1: 41.780823, total_acc2: 36.986301, total_acc3: 51.027397, total_acc4: 40.753426
+Epoch: 0, Subepoch: 146, Loss: 7.403855, batch_size: 2, total_acc1: 41.836735, total_acc2: 37.074829, total_acc3: 51.360542, total_acc4: 40.816326
+Epoch: 0, Subepoch: 147, Loss: 7.397692, batch_size: 2, total_acc1: 41.891891, total_acc2: 37.162163, total_acc3: 51.351353, total_acc4: 40.878380
+Epoch: 0, Subepoch: 148, Loss: 7.366448, batch_size: 2, total_acc1: 41.946308, total_acc2: 37.583893, total_acc3: 51.677853, total_acc4: 41.275169
+Epoch: 0, Subepoch: 149, Loss: 7.368896, batch_size: 2, total_acc1: 41.666668, total_acc2: 37.333336, total_acc3: 51.333336, total_acc4: 41.666668
+Epoch: 0, Subepoch: 150, Loss: 7.354049, batch_size: 2, total_acc1: 41.721855, total_acc2: 37.417217, total_acc3: 51.655628, total_acc4: 41.721855
+Epoch: 0, Subepoch: 151, Loss: 7.338033, batch_size: 2, total_acc1: 41.776318, total_acc2: 37.171051, total_acc3: 51.973686, total_acc4: 42.105263
+Epoch: 0, Subepoch: 152, Loss: 7.340817, batch_size: 2, total_acc1: 41.503269, total_acc2: 36.928104, total_acc3: 51.960785, total_acc4: 41.830067
+Epoch: 0, Subepoch: 153, Loss: 7.322189, batch_size: 2, total_acc1: 41.558441, total_acc2: 37.012985, total_acc3: 51.623375, total_acc4: 41.883118
+Epoch: 0, Subepoch: 154, Loss: 7.363521, batch_size: 2, total_acc1: 41.290321, total_acc2: 36.774193, total_acc3: 51.290321, total_acc4: 41.612904
+Epoch: 0, Subepoch: 155, Loss: 7.362685, batch_size: 2, total_acc1: 41.346153, total_acc2: 36.538464, total_acc3: 50.961540, total_acc4: 41.666668
+Epoch: 0, Subepoch: 156, Loss: 7.377269, batch_size: 2, total_acc1: 41.082802, total_acc2: 36.942677, total_acc3: 50.955414, total_acc4: 41.401276
+Epoch: 0, Subepoch: 157, Loss: 7.410668, batch_size: 2, total_acc1: 41.139240, total_acc2: 36.708862, total_acc3: 50.632912, total_acc4: 41.455696
+Epoch: 0, Subepoch: 158, Loss: 7.407427, batch_size: 2, total_acc1: 41.509434, total_acc2: 36.477985, total_acc3: 50.943394, total_acc4: 41.194965
+Epoch: 0, Subepoch: 159, Loss: 7.414832, batch_size: 2, total_acc1: 41.875000, total_acc2: 36.250000, total_acc3: 50.937500, total_acc4: 41.562500
+Epoch: 0, Subepoch: 160, Loss: 7.395210, batch_size: 2, total_acc1: 41.925468, total_acc2: 36.645962, total_acc3: 50.931679, total_acc4: 41.614906
+Epoch: 0, Subepoch: 161, Loss: 7.400845, batch_size: 2, total_acc1: 42.283951, total_acc2: 36.728394, total_acc3: 50.617283, total_acc4: 41.358025
+Epoch: 0, Subepoch: 162, Loss: 7.395445, batch_size: 2, total_acc1: 42.331287, total_acc2: 36.503067, total_acc3: 50.920242, total_acc4: 41.104294
+Epoch: 0, Subepoch: 163, Loss: 7.414641, batch_size: 2, total_acc1: 42.682926, total_acc2: 36.280487, total_acc3: 50.914631, total_acc4: 40.853657
+Epoch: 0, Subepoch: 164, Loss: 7.420244, batch_size: 2, total_acc1: 42.424240, total_acc2: 36.363636, total_acc3: 50.606060, total_acc4: 40.909088
+Epoch: 0, Subepoch: 165, Loss: 7.403772, batch_size: 2, total_acc1: 42.771084, total_acc2: 36.144577, total_acc3: 50.903614, total_acc4: 40.963856
+Epoch: 0, Subepoch: 166, Loss: 7.385473, batch_size: 2, total_acc1: 43.113773, total_acc2: 35.928146, total_acc3: 51.197605, total_acc4: 41.017967
+Epoch: 0, Subepoch: 167, Loss: 7.364116, batch_size: 2, total_acc1: 42.857143, total_acc2: 36.011906, total_acc3: 51.488094, total_acc4: 41.369049
+Epoch: 0, Subepoch: 168, Loss: 7.385885, batch_size: 2, total_acc1: 42.603550, total_acc2: 36.094673, total_acc3: 51.183434, total_acc4: 41.124260
+Epoch: 0, Subepoch: 169, Loss: 7.372171, batch_size: 2, total_acc1: 42.647060, total_acc2: 35.882355, total_acc3: 51.176472, total_acc4: 41.176472
+Epoch: 0, Subepoch: 170, Loss: 7.369739, batch_size: 2, total_acc1: 42.982456, total_acc2: 35.672516, total_acc3: 51.169590, total_acc4: 41.228069
+Epoch: 0, Subepoch: 171, Loss: 7.355318, batch_size: 2, total_acc1: 43.023254, total_acc2: 36.046513, total_acc3: 50.872093, total_acc4: 41.569767
+Epoch: 0, Subepoch: 172, Loss: 7.373491, batch_size: 2, total_acc1: 43.063583, total_acc2: 36.127167, total_acc3: 50.578033, total_acc4: 41.329479
+Epoch: 0, Subepoch: 173, Loss: 7.381367, batch_size: 2, total_acc1: 43.390804, total_acc2: 35.919540, total_acc3: 50.574711, total_acc4: 41.091953
+Epoch: 0, Subepoch: 174, Loss: 7.371004, batch_size: 2, total_acc1: 43.142857, total_acc2: 36.000000, total_acc3: 50.571426, total_acc4: 41.142857
+Epoch: 0, Subepoch: 175, Loss: 7.364581, batch_size: 2, total_acc1: 42.897728, total_acc2: 36.363636, total_acc3: 50.284092, total_acc4: 40.909092
+Epoch: 0, Subepoch: 176, Loss: 7.345025, batch_size: 2, total_acc1: 42.937855, total_acc2: 36.723164, total_acc3: 50.282486, total_acc4: 40.960453
+Epoch: 0, Subepoch: 177, Loss: 7.346392, batch_size: 2, total_acc1: 43.258427, total_acc2: 36.516853, total_acc3: 50.280899, total_acc4: 40.730339
+Epoch: 0, Subepoch: 178, Loss: 7.338560, batch_size: 2, total_acc1: 43.575417, total_acc2: 36.312847, total_acc3: 50.558659, total_acc4: 40.502792
+Epoch: 0, Subepoch: 179, Loss: 7.352609, batch_size: 2, total_acc1: 43.333336, total_acc2: 36.111111, total_acc3: 50.555557, total_acc4: 40.555557
+Epoch: 0, Subepoch: 180, Loss: 7.335299, batch_size: 2, total_acc1: 43.646412, total_acc2: 36.464088, total_acc3: 50.552486, total_acc4: 40.607735
+Epoch: 0, Subepoch: 181, Loss: 7.310257, batch_size: 2, total_acc1: 43.956043, total_acc2: 36.813187, total_acc3: 50.824177, total_acc4: 40.659340
+Epoch: 0, Subepoch: 182, Loss: 7.305654, batch_size: 2, total_acc1: 43.989071, total_acc2: 36.612022, total_acc3: 51.092896, total_acc4: 40.710381
+Epoch: 0, Subepoch: 183, Loss: 7.289927, batch_size: 2, total_acc1: 44.293480, total_acc2: 36.684784, total_acc3: 50.815220, total_acc4: 40.760872
+Epoch: 0, Subepoch: 184, Loss: 7.259999, batch_size: 2, total_acc1: 44.594597, total_acc2: 36.756756, total_acc3: 51.081081, total_acc4: 41.081081
+Epoch: 0, Subepoch: 185, Loss: 7.239105, batch_size: 2, total_acc1: 44.892471, total_acc2: 36.559139, total_acc3: 51.344086, total_acc4: 41.397850
+Epoch: 0, Subepoch: 186, Loss: 7.253707, batch_size: 2, total_acc1: 44.919788, total_acc2: 36.363636, total_acc3: 51.336899, total_acc4: 41.176472
+Epoch: 0, Subepoch: 187, Loss: 7.252198, batch_size: 2, total_acc1: 44.680851, total_acc2: 36.436169, total_acc3: 51.329784, total_acc4: 41.223404
+Epoch: 0, Subepoch: 188, Loss: 7.238743, batch_size: 2, total_acc1: 44.973545, total_acc2: 36.507935, total_acc3: 51.322750, total_acc4: 41.269840
+Epoch: 0, Subepoch: 189, Loss: 7.234347, batch_size: 2, total_acc1: 45.000004, total_acc2: 36.578949, total_acc3: 51.315792, total_acc4: 41.052635
+Epoch: 0, Subepoch: 190, Loss: 7.221367, batch_size: 2, total_acc1: 45.287960, total_acc2: 36.387436, total_acc3: 51.308903, total_acc4: 41.099476
+Epoch: 0, Subepoch: 191, Loss: 7.217998, batch_size: 2, total_acc1: 45.312500, total_acc2: 36.197918, total_acc3: 51.302086, total_acc4: 41.145836
+Epoch: 0, Subepoch: 192, Loss: 7.202993, batch_size: 2, total_acc1: 45.336788, total_acc2: 36.010361, total_acc3: 51.554401, total_acc4: 41.450775
+Epoch: 0, Subepoch: 193, Loss: 7.210403, batch_size: 2, total_acc1: 45.360825, total_acc2: 35.824741, total_acc3: 51.288658, total_acc4: 41.237114
+Epoch: 0, Subepoch: 194, Loss: 7.195287, batch_size: 2, total_acc1: 45.128208, total_acc2: 36.153847, total_acc3: 51.538464, total_acc4: 41.538464
+Epoch: 0, Subepoch: 195, Loss: 7.177889, batch_size: 2, total_acc1: 44.897957, total_acc2: 36.479591, total_acc3: 51.530613, total_acc4: 41.581631
+Epoch: 0, Subepoch: 196, Loss: 7.174284, batch_size: 2, total_acc1: 44.670052, total_acc2: 36.294415, total_acc3: 51.269035, total_acc4: 41.624363
+Epoch: 0, Subepoch: 197, Loss: 7.153346, batch_size: 2, total_acc1: 44.696968, total_acc2: 36.363636, total_acc3: 51.515152, total_acc4: 41.919193
+Epoch: 0, Subepoch: 198, Loss: 7.140712, batch_size: 2, total_acc1: 44.974873, total_acc2: 36.180904, total_acc3: 51.256279, total_acc4: 42.211056
+Epoch: 0, Subepoch: 199, Loss: 7.123628, batch_size: 2, total_acc1: 45.250000, total_acc2: 36.500000, total_acc3: 51.000000, total_acc4: 42.250000
+Epoch: 0, Subepoch: 200, Loss: 7.106024, batch_size: 2, total_acc1: 45.522388, total_acc2: 36.567162, total_acc3: 51.243778, total_acc4: 42.288555
+Epoch: 0, Subepoch: 201, Loss: 7.086678, batch_size: 2, total_acc1: 45.792080, total_acc2: 36.386139, total_acc3: 51.237621, total_acc4: 42.574257
+Epoch: 0, Subepoch: 202, Loss: 7.061781, batch_size: 2, total_acc1: 46.059113, total_acc2: 36.453201, total_acc3: 51.477833, total_acc4: 42.857143
+Epoch: 0, Subepoch: 203, Loss: 7.065649, batch_size: 2, total_acc1: 46.078434, total_acc2: 36.519608, total_acc3: 51.715687, total_acc4: 42.647060
+Epoch: 0, Subepoch: 204, Loss: 7.050621, batch_size: 2, total_acc1: 46.341465, total_acc2: 36.341465, total_acc3: 51.707317, total_acc4: 42.682926
+Epoch: 0, Subepoch: 205, Loss: 7.069930, batch_size: 2, total_acc1: 46.116505, total_acc2: 36.407768, total_acc3: 51.699028, total_acc4: 42.475727
+Epoch: 0, Subepoch: 206, Loss: 7.050923, batch_size: 2, total_acc1: 46.376812, total_acc2: 36.473431, total_acc3: 51.690819, total_acc4: 42.512077
+Epoch: 0, Subepoch: 207, Loss: 7.037969, batch_size: 2, total_acc1: 46.634617, total_acc2: 36.538464, total_acc3: 51.682693, total_acc4: 42.788464
+Epoch: 0, Subepoch: 208, Loss: 7.055766, batch_size: 2, total_acc1: 46.411480, total_acc2: 36.363636, total_acc3: 51.913876, total_acc4: 42.822964
+Epoch: 0, Subepoch: 209, Loss: 7.039488, batch_size: 2, total_acc1: 46.666668, total_acc2: 36.428574, total_acc3: 51.904762, total_acc4: 42.857143
+Epoch: 0, Subepoch: 210, Loss: 7.027645, batch_size: 2, total_acc1: 46.919434, total_acc2: 36.255924, total_acc3: 52.132702, total_acc4: 43.127964
+Epoch: 0, Subepoch: 211, Loss: 7.020833, batch_size: 2, total_acc1: 46.933964, total_acc2: 36.556602, total_acc3: 52.122643, total_acc4: 43.396229
+Epoch: 0, Subepoch: 212, Loss: 7.018331, batch_size: 2, total_acc1: 46.948357, total_acc2: 36.384975, total_acc3: 52.347420, total_acc4: 43.427231
+Epoch: 0, Subepoch: 213, Loss: 7.031032, batch_size: 2, total_acc1: 46.728970, total_acc2: 36.448597, total_acc3: 52.336449, total_acc4: 43.457943
+Epoch: 0, Subepoch: 214, Loss: 7.024866, batch_size: 2, total_acc1: 46.511627, total_acc2: 36.511627, total_acc3: 52.325581, total_acc4: 43.255814
+Epoch: 0, Subepoch: 215, Loss: 7.012043, batch_size: 2, total_acc1: 46.527779, total_acc2: 36.342594, total_acc3: 52.546295, total_acc4: 43.518520
+Epoch: 0, Subepoch: 216, Loss: 7.002791, batch_size: 2, total_acc1: 46.313362, total_acc2: 36.635944, total_acc3: 52.534561, total_acc4: 43.548386
+Epoch: 0, Subepoch: 217, Loss: 6.984649, batch_size: 2, total_acc1: 46.100914, total_acc2: 36.926605, total_acc3: 52.752293, total_acc4: 43.807339
+Epoch: 0, Subepoch: 218, Loss: 6.983853, batch_size: 2, total_acc1: 46.118721, total_acc2: 36.757988, total_acc3: 52.739723, total_acc4: 43.835613
+Epoch: 0, Subepoch: 219, Loss: 6.971531, batch_size: 2, total_acc1: 46.136364, total_acc2: 36.818180, total_acc3: 52.727272, total_acc4: 43.863636
+Epoch: 0, Subepoch: 220, Loss: 6.968547, batch_size: 2, total_acc1: 45.927605, total_acc2: 36.651585, total_acc3: 52.941177, total_acc4: 43.891403
+Epoch: 0, Subepoch: 221, Loss: 6.966296, batch_size: 2, total_acc1: 45.945946, total_acc2: 36.486488, total_acc3: 53.153156, total_acc4: 43.693695
+Epoch: 0, Subepoch: 222, Loss: 6.958652, batch_size: 2, total_acc1: 45.964127, total_acc2: 36.547089, total_acc3: 53.363232, total_acc4: 43.721973
+Epoch: 0, Subepoch: 223, Loss: 6.940811, batch_size: 2, total_acc1: 46.205360, total_acc2: 36.383930, total_acc3: 53.571430, total_acc4: 43.750004
+Epoch: 0, Subepoch: 224, Loss: 6.930141, batch_size: 2, total_acc1: 46.222225, total_acc2: 36.222221, total_acc3: 53.777779, total_acc4: 43.777779
+Epoch: 0, Subepoch: 225, Loss: 6.931006, batch_size: 2, total_acc1: 46.238937, total_acc2: 36.061947, total_acc3: 53.761063, total_acc4: 43.805309
+Epoch: 0, Subepoch: 226, Loss: 6.924639, batch_size: 2, total_acc1: 46.475769, total_acc2: 36.343613, total_acc3: 53.744492, total_acc4: 43.612331
+Epoch: 0, Subepoch: 227, Loss: 6.907202, batch_size: 2, total_acc1: 46.710526, total_acc2: 36.622807, total_acc3: 53.947369, total_acc4: 43.640350
+Epoch: 0, Subepoch: 228, Loss: 6.893853, batch_size: 2, total_acc1: 46.724892, total_acc2: 36.462883, total_acc3: 54.148472, total_acc4: 43.668121
+Epoch: 0, Subepoch: 229, Loss: 6.871664, batch_size: 2, total_acc1: 46.956520, total_acc2: 36.521736, total_acc3: 54.347824, total_acc4: 43.913040
+Epoch: 0, Subepoch: 230, Loss: 6.859687, batch_size: 2, total_acc1: 46.969696, total_acc2: 36.580086, total_acc3: 54.545456, total_acc4: 43.722942
+Epoch: 0, Subepoch: 231, Loss: 6.837799, batch_size: 2, total_acc1: 47.198277, total_acc2: 36.637932, total_acc3: 54.741379, total_acc4: 43.965519
+Epoch: 0, Subepoch: 232, Loss: 6.846200, batch_size: 2, total_acc1: 47.210300, total_acc2: 36.695278, total_acc3: 54.721031, total_acc4: 43.991417
+Epoch: 0, Subepoch: 233, Loss: 6.844142, batch_size: 2, total_acc1: 47.222225, total_acc2: 36.965813, total_acc3: 54.700859, total_acc4: 44.017097
+Epoch: 0, Subepoch: 234, Loss: 6.858645, batch_size: 2, total_acc1: 47.021275, total_acc2: 36.808510, total_acc3: 54.680851, total_acc4: 43.829784
+Epoch: 0, Subepoch: 235, Loss: 6.857848, batch_size: 2, total_acc1: 47.033897, total_acc2: 36.652542, total_acc3: 54.661018, total_acc4: 43.644070
+Epoch: 0, Subepoch: 236, Loss: 6.861954, batch_size: 2, total_acc1: 47.046410, total_acc2: 36.708858, total_acc3: 54.430378, total_acc4: 43.459915
+Epoch: 0, Subepoch: 237, Loss: 6.848554, batch_size: 2, total_acc1: 47.058826, total_acc2: 36.764709, total_acc3: 54.201683, total_acc4: 43.487396
+Epoch: 0, Subepoch: 238, Loss: 6.851661, batch_size: 2, total_acc1: 47.280334, total_acc2: 36.610878, total_acc3: 53.974895, total_acc4: 43.305439
+Epoch: 0, Subepoch: 239, Loss: 6.851625, batch_size: 2, total_acc1: 47.291668, total_acc2: 36.458336, total_acc3: 53.750004, total_acc4: 43.333336
+Epoch: 0, Subepoch: 240, Loss: 6.842989, batch_size: 2, total_acc1: 47.302906, total_acc2: 36.514526, total_acc3: 53.526974, total_acc4: 43.360996
+Epoch: 0, Subepoch: 241, Loss: 6.840288, batch_size: 2, total_acc1: 47.314049, total_acc2: 36.363636, total_acc3: 53.305782, total_acc4: 43.388428
+Epoch: 0, Subepoch: 242, Loss: 6.831384, batch_size: 2, total_acc1: 47.325100, total_acc2: 36.213989, total_acc3: 53.086418, total_acc4: 43.621399
+Epoch: 0, Subepoch: 243, Loss: 6.831636, batch_size: 2, total_acc1: 47.336063, total_acc2: 36.065571, total_acc3: 52.868851, total_acc4: 43.647537
+Epoch: 0, Subepoch: 244, Loss: 6.821445, batch_size: 2, total_acc1: 47.551018, total_acc2: 36.122448, total_acc3: 53.061222, total_acc4: 43.673466
+Epoch: 0, Subepoch: 245, Loss: 6.826442, batch_size: 2, total_acc1: 47.357723, total_acc2: 35.975609, total_acc3: 53.048779, total_acc4: 43.495934
+Epoch: 0, Subepoch: 246, Loss: 6.813238, batch_size: 2, total_acc1: 47.570850, total_acc2: 36.032391, total_acc3: 53.036438, total_acc4: 43.724697
+Epoch: 0, Subepoch: 247, Loss: 6.806595, batch_size: 2, total_acc1: 47.782257, total_acc2: 35.887096, total_acc3: 52.822578, total_acc4: 43.750000
+Epoch: 0, Subepoch: 248, Loss: 6.799291, batch_size: 2, total_acc1: 47.791164, total_acc2: 35.943775, total_acc3: 52.610439, total_acc4: 43.775097
+Epoch: 0, Subepoch: 249, Loss: 6.788915, batch_size: 2, total_acc1: 47.600002, total_acc2: 36.000000, total_acc3: 52.600002, total_acc4: 44.000004
+Epoch: 0, Subepoch: 250, Loss: 6.793852, batch_size: 2, total_acc1: 47.410358, total_acc2: 35.856575, total_acc3: 52.390438, total_acc4: 43.824703
+Epoch: 0, Subepoch: 251, Loss: 6.789479, batch_size: 2, total_acc1: 47.222225, total_acc2: 36.111115, total_acc3: 52.380955, total_acc4: 43.849209
+Epoch: 0, Subepoch: 252, Loss: 6.773023, batch_size: 2, total_acc1: 47.233204, total_acc2: 36.363636, total_acc3: 52.371544, total_acc4: 44.071148
+Epoch: 0, Subepoch: 253, Loss: 6.763229, batch_size: 2, total_acc1: 47.244095, total_acc2: 36.417324, total_acc3: 52.559055, total_acc4: 44.094486
+Epoch: 0, Subepoch: 254, Loss: 6.750560, batch_size: 2, total_acc1: 47.254906, total_acc2: 36.470589, total_acc3: 52.745102, total_acc4: 44.117649
+Epoch: 0, Subepoch: 255, Loss: 6.760248, batch_size: 2, total_acc1: 47.070312, total_acc2: 36.328125, total_acc3: 52.929688, total_acc4: 43.945312
+Epoch: 0, Subepoch: 256, Loss: 6.765693, batch_size: 2, total_acc1: 47.276264, total_acc2: 36.186771, total_acc3: 52.918289, total_acc4: 43.774319
+Epoch: 0, Subepoch: 257, Loss: 6.751933, batch_size: 2, total_acc1: 47.286823, total_acc2: 36.434109, total_acc3: 52.906975, total_acc4: 43.798450
+Epoch: 0, Subepoch: 258, Loss: 6.746274, batch_size: 2, total_acc1: 47.297295, total_acc2: 36.293434, total_acc3: 52.895752, total_acc4: 44.015442
+Epoch: 0, Subepoch: 259, Loss: 6.741832, batch_size: 2, total_acc1: 47.115383, total_acc2: 36.538460, total_acc3: 53.076923, total_acc4: 44.038460
+Epoch: 0, Subepoch: 260, Loss: 6.734377, batch_size: 2, total_acc1: 47.318008, total_acc2: 36.398468, total_acc3: 53.065132, total_acc4: 44.061302
+Epoch: 0, Subepoch: 261, Loss: 6.725394, batch_size: 2, total_acc1: 47.519085, total_acc2: 36.450382, total_acc3: 53.053436, total_acc4: 44.274811
+Epoch: 0, Subepoch: 262, Loss: 6.705273, batch_size: 2, total_acc1: 47.718632, total_acc2: 36.692017, total_acc3: 53.231937, total_acc4: 44.486691
+Epoch: 0, Subepoch: 263, Loss: 6.711458, batch_size: 2, total_acc1: 47.727276, total_acc2: 36.553032, total_acc3: 53.219700, total_acc4: 44.696972
+Epoch: 0, Subepoch: 264, Loss: 6.692436, batch_size: 2, total_acc1: 47.924530, total_acc2: 36.603775, total_acc3: 53.396229, total_acc4: 44.905663
+Epoch: 0, Subepoch: 265, Loss: 6.704676, batch_size: 2, total_acc1: 47.932331, total_acc2: 36.466167, total_acc3: 53.383461, total_acc4: 44.924812
+Epoch: 0, Subepoch: 266, Loss: 6.707358, batch_size: 2, total_acc1: 47.940075, total_acc2: 36.329590, total_acc3: 53.558052, total_acc4: 44.756554
+Epoch: 0, Subepoch: 267, Loss: 6.694624, batch_size: 2, total_acc1: 47.947762, total_acc2: 36.567162, total_acc3: 53.731342, total_acc4: 44.776119
+Epoch: 0, Subepoch: 268, Loss: 6.688429, batch_size: 2, total_acc1: 47.955391, total_acc2: 36.617100, total_acc3: 53.903347, total_acc4: 44.795540
+Epoch: 0, Subepoch: 269, Loss: 6.670320, batch_size: 2, total_acc1: 48.148148, total_acc2: 36.851852, total_acc3: 54.074074, total_acc4: 45.000000
+Epoch: 0, Subepoch: 270, Loss: 6.663307, batch_size: 2, total_acc1: 48.154984, total_acc2: 36.900368, total_acc3: 54.059040, total_acc4: 44.833950
+Epoch: 0, Subepoch: 271, Loss: 6.655597, batch_size: 2, total_acc1: 48.161766, total_acc2: 36.948528, total_acc3: 54.227940, total_acc4: 44.669117
+Epoch: 0, Subepoch: 272, Loss: 6.644915, batch_size: 2, total_acc1: 48.351650, total_acc2: 36.996338, total_acc3: 54.395603, total_acc4: 44.505493
+Epoch: 0, Subepoch: 273, Loss: 6.641129, batch_size: 2, total_acc1: 48.357662, total_acc2: 37.043797, total_acc3: 54.379562, total_acc4: 44.525547
+Epoch: 0, Subepoch: 274, Loss: 6.646147, batch_size: 2, total_acc1: 48.363636, total_acc2: 37.090908, total_acc3: 54.363636, total_acc4: 44.363636
+Epoch: 0, Subepoch: 275, Loss: 6.646588, batch_size: 2, total_acc1: 48.188408, total_acc2: 37.318840, total_acc3: 54.347828, total_acc4: 44.384060
+Epoch: 0, Subepoch: 276, Loss: 6.631793, batch_size: 2, total_acc1: 48.194946, total_acc2: 37.545128, total_acc3: 54.512634, total_acc4: 44.404331
+Epoch: 0, Subepoch: 277, Loss: 6.619922, batch_size: 2, total_acc1: 48.381294, total_acc2: 37.589928, total_acc3: 54.496403, total_acc4: 44.604317
+Epoch: 0, Subepoch: 278, Loss: 6.607894, batch_size: 2, total_acc1: 48.207886, total_acc2: 37.813622, total_acc3: 54.659496, total_acc4: 44.802868
+Epoch: 0, Subepoch: 279, Loss: 6.602161, batch_size: 2, total_acc1: 48.214287, total_acc2: 37.857143, total_acc3: 54.464287, total_acc4: 45.000000
+Epoch: 0, Subepoch: 280, Loss: 6.592611, batch_size: 2, total_acc1: 48.220638, total_acc2: 37.900356, total_acc3: 54.626335, total_acc4: 45.195728
+Epoch: 0, Subepoch: 281, Loss: 6.586478, batch_size: 2, total_acc1: 48.049644, total_acc2: 38.120567, total_acc3: 54.609928, total_acc4: 45.212765
+Epoch: 0, Subepoch: 282, Loss: 6.581549, batch_size: 2, total_acc1: 48.056538, total_acc2: 38.162544, total_acc3: 54.593639, total_acc4: 45.229683
+Epoch: 0, Subepoch: 283, Loss: 6.566237, batch_size: 2, total_acc1: 48.063381, total_acc2: 38.380280, total_acc3: 54.753521, total_acc4: 45.246479
+Epoch: 0, Subepoch: 284, Loss: 6.563377, batch_size: 2, total_acc1: 48.070175, total_acc2: 38.245613, total_acc3: 54.736843, total_acc4: 45.438599
+Epoch: 0, Subepoch: 285, Loss: 6.562084, batch_size: 2, total_acc1: 48.076923, total_acc2: 38.286713, total_acc3: 54.895103, total_acc4: 45.454544
+Epoch: 0, Subepoch: 286, Loss: 6.560316, batch_size: 2, total_acc1: 48.083626, total_acc2: 38.153309, total_acc3: 54.878048, total_acc4: 45.470383
+Epoch: 0, Subepoch: 287, Loss: 6.558458, batch_size: 2, total_acc1: 48.263889, total_acc2: 38.194447, total_acc3: 54.861111, total_acc4: 45.486111
+Epoch: 0, Subepoch: 288, Loss: 6.562339, batch_size: 2, total_acc1: 48.269897, total_acc2: 38.235294, total_acc3: 54.671284, total_acc4: 45.501732
+Epoch: 0, Subepoch: 289, Loss: 6.552969, batch_size: 2, total_acc1: 48.448277, total_acc2: 38.275864, total_acc3: 54.655170, total_acc4: 45.689655
+Epoch: 0, Subepoch: 290, Loss: 6.552729, batch_size: 2, total_acc1: 48.453609, total_acc2: 38.316151, total_acc3: 54.810997, total_acc4: 45.704468
+Epoch: 0, Subepoch: 291, Loss: 6.548461, batch_size: 2, total_acc1: 48.287670, total_acc2: 38.356163, total_acc3: 54.965752, total_acc4: 45.719177
+Epoch: 0, Subepoch: 292, Loss: 6.537213, batch_size: 2, total_acc1: 48.464161, total_acc2: 38.566551, total_acc3: 54.948803, total_acc4: 45.733788
+Epoch: 0, Subepoch: 293, Loss: 6.528486, batch_size: 2, total_acc1: 48.639454, total_acc2: 38.605442, total_acc3: 54.931973, total_acc4: 45.918365
+Epoch: 0, Subepoch: 294, Loss: 6.526235, batch_size: 2, total_acc1: 48.644066, total_acc2: 38.474575, total_acc3: 54.745762, total_acc4: 45.932201
+Epoch: 0, Subepoch: 295, Loss: 6.526013, batch_size: 2, total_acc1: 48.479733, total_acc2: 38.513515, total_acc3: 54.898651, total_acc4: 45.945946
+Epoch: 0, Subepoch: 296, Loss: 6.518034, batch_size: 2, total_acc1: 48.653198, total_acc2: 38.720539, total_acc3: 54.882153, total_acc4: 45.791245
+Epoch: 0, Subepoch: 297, Loss: 6.516604, batch_size: 2, total_acc1: 48.489933, total_acc2: 38.590603, total_acc3: 55.033558, total_acc4: 45.637585
+Epoch: 0, Subepoch: 298, Loss: 6.507004, batch_size: 2, total_acc1: 48.494984, total_acc2: 38.795986, total_acc3: 55.016724, total_acc4: 45.652172
+Epoch: 0, Subepoch: 299, Loss: 6.494222, batch_size: 2, total_acc1: 48.666668, total_acc2: 39.000000, total_acc3: 55.166668, total_acc4: 45.833336
+Epoch: 0, Subepoch: 300, Loss: 6.490530, batch_size: 2, total_acc1: 48.671097, total_acc2: 38.870430, total_acc3: 55.149502, total_acc4: 45.681061
+Epoch: 0, Subepoch: 301, Loss: 6.482692, batch_size: 2, total_acc1: 48.675495, total_acc2: 38.907284, total_acc3: 55.132450, total_acc4: 45.695366
+Epoch: 0, Subepoch: 302, Loss: 6.476438, batch_size: 2, total_acc1: 48.514854, total_acc2: 38.943897, total_acc3: 55.280529, total_acc4: 45.874588
+Epoch: 0, Subepoch: 303, Loss: 6.471153, batch_size: 2, total_acc1: 48.684212, total_acc2: 38.815788, total_acc3: 55.263157, total_acc4: 45.888157
+Epoch: 0, Subepoch: 304, Loss: 6.462731, batch_size: 2, total_acc1: 48.688526, total_acc2: 39.016392, total_acc3: 55.409836, total_acc4: 45.901638
+Epoch: 0, Subepoch: 305, Loss: 6.456986, batch_size: 2, total_acc1: 48.856209, total_acc2: 38.888889, total_acc3: 55.392159, total_acc4: 46.078430
+Epoch: 0, Subepoch: 306, Loss: 6.446061, batch_size: 2, total_acc1: 49.022800, total_acc2: 38.925079, total_acc3: 55.537457, total_acc4: 46.254070
+Epoch: 0, Subepoch: 307, Loss: 6.435976, batch_size: 2, total_acc1: 49.025974, total_acc2: 38.961040, total_acc3: 55.681820, total_acc4: 46.428570
+Epoch: 0, Subepoch: 308, Loss: 6.420365, batch_size: 2, total_acc1: 49.190941, total_acc2: 38.996765, total_acc3: 55.825245, total_acc4: 46.601944
+Epoch: 0, Subepoch: 309, Loss: 6.416165, batch_size: 2, total_acc1: 49.193546, total_acc2: 38.870968, total_acc3: 55.967743, total_acc4: 46.774193
+Epoch: 0, Subepoch: 310, Loss: 6.405864, batch_size: 2, total_acc1: 49.196140, total_acc2: 38.906754, total_acc3: 56.109325, total_acc4: 46.784565
+Epoch: 0, Subepoch: 311, Loss: 6.396513, batch_size: 2, total_acc1: 49.358974, total_acc2: 38.942307, total_acc3: 56.250000, total_acc4: 46.794872
+Epoch: 0, Subepoch: 312, Loss: 6.380107, batch_size: 2, total_acc1: 49.520767, total_acc2: 39.137379, total_acc3: 56.389774, total_acc4: 46.964855
+Epoch: 0, Subepoch: 313, Loss: 6.372840, batch_size: 2, total_acc1: 49.522293, total_acc2: 39.171974, total_acc3: 56.528664, total_acc4: 46.974522
+Epoch: 0, Subepoch: 314, Loss: 6.364321, batch_size: 2, total_acc1: 49.682541, total_acc2: 39.206348, total_acc3: 56.507938, total_acc4: 46.984127
+Epoch: 0, Subepoch: 315, Loss: 6.365271, batch_size: 2, total_acc1: 49.525318, total_acc2: 39.240509, total_acc3: 56.645573, total_acc4: 46.993671
+Epoch: 0, Subepoch: 316, Loss: 6.357924, batch_size: 2, total_acc1: 49.684544, total_acc2: 39.116718, total_acc3: 56.782337, total_acc4: 47.160885
+Epoch: 0, Subepoch: 317, Loss: 6.345616, batch_size: 2, total_acc1: 49.842766, total_acc2: 39.308174, total_acc3: 56.761005, total_acc4: 47.169811
+Epoch: 0, Subepoch: 318, Loss: 6.334307, batch_size: 2, total_acc1: 50.000000, total_acc2: 39.498432, total_acc3: 56.739811, total_acc4: 47.335423
+Epoch: 0, Subepoch: 319, Loss: 6.329162, batch_size: 2, total_acc1: 50.000000, total_acc2: 39.687500, total_acc3: 56.718750, total_acc4: 47.343750
+Epoch: 0, Subepoch: 320, Loss: 6.317566, batch_size: 2, total_acc1: 50.155762, total_acc2: 39.719624, total_acc3: 56.853580, total_acc4: 47.352024
+Epoch: 0, Subepoch: 321, Loss: 6.303165, batch_size: 2, total_acc1: 50.310558, total_acc2: 39.906834, total_acc3: 56.987579, total_acc4: 47.515530
+Epoch: 0, Subepoch: 322, Loss: 6.294277, batch_size: 2, total_acc1: 50.309597, total_acc2: 39.938080, total_acc3: 57.120743, total_acc4: 47.523220
+Epoch: 0, Subepoch: 323, Loss: 6.295320, batch_size: 2, total_acc1: 50.308643, total_acc2: 39.969135, total_acc3: 57.098766, total_acc4: 47.530865
+Epoch: 0, Subepoch: 324, Loss: 6.299627, batch_size: 2, total_acc1: 50.461540, total_acc2: 39.846153, total_acc3: 57.076923, total_acc4: 47.538460
+Epoch: 0, Subepoch: 325, Loss: 6.297314, batch_size: 2, total_acc1: 50.613495, total_acc2: 39.877300, total_acc3: 56.901840, total_acc4: 47.546013
+Epoch: 0, Subepoch: 326, Loss: 6.292049, batch_size: 2, total_acc1: 50.611622, total_acc2: 39.755352, total_acc3: 57.033642, total_acc4: 47.553520
+Epoch: 0, Subepoch: 327, Loss: 6.286476, batch_size: 2, total_acc1: 50.457314, total_acc2: 39.939022, total_acc3: 57.012192, total_acc4: 47.713413
+Epoch: 0, Subepoch: 328, Loss: 6.281727, batch_size: 2, total_acc1: 50.455929, total_acc2: 40.121582, total_acc3: 56.990883, total_acc4: 47.720364
+Epoch: 0, Subepoch: 329, Loss: 6.278015, batch_size: 2, total_acc1: 50.454544, total_acc2: 40.151512, total_acc3: 56.969696, total_acc4: 47.575756
+Epoch: 0, Subepoch: 330, Loss: 6.279371, batch_size: 2, total_acc1: 50.453171, total_acc2: 40.030212, total_acc3: 56.948639, total_acc4: 47.583080
+Epoch: 0, Subepoch: 331, Loss: 6.276486, batch_size: 2, total_acc1: 50.451805, total_acc2: 40.060238, total_acc3: 56.777107, total_acc4: 47.740963
+Epoch: 0, Subepoch: 332, Loss: 6.277895, batch_size: 2, total_acc1: 50.600601, total_acc2: 40.090092, total_acc3: 56.606609, total_acc4: 47.597599
+Epoch: 0, Subepoch: 333, Loss: 6.276893, batch_size: 2, total_acc1: 50.449104, total_acc2: 39.970062, total_acc3: 56.586830, total_acc4: 47.604794
+Epoch: 0, Subepoch: 334, Loss: 6.269039, batch_size: 2, total_acc1: 50.447762, total_acc2: 40.149254, total_acc3: 56.567165, total_acc4: 47.611942
+Epoch: 0, Subepoch: 335, Loss: 6.268040, batch_size: 2, total_acc1: 50.297619, total_acc2: 40.178574, total_acc3: 56.398811, total_acc4: 47.619049
+Epoch: 0, Subepoch: 336, Loss: 6.264446, batch_size: 2, total_acc1: 50.148369, total_acc2: 40.356083, total_acc3: 56.231453, total_acc4: 47.626114
+Epoch: 0, Subepoch: 337, Loss: 6.262154, batch_size: 2, total_acc1: 50.000000, total_acc2: 40.532543, total_acc3: 56.213020, total_acc4: 47.485207
+Epoch: 0, Subepoch: 338, Loss: 6.256201, batch_size: 2, total_acc1: 50.000000, total_acc2: 40.707966, total_acc3: 56.194691, total_acc4: 47.492626
+Epoch: 0, Subepoch: 339, Loss: 6.249002, batch_size: 2, total_acc1: 50.147060, total_acc2: 40.882355, total_acc3: 56.176472, total_acc4: 47.500000
+Epoch: 0, Subepoch: 340, Loss: 6.243217, batch_size: 2, total_acc1: 50.293255, total_acc2: 40.762463, total_acc3: 56.304985, total_acc4: 47.507332
+Epoch: 0, Subepoch: 341, Loss: 6.238749, batch_size: 2, total_acc1: 50.438599, total_acc2: 40.789474, total_acc3: 56.140350, total_acc4: 47.660820
+Epoch: 0, Subepoch: 342, Loss: 6.232953, batch_size: 2, total_acc1: 50.583092, total_acc2: 40.816326, total_acc3: 56.268223, total_acc4: 47.667641
+Epoch: 0, Subepoch: 343, Loss: 6.224953, batch_size: 2, total_acc1: 50.581394, total_acc2: 40.988373, total_acc3: 56.250000, total_acc4: 47.819767
+Epoch: 0, Subepoch: 344, Loss: 6.223643, batch_size: 2, total_acc1: 50.579712, total_acc2: 41.014496, total_acc3: 56.376812, total_acc4: 47.826088
+Epoch: 0, Subepoch: 345, Loss: 6.216599, batch_size: 2, total_acc1: 50.578033, total_acc2: 41.040462, total_acc3: 56.502888, total_acc4: 47.976879
+Epoch: 0, Subepoch: 346, Loss: 6.211037, batch_size: 2, total_acc1: 50.576366, total_acc2: 40.922188, total_acc3: 56.628239, total_acc4: 48.126801
+Epoch: 0, Subepoch: 347, Loss: 6.205441, batch_size: 2, total_acc1: 50.574711, total_acc2: 40.948277, total_acc3: 56.609196, total_acc4: 48.275864
+Epoch: 0, Subepoch: 348, Loss: 6.199985, batch_size: 2, total_acc1: 50.573067, total_acc2: 40.974213, total_acc3: 56.733528, total_acc4: 48.280804
+Epoch: 0, Subepoch: 349, Loss: 6.196794, batch_size: 2, total_acc1: 50.571426, total_acc2: 41.142857, total_acc3: 56.714287, total_acc4: 48.285713
+Epoch: 0, Subepoch: 350, Loss: 6.187607, batch_size: 2, total_acc1: 50.712250, total_acc2: 41.025642, total_acc3: 56.837608, total_acc4: 48.433048
+Epoch: 0, Subepoch: 351, Loss: 6.189433, batch_size: 2, total_acc1: 50.710228, total_acc2: 41.051136, total_acc3: 56.818184, total_acc4: 48.437500
+Epoch: 0, Subepoch: 352, Loss: 6.182247, batch_size: 2, total_acc1: 50.708214, total_acc2: 41.218128, total_acc3: 56.940510, total_acc4: 48.441925
+Epoch: 0, Subepoch: 353, Loss: 6.173294, batch_size: 2, total_acc1: 50.706215, total_acc2: 41.101696, total_acc3: 57.062145, total_acc4: 48.587570
+Epoch: 0, Subepoch: 354, Loss: 6.165377, batch_size: 2, total_acc1: 50.704224, total_acc2: 41.126759, total_acc3: 57.042252, total_acc4: 48.732391
+Epoch: 0, Subepoch: 355, Loss: 6.165937, batch_size: 2, total_acc1: 50.561798, total_acc2: 41.151688, total_acc3: 57.022472, total_acc4: 48.595505
+Epoch: 0, Subepoch: 356, Loss: 6.163847, batch_size: 2, total_acc1: 50.420170, total_acc2: 41.036415, total_acc3: 57.142857, total_acc4: 48.599442
+Epoch: 0, Subepoch: 357, Loss: 6.158941, batch_size: 2, total_acc1: 50.279327, total_acc2: 41.201115, total_acc3: 57.262569, total_acc4: 48.603352
+Epoch: 0, Subepoch: 358, Loss: 6.152711, batch_size: 2, total_acc1: 50.278549, total_acc2: 41.225628, total_acc3: 57.381615, total_acc4: 48.467964
+Epoch: 0, Subepoch: 359, Loss: 6.151849, batch_size: 2, total_acc1: 50.138889, total_acc2: 41.111111, total_acc3: 57.500000, total_acc4: 48.472225
+Epoch: 0, Subepoch: 360, Loss: 6.151955, batch_size: 2, total_acc1: 50.138504, total_acc2: 41.135735, total_acc3: 57.340717, total_acc4: 48.476452
+Epoch: 0, Subepoch: 361, Loss: 6.148866, batch_size: 2, total_acc1: 50.276245, total_acc2: 41.022102, total_acc3: 57.320446, total_acc4: 48.480663
+Epoch: 0, Subepoch: 362, Loss: 6.146640, batch_size: 2, total_acc1: 50.275482, total_acc2: 41.046833, total_acc3: 57.300278, total_acc4: 48.484848
+Epoch: 0, Subepoch: 363, Loss: 6.140944, batch_size: 2, total_acc1: 50.274727, total_acc2: 41.071430, total_acc3: 57.417583, total_acc4: 48.489014
+Epoch: 0, Subepoch: 364, Loss: 6.142223, batch_size: 2, total_acc1: 50.136986, total_acc2: 40.958904, total_acc3: 57.397263, total_acc4: 48.493153
+Epoch: 0, Subepoch: 365, Loss: 6.137766, batch_size: 2, total_acc1: 50.136612, total_acc2: 41.120216, total_acc3: 57.377048, total_acc4: 48.633877
+Epoch: 0, Subepoch: 366, Loss: 6.127785, batch_size: 2, total_acc1: 50.136238, total_acc2: 41.280655, total_acc3: 57.493187, total_acc4: 48.773842
+Epoch: 0, Subepoch: 367, Loss: 6.124201, batch_size: 2, total_acc1: 50.135872, total_acc2: 41.304348, total_acc3: 57.472828, total_acc4: 48.777176
+Epoch: 0, Subepoch: 368, Loss: 6.116970, batch_size: 2, total_acc1: 50.135502, total_acc2: 41.463417, total_acc3: 57.452576, total_acc4: 48.780487
+Epoch: 0, Subepoch: 369, Loss: 6.108573, batch_size: 2, total_acc1: 50.270271, total_acc2: 41.621624, total_acc3: 57.297298, total_acc4: 48.918919
+Epoch: 0, Subepoch: 370, Loss: 6.115344, batch_size: 2, total_acc1: 50.134769, total_acc2: 41.644203, total_acc3: 57.142857, total_acc4: 48.921833
+Epoch: 0, Subepoch: 371, Loss: 6.107451, batch_size: 2, total_acc1: 50.268818, total_acc2: 41.666668, total_acc3: 57.123657, total_acc4: 48.924732
+Epoch: 0, Subepoch: 372, Loss: 6.103145, batch_size: 2, total_acc1: 50.402145, total_acc2: 41.689011, total_acc3: 57.104561, total_acc4: 48.927616
+Epoch: 0, Subepoch: 373, Loss: 6.094033, batch_size: 2, total_acc1: 50.534760, total_acc2: 41.711231, total_acc3: 57.085564, total_acc4: 48.930481
+Epoch: 0, Subepoch: 374, Loss: 6.091187, batch_size: 2, total_acc1: 50.666668, total_acc2: 41.599998, total_acc3: 57.200001, total_acc4: 48.933334
+Epoch: 0, Subepoch: 375, Loss: 6.094943, batch_size: 2, total_acc1: 50.531914, total_acc2: 41.622337, total_acc3: 57.313828, total_acc4: 48.936169
+Epoch: 0, Subepoch: 376, Loss: 6.083797, batch_size: 2, total_acc1: 50.663128, total_acc2: 41.644562, total_acc3: 57.427055, total_acc4: 49.071617
+Epoch: 0, Subepoch: 377, Loss: 6.081398, batch_size: 2, total_acc1: 50.661373, total_acc2: 41.666664, total_acc3: 57.539680, total_acc4: 49.074074
+Epoch: 0, Subepoch: 378, Loss: 6.075453, batch_size: 2, total_acc1: 50.659634, total_acc2: 41.820583, total_acc3: 57.519791, total_acc4: 49.208447
+Epoch: 0, Subepoch: 379, Loss: 6.071495, batch_size: 2, total_acc1: 50.657898, total_acc2: 41.842106, total_acc3: 57.500004, total_acc4: 49.210529
+Epoch: 0, Subepoch: 380, Loss: 6.073566, batch_size: 2, total_acc1: 50.656166, total_acc2: 41.732285, total_acc3: 57.611549, total_acc4: 49.212597
+Epoch: 0, Subepoch: 381, Loss: 6.075170, batch_size: 2, total_acc1: 50.523560, total_acc2: 41.884819, total_acc3: 57.460735, total_acc4: 49.214661
+Epoch: 0, Subepoch: 382, Loss: 6.069191, batch_size: 2, total_acc1: 50.652740, total_acc2: 41.906006, total_acc3: 57.441254, total_acc4: 49.216709
+Epoch: 0, Subepoch: 383, Loss: 6.068010, batch_size: 2, total_acc1: 50.781250, total_acc2: 41.796875, total_acc3: 57.421875, total_acc4: 49.088543
+Epoch: 0, Subepoch: 384, Loss: 6.072691, batch_size: 2, total_acc1: 50.909088, total_acc2: 41.688313, total_acc3: 57.272728, total_acc4: 48.961037
+Epoch: 0, Subepoch: 385, Loss: 6.063268, batch_size: 2, total_acc1: 51.036266, total_acc2: 41.839378, total_acc3: 57.253883, total_acc4: 49.093262
+Epoch: 0, Subepoch: 386, Loss: 6.057587, batch_size: 2, total_acc1: 51.033592, total_acc2: 41.860466, total_acc3: 57.364342, total_acc4: 48.966408
+Epoch: 0, Subepoch: 387, Loss: 6.051119, batch_size: 2, total_acc1: 51.159794, total_acc2: 41.881443, total_acc3: 57.345360, total_acc4: 48.969070
+Epoch: 0, Subepoch: 388, Loss: 6.045791, batch_size: 2, total_acc1: 51.285347, total_acc2: 41.902313, total_acc3: 57.326477, total_acc4: 48.971722
+Epoch: 0, Subepoch: 389, Loss: 6.052228, batch_size: 2, total_acc1: 51.153847, total_acc2: 41.794872, total_acc3: 57.179489, total_acc4: 48.974361
+Epoch: 0, Subepoch: 390, Loss: 6.047964, batch_size: 2, total_acc1: 51.150894, total_acc2: 41.815857, total_acc3: 57.161125, total_acc4: 48.849106
+Epoch: 0, Subepoch: 391, Loss: 6.047371, batch_size: 2, total_acc1: 51.147957, total_acc2: 41.836735, total_acc3: 57.142857, total_acc4: 48.852039
+Epoch: 0, Subepoch: 392, Loss: 6.046861, batch_size: 2, total_acc1: 51.145039, total_acc2: 41.857506, total_acc3: 57.251907, total_acc4: 48.982189
+Epoch: 0, Subepoch: 393, Loss: 6.043332, batch_size: 2, total_acc1: 51.142132, total_acc2: 41.878170, total_acc3: 57.360405, total_acc4: 49.111675
+Epoch: 0, Subepoch: 394, Loss: 6.036535, batch_size: 2, total_acc1: 51.139240, total_acc2: 41.898735, total_acc3: 57.468353, total_acc4: 49.240505
+Epoch: 0, Subepoch: 395, Loss: 6.031282, batch_size: 2, total_acc1: 51.136364, total_acc2: 41.919193, total_acc3: 57.449493, total_acc4: 49.242424
+Epoch: 0, Subepoch: 396, Loss: 6.020058, batch_size: 2, total_acc1: 51.259445, total_acc2: 42.065491, total_acc3: 57.556671, total_acc4: 49.370274
+Epoch: 0, Subepoch: 397, Loss: 6.015923, batch_size: 2, total_acc1: 51.256279, total_acc2: 42.085426, total_acc3: 57.663315, total_acc4: 49.371861
+Epoch: 0, Subepoch: 398, Loss: 6.005751, batch_size: 2, total_acc1: 51.253132, total_acc2: 42.230576, total_acc3: 57.769424, total_acc4: 49.498745
+Epoch: 0, Subepoch: 399, Loss: 5.999253, batch_size: 2, total_acc1: 51.250000, total_acc2: 42.250000, total_acc3: 57.875000, total_acc4: 49.625000
+Epoch: 0, Subepoch: 400, Loss: 6.004366, batch_size: 2, total_acc1: 51.246883, total_acc2: 42.269329, total_acc3: 57.730675, total_acc4: 49.625938
+Epoch: 0, Subepoch: 401, Loss: 5.996569, batch_size: 2, total_acc1: 51.243778, total_acc2: 42.288555, total_acc3: 57.835819, total_acc4: 49.751244
+Epoch: 0, Subepoch: 402, Loss: 5.996261, batch_size: 2, total_acc1: 51.116627, total_acc2: 42.307693, total_acc3: 57.940445, total_acc4: 49.751862
+Epoch: 0, Subepoch: 403, Loss: 5.993177, batch_size: 2, total_acc1: 51.113861, total_acc2: 42.326733, total_acc3: 57.920792, total_acc4: 49.752476
+Epoch: 0, Subepoch: 404, Loss: 5.991728, batch_size: 2, total_acc1: 51.111115, total_acc2: 42.345680, total_acc3: 57.901237, total_acc4: 49.753090
+Epoch: 0, Subepoch: 405, Loss: 5.991628, batch_size: 2, total_acc1: 51.108372, total_acc2: 42.364532, total_acc3: 57.881771, total_acc4: 49.753693
+Epoch: 0, Subepoch: 406, Loss: 5.990626, batch_size: 2, total_acc1: 50.982800, total_acc2: 42.506142, total_acc3: 57.862408, total_acc4: 49.754299
+Epoch: 0, Subepoch: 407, Loss: 5.986349, batch_size: 2, total_acc1: 50.857845, total_acc2: 42.524509, total_acc3: 57.843140, total_acc4: 49.877453
+Epoch: 0, Subepoch: 408, Loss: 5.982800, batch_size: 2, total_acc1: 50.855747, total_acc2: 42.542789, total_acc3: 57.823963, total_acc4: 50.000004
+Epoch: 0, Subepoch: 409, Loss: 5.984439, batch_size: 2, total_acc1: 50.731709, total_acc2: 42.439026, total_acc3: 57.804878, total_acc4: 49.878048
+Epoch: 0, Subepoch: 410, Loss: 5.985398, batch_size: 2, total_acc1: 50.608273, total_acc2: 42.457420, total_acc3: 57.785889, total_acc4: 49.756691
+Epoch: 0, Subepoch: 411, Loss: 5.980559, batch_size: 2, total_acc1: 50.606796, total_acc2: 42.354370, total_acc3: 57.888351, total_acc4: 49.878643
+Epoch: 0, Subepoch: 412, Loss: 5.974705, batch_size: 2, total_acc1: 50.726395, total_acc2: 42.372883, total_acc3: 57.990318, total_acc4: 50.000004
+Epoch: 0, Subepoch: 413, Loss: 5.970906, batch_size: 2, total_acc1: 50.724636, total_acc2: 42.391304, total_acc3: 58.091785, total_acc4: 50.000000
+Epoch: 0, Subepoch: 414, Loss: 5.963835, batch_size: 2, total_acc1: 50.843376, total_acc2: 42.530121, total_acc3: 58.192772, total_acc4: 50.120483
+Epoch: 0, Subepoch: 415, Loss: 5.956210, batch_size: 2, total_acc1: 50.961540, total_acc2: 42.668270, total_acc3: 58.173080, total_acc4: 50.240387
+Epoch: 0, Subepoch: 416, Loss: 5.946953, batch_size: 2, total_acc1: 51.079140, total_acc2: 42.805756, total_acc3: 58.273384, total_acc4: 50.359715
+Epoch: 0, Subepoch: 417, Loss: 5.939960, batch_size: 2, total_acc1: 51.076553, total_acc2: 42.942581, total_acc3: 58.373203, total_acc4: 50.358849
+Epoch: 0, Subepoch: 418, Loss: 5.936867, batch_size: 2, total_acc1: 51.073986, total_acc2: 42.959431, total_acc3: 58.472557, total_acc4: 50.238667
+Epoch: 0, Subepoch: 419, Loss: 5.932491, batch_size: 2, total_acc1: 51.190479, total_acc2: 42.976192, total_acc3: 58.452385, total_acc4: 50.357143
+Epoch: 0, Subepoch: 420, Loss: 5.930423, batch_size: 2, total_acc1: 51.068886, total_acc2: 43.111641, total_acc3: 58.432308, total_acc4: 50.356297
+Epoch: 0, Subepoch: 421, Loss: 5.928643, batch_size: 2, total_acc1: 51.066353, total_acc2: 43.127964, total_acc3: 58.293842, total_acc4: 50.473934
+Epoch: 0, Subepoch: 422, Loss: 5.927104, batch_size: 2, total_acc1: 51.063831, total_acc2: 43.026005, total_acc3: 58.392433, total_acc4: 50.591015
+Epoch: 0, Subepoch: 423, Loss: 5.919586, batch_size: 2, total_acc1: 51.179245, total_acc2: 43.042454, total_acc3: 58.490566, total_acc4: 50.589622
+Epoch: 0, Subepoch: 424, Loss: 5.917803, batch_size: 2, total_acc1: 51.176468, total_acc2: 43.058823, total_acc3: 58.588234, total_acc4: 50.705879
+Epoch: 0, Subepoch: 425, Loss: 5.911623, batch_size: 2, total_acc1: 51.291080, total_acc2: 43.075119, total_acc3: 58.685448, total_acc4: 50.704227
+Epoch: 0, Subepoch: 426, Loss: 5.918925, batch_size: 2, total_acc1: 51.170959, total_acc2: 42.974236, total_acc3: 58.782200, total_acc4: 50.702576
+Epoch: 0, Subepoch: 427, Loss: 5.917269, batch_size: 2, total_acc1: 51.168224, total_acc2: 43.107475, total_acc3: 58.761681, total_acc4: 50.700932
+Epoch: 0, Subepoch: 428, Loss: 5.914368, batch_size: 2, total_acc1: 51.165501, total_acc2: 43.123543, total_acc3: 58.741261, total_acc4: 50.699303
+Epoch: 0, Subepoch: 429, Loss: 5.916018, batch_size: 2, total_acc1: 51.162792, total_acc2: 43.023254, total_acc3: 58.720928, total_acc4: 50.581394
+Epoch: 0, Subepoch: 430, Loss: 5.911497, batch_size: 2, total_acc1: 51.160091, total_acc2: 43.155453, total_acc3: 58.584686, total_acc4: 50.580044
+Epoch: 0, Subepoch: 431, Loss: 5.908113, batch_size: 2, total_acc1: 51.273148, total_acc2: 43.055557, total_acc3: 58.680557, total_acc4: 50.578705
+Epoch: 0, Subepoch: 432, Loss: 5.908588, batch_size: 2, total_acc1: 51.270206, total_acc2: 42.956120, total_acc3: 58.545033, total_acc4: 50.577366
+Epoch: 0, Subepoch: 433, Loss: 5.908046, batch_size: 2, total_acc1: 51.267281, total_acc2: 42.972351, total_acc3: 58.525345, total_acc4: 50.576038
+Epoch: 0, Subepoch: 434, Loss: 5.908241, batch_size: 2, total_acc1: 51.379311, total_acc2: 42.873562, total_acc3: 58.505749, total_acc4: 50.574711
+Epoch: 0, Subepoch: 435, Loss: 5.904102, batch_size: 2, total_acc1: 51.376144, total_acc2: 42.889908, total_acc3: 58.486237, total_acc4: 50.573391
+Epoch: 0, Subepoch: 436, Loss: 5.900611, batch_size: 2, total_acc1: 51.372993, total_acc2: 43.020592, total_acc3: 58.352402, total_acc4: 50.572079
+Epoch: 0, Subepoch: 437, Loss: 5.902180, batch_size: 2, total_acc1: 51.255707, total_acc2: 42.922371, total_acc3: 58.333332, total_acc4: 50.570774
+Epoch: 0, Subepoch: 438, Loss: 5.899672, batch_size: 2, total_acc1: 51.366745, total_acc2: 42.824604, total_acc3: 58.314354, total_acc4: 50.569477
+Epoch: 0, Subepoch: 439, Loss: 5.894198, batch_size: 2, total_acc1: 51.477272, total_acc2: 42.954544, total_acc3: 58.295452, total_acc4: 50.568180
+Epoch: 0, Subepoch: 440, Loss: 5.886793, batch_size: 2, total_acc1: 51.587303, total_acc2: 43.083900, total_acc3: 58.390022, total_acc4: 50.680271
+Epoch: 0, Subepoch: 441, Loss: 5.884541, batch_size: 2, total_acc1: 51.583714, total_acc2: 43.099548, total_acc3: 58.484165, total_acc4: 50.678734
+Epoch: 0, Subepoch: 442, Loss: 5.877367, batch_size: 2, total_acc1: 51.693005, total_acc2: 43.227993, total_acc3: 58.577881, total_acc4: 50.677200
+Epoch: 0, Subepoch: 443, Loss: 5.876417, batch_size: 2, total_acc1: 51.576576, total_acc2: 43.130630, total_acc3: 58.671173, total_acc4: 50.788288
+Epoch: 0, Subepoch: 444, Loss: 5.879787, batch_size: 2, total_acc1: 51.460674, total_acc2: 43.033707, total_acc3: 58.651688, total_acc4: 50.674156
+Epoch: 0, Subepoch: 445, Loss: 5.871342, batch_size: 2, total_acc1: 51.569508, total_acc2: 43.161438, total_acc3: 58.744396, total_acc4: 50.672649
+Epoch: 0, Subepoch: 446, Loss: 5.877749, batch_size: 2, total_acc1: 51.454140, total_acc2: 43.176735, total_acc3: 58.612976, total_acc4: 50.671143
+Epoch: 0, Subepoch: 447, Loss: 5.870602, batch_size: 2, total_acc1: 51.562504, total_acc2: 43.191967, total_acc3: 58.705360, total_acc4: 50.669643
+Epoch: 0, Subepoch: 448, Loss: 5.868798, batch_size: 2, total_acc1: 51.670380, total_acc2: 43.095768, total_acc3: 58.797329, total_acc4: 50.556793
+Epoch: 0, Subepoch: 449, Loss: 5.864334, batch_size: 2, total_acc1: 51.666668, total_acc2: 43.111111, total_acc3: 58.888889, total_acc4: 50.555557
+Epoch: 0, Subepoch: 450, Loss: 5.861166, batch_size: 2, total_acc1: 51.552105, total_acc2: 43.237251, total_acc3: 58.980045, total_acc4: 50.665188
+Epoch: 0, Subepoch: 451, Loss: 5.860268, batch_size: 2, total_acc1: 51.438053, total_acc2: 43.252213, total_acc3: 59.070797, total_acc4: 50.663715
+Epoch: 0, Subepoch: 452, Loss: 5.867742, batch_size: 2, total_acc1: 51.434879, total_acc2: 43.156734, total_acc3: 58.940399, total_acc4: 50.551876
+Epoch: 0, Subepoch: 453, Loss: 5.867368, batch_size: 2, total_acc1: 51.431717, total_acc2: 43.061672, total_acc3: 58.920704, total_acc4: 50.550659
+Epoch: 0, Subepoch: 454, Loss: 5.866284, batch_size: 2, total_acc1: 51.428574, total_acc2: 42.967033, total_acc3: 59.010990, total_acc4: 50.549454
+Epoch: 0, Subepoch: 455, Loss: 5.865128, batch_size: 2, total_acc1: 51.535088, total_acc2: 42.982456, total_acc3: 58.991230, total_acc4: 50.548244
+Epoch: 0, Subepoch: 456, Loss: 5.871009, batch_size: 2, total_acc1: 51.422321, total_acc2: 42.997814, total_acc3: 58.862144, total_acc4: 50.547047
+Epoch: 0, Subepoch: 457, Loss: 5.869654, batch_size: 2, total_acc1: 51.310043, total_acc2: 43.013100, total_acc3: 58.842796, total_acc4: 50.436684
+Epoch: 0, Subepoch: 458, Loss: 5.872569, batch_size: 2, total_acc1: 51.307190, total_acc2: 42.919388, total_acc3: 58.714596, total_acc4: 50.435730
+Epoch: 0, Subepoch: 459, Loss: 5.865470, batch_size: 2, total_acc1: 51.413040, total_acc2: 43.043476, total_acc3: 58.804344, total_acc4: 50.543476
+Epoch: 0, Subepoch: 460, Loss: 5.860841, batch_size: 2, total_acc1: 51.518440, total_acc2: 43.058567, total_acc3: 58.893711, total_acc4: 50.650761
+Epoch: 0, Subepoch: 461, Loss: 5.853752, batch_size: 2, total_acc1: 51.623375, total_acc2: 43.073593, total_acc3: 58.982685, total_acc4: 50.757576
+Epoch: 0, Subepoch: 462, Loss: 5.850241, batch_size: 2, total_acc1: 51.619869, total_acc2: 42.980560, total_acc3: 59.071274, total_acc4: 50.755939
+Epoch: 0, Subepoch: 463, Loss: 5.853034, batch_size: 2, total_acc1: 51.616379, total_acc2: 42.995689, total_acc3: 58.943966, total_acc4: 50.646553
+Epoch: 0, Subepoch: 464, Loss: 5.848441, batch_size: 2, total_acc1: 51.612904, total_acc2: 43.118282, total_acc3: 58.924732, total_acc4: 50.645161
+Epoch: 0, Subepoch: 465, Loss: 5.845277, batch_size: 2, total_acc1: 51.609444, total_acc2: 43.240345, total_acc3: 58.798283, total_acc4: 50.643776
+Epoch: 0, Subepoch: 466, Loss: 5.840979, batch_size: 2, total_acc1: 51.713062, total_acc2: 43.254818, total_acc3: 58.779442, total_acc4: 50.535332
+Epoch: 0, Subepoch: 467, Loss: 5.840627, batch_size: 2, total_acc1: 51.602566, total_acc2: 43.269234, total_acc3: 58.867523, total_acc4: 50.534191
+Epoch: 0, Subepoch: 468, Loss: 5.836033, batch_size: 2, total_acc1: 51.492538, total_acc2: 43.390194, total_acc3: 58.955227, total_acc4: 50.639660
+Epoch: 0, Subepoch: 469, Loss: 5.831779, batch_size: 2, total_acc1: 51.595741, total_acc2: 43.404255, total_acc3: 59.042553, total_acc4: 50.638298
+Epoch: 0, Subepoch: 470, Loss: 5.831723, batch_size: 2, total_acc1: 51.592358, total_acc2: 43.312103, total_acc3: 58.917202, total_acc4: 50.530788
+Epoch: 0, Subepoch: 471, Loss: 5.827146, batch_size: 2, total_acc1: 51.588982, total_acc2: 43.326271, total_acc3: 59.004238, total_acc4: 50.635593
+Epoch: 0, Subepoch: 472, Loss: 5.829624, batch_size: 2, total_acc1: 51.585625, total_acc2: 43.234673, total_acc3: 59.090908, total_acc4: 50.634251
+Epoch: 0, Subepoch: 473, Loss: 5.822266, batch_size: 2, total_acc1: 51.687759, total_acc2: 43.354427, total_acc3: 59.071728, total_acc4: 50.738396
+Epoch: 0, Subepoch: 474, Loss: 5.820048, batch_size: 2, total_acc1: 51.789471, total_acc2: 43.263157, total_acc3: 59.052628, total_acc4: 50.736839
+Epoch: 0, Subepoch: 475, Loss: 5.817334, batch_size: 2, total_acc1: 51.890759, total_acc2: 43.277313, total_acc3: 59.033615, total_acc4: 50.735298
+Epoch: 0, Subepoch: 476, Loss: 5.811808, batch_size: 2, total_acc1: 51.991611, total_acc2: 43.291405, total_acc3: 59.119495, total_acc4: 50.733749
+Epoch: 0, Subepoch: 477, Loss: 5.803555, batch_size: 2, total_acc1: 52.092049, total_acc2: 43.410042, total_acc3: 59.100418, total_acc4: 50.732216
+Epoch: 0, Subepoch: 478, Loss: 5.801882, batch_size: 2, total_acc1: 52.192066, total_acc2: 43.423801, total_acc3: 59.185806, total_acc4: 50.626305
+Epoch: 0, Subepoch: 479, Loss: 5.796560, batch_size: 2, total_acc1: 52.291668, total_acc2: 43.437504, total_acc3: 59.166668, total_acc4: 50.729168
+Epoch: 0, Subepoch: 480, Loss: 5.795518, batch_size: 2, total_acc1: 52.286903, total_acc2: 43.347195, total_acc3: 59.251560, total_acc4: 50.727650
+Epoch: 0, Subepoch: 481, Loss: 5.796293, batch_size: 2, total_acc1: 52.178425, total_acc2: 43.360996, total_acc3: 59.336102, total_acc4: 50.726143
+Epoch: 0, Subepoch: 482, Loss: 5.797566, batch_size: 2, total_acc1: 52.070393, total_acc2: 43.374741, total_acc3: 59.316772, total_acc4: 50.724640
+Epoch: 0, Subepoch: 483, Loss: 5.790387, batch_size: 2, total_acc1: 52.169418, total_acc2: 43.388428, total_acc3: 59.400826, total_acc4: 50.826443
+Epoch: 0, Subepoch: 484, Loss: 5.790943, batch_size: 2, total_acc1: 52.268044, total_acc2: 43.402065, total_acc3: 59.381447, total_acc4: 50.721653
+Epoch: 0, Subepoch: 485, Loss: 5.783811, batch_size: 2, total_acc1: 52.366253, total_acc2: 43.518517, total_acc3: 59.465019, total_acc4: 50.823044
+Epoch: 0, Subepoch: 486, Loss: 5.778157, batch_size: 2, total_acc1: 52.464069, total_acc2: 43.634499, total_acc3: 59.445587, total_acc4: 50.821358
+Epoch: 0, Subepoch: 487, Loss: 5.775102, batch_size: 2, total_acc1: 52.459015, total_acc2: 43.647537, total_acc3: 59.426228, total_acc4: 50.922127
+Epoch: 0, Subepoch: 488, Loss: 5.770152, batch_size: 2, total_acc1: 52.453987, total_acc2: 43.762779, total_acc3: 59.509201, total_acc4: 50.920242
+Epoch: 0, Subepoch: 489, Loss: 5.766385, batch_size: 2, total_acc1: 52.448978, total_acc2: 43.775509, total_acc3: 59.591835, total_acc4: 50.918365
+Epoch: 0, Subepoch: 490, Loss: 5.763972, batch_size: 2, total_acc1: 52.443993, total_acc2: 43.890022, total_acc3: 59.572304, total_acc4: 50.814667
+Epoch: 0, Subepoch: 491, Loss: 5.758224, batch_size: 2, total_acc1: 52.439022, total_acc2: 44.004063, total_acc3: 59.552845, total_acc4: 50.813007
+Epoch: 0, Subepoch: 492, Loss: 5.755788, batch_size: 2, total_acc1: 52.434074, total_acc2: 44.016228, total_acc3: 59.533466, total_acc4: 50.709938
+Epoch: 0, Subepoch: 493, Loss: 5.756763, batch_size: 2, total_acc1: 52.530365, total_acc2: 43.927128, total_acc3: 59.412956, total_acc4: 50.607288
+Epoch: 0, Subepoch: 494, Loss: 5.754103, batch_size: 2, total_acc1: 52.525253, total_acc2: 44.040405, total_acc3: 59.494953, total_acc4: 50.606064
+Epoch: 0, Subepoch: 495, Loss: 5.750020, batch_size: 2, total_acc1: 52.620968, total_acc2: 44.153225, total_acc3: 59.576611, total_acc4: 50.604836
+Epoch: 0, Subepoch: 496, Loss: 5.748615, batch_size: 2, total_acc1: 52.716297, total_acc2: 44.064384, total_acc3: 59.557343, total_acc4: 50.603619
+Epoch: 0, Subepoch: 497, Loss: 5.746516, batch_size: 2, total_acc1: 52.610439, total_acc2: 44.176704, total_acc3: 59.638554, total_acc4: 50.702808
+Epoch: 0, Subepoch: 498, Loss: 5.740775, batch_size: 2, total_acc1: 52.605209, total_acc2: 44.188377, total_acc3: 59.619240, total_acc4: 50.801605
+Epoch: 0, Subepoch: 499, Loss: 5.739165, batch_size: 2, total_acc1: 52.600002, total_acc2: 44.200001, total_acc3: 59.600002, total_acc4: 50.800003
+Epoch: 0, Subepoch: 500, Loss: 5.741475, batch_size: 2, total_acc1: 52.594810, total_acc2: 44.111778, total_acc3: 59.481037, total_acc4: 50.698605
+Epoch: 0, Subepoch: 501, Loss: 5.735957, batch_size: 2, total_acc1: 52.689243, total_acc2: 44.223110, total_acc3: 59.462154, total_acc4: 50.697212
+Epoch: 0, Subepoch: 502, Loss: 5.734661, batch_size: 2, total_acc1: 52.683895, total_acc2: 44.333996, total_acc3: 59.443336, total_acc4: 50.596420
+Epoch: 0, Subepoch: 503, Loss: 5.732259, batch_size: 2, total_acc1: 52.777782, total_acc2: 44.345242, total_acc3: 59.424606, total_acc4: 50.595242
+Epoch: 0, Subepoch: 504, Loss: 5.730730, batch_size: 2, total_acc1: 52.772278, total_acc2: 44.257427, total_acc3: 59.504951, total_acc4: 50.693069
+Epoch: 0, Subepoch: 505, Loss: 5.728784, batch_size: 2, total_acc1: 52.865616, total_acc2: 44.268776, total_acc3: 59.486168, total_acc4: 50.691700
+Epoch: 0, Subepoch: 506, Loss: 5.723356, batch_size: 2, total_acc1: 52.859962, total_acc2: 44.378700, total_acc3: 59.566074, total_acc4: 50.788956
+Epoch: 0, Subepoch: 507, Loss: 5.718063, batch_size: 2, total_acc1: 52.952755, total_acc2: 44.389763, total_acc3: 59.547245, total_acc4: 50.787403
+Epoch: 0, Subepoch: 508, Loss: 5.718076, batch_size: 2, total_acc1: 52.946957, total_acc2: 44.302555, total_acc3: 59.626720, total_acc4: 50.687626
+Epoch: 0, Subepoch: 509, Loss: 5.710382, batch_size: 2, total_acc1: 53.039219, total_acc2: 44.411766, total_acc3: 59.705887, total_acc4: 50.784317
+Epoch: 0, Subepoch: 510, Loss: 5.710157, batch_size: 2, total_acc1: 52.935421, total_acc2: 44.422699, total_acc3: 59.784737, total_acc4: 50.782780
+Epoch: 0, Subepoch: 511, Loss: 5.709447, batch_size: 2, total_acc1: 52.929688, total_acc2: 44.335938, total_acc3: 59.863281, total_acc4: 50.781250
+Epoch: 0, Subepoch: 512, Loss: 5.715224, batch_size: 2, total_acc1: 52.923977, total_acc2: 44.249512, total_acc3: 59.844055, total_acc4: 50.779728
+Epoch: 0, Subepoch: 513, Loss: 5.708832, batch_size: 2, total_acc1: 53.015564, total_acc2: 44.260700, total_acc3: 59.922180, total_acc4: 50.875484
+Epoch: 0, Subepoch: 514, Loss: 5.704059, batch_size: 2, total_acc1: 53.009708, total_acc2: 44.271847, total_acc3: 60.000000, total_acc4: 50.873787
+Epoch: 0, Subepoch: 515, Loss: 5.701834, batch_size: 2, total_acc1: 53.003876, total_acc2: 44.282944, total_acc3: 60.077518, total_acc4: 50.872093
+Epoch: 0, Subepoch: 516, Loss: 5.697440, batch_size: 2, total_acc1: 52.998066, total_acc2: 44.294006, total_acc3: 60.154739, total_acc4: 50.870407
+Epoch: 0, Subepoch: 517, Loss: 5.693055, batch_size: 2, total_acc1: 53.088802, total_acc2: 44.208492, total_acc3: 60.231659, total_acc4: 50.868725
+Epoch: 0, Subepoch: 518, Loss: 5.689278, batch_size: 2, total_acc1: 53.179192, total_acc2: 44.219654, total_acc3: 60.308285, total_acc4: 50.770714
+Epoch: 0, Subepoch: 519, Loss: 5.687279, batch_size: 2, total_acc1: 53.173077, total_acc2: 44.326923, total_acc3: 60.384617, total_acc4: 50.673077
+Epoch: 0, Subepoch: 520, Loss: 5.688070, batch_size: 2, total_acc1: 53.166985, total_acc2: 44.241840, total_acc3: 60.364681, total_acc4: 50.671783
+Epoch: 0, Subepoch: 521, Loss: 5.687098, batch_size: 2, total_acc1: 53.256702, total_acc2: 44.252872, total_acc3: 60.249043, total_acc4: 50.670498
+Epoch: 0, Subepoch: 522, Loss: 5.681420, batch_size: 2, total_acc1: 53.154877, total_acc2: 44.359463, total_acc3: 60.325047, total_acc4: 50.764816
+Epoch: 0, Subepoch: 523, Loss: 5.677386, batch_size: 2, total_acc1: 53.244274, total_acc2: 44.274811, total_acc3: 60.400764, total_acc4: 50.763359
+Epoch: 0, Subepoch: 524, Loss: 5.670073, batch_size: 2, total_acc1: 53.333332, total_acc2: 44.380951, total_acc3: 60.476189, total_acc4: 50.857143
+Epoch: 0, Subepoch: 525, Loss: 5.665969, batch_size: 2, total_acc1: 53.231937, total_acc2: 44.486691, total_acc3: 60.456272, total_acc4: 50.950569
+Epoch: 0, Subepoch: 526, Loss: 5.672114, batch_size: 2, total_acc1: 53.130928, total_acc2: 44.497154, total_acc3: 60.341557, total_acc4: 50.853889
+Epoch: 0, Subepoch: 527, Loss: 5.669097, batch_size: 2, total_acc1: 53.125000, total_acc2: 44.507576, total_acc3: 60.416668, total_acc4: 50.946972
+Epoch: 0, Subepoch: 528, Loss: 5.668359, batch_size: 2, total_acc1: 53.213612, total_acc2: 44.517960, total_acc3: 60.491493, total_acc4: 50.850662
+Epoch: 0, Subepoch: 529, Loss: 5.661865, batch_size: 2, total_acc1: 53.301888, total_acc2: 44.622643, total_acc3: 60.566040, total_acc4: 50.849056
+Epoch: 0, Subepoch: 530, Loss: 5.654825, batch_size: 2, total_acc1: 53.295666, total_acc2: 44.726929, total_acc3: 60.640301, total_acc4: 50.941620
+Epoch: 0, Subepoch: 531, Loss: 5.655221, batch_size: 2, total_acc1: 53.383461, total_acc2: 44.830830, total_acc3: 60.526318, total_acc4: 50.845867
+Epoch: 0, Subepoch: 532, Loss: 5.656025, batch_size: 2, total_acc1: 53.377110, total_acc2: 44.746716, total_acc3: 60.600376, total_acc4: 50.844276
+Epoch: 0, Subepoch: 533, Loss: 5.650657, batch_size: 2, total_acc1: 53.464420, total_acc2: 44.850189, total_acc3: 60.580524, total_acc4: 50.842697
+Epoch: 0, Subepoch: 534, Loss: 5.653377, batch_size: 2, total_acc1: 53.364487, total_acc2: 44.766357, total_acc3: 60.654209, total_acc4: 50.934582
+Epoch: 0, Subepoch: 535, Loss: 5.649375, batch_size: 2, total_acc1: 53.358208, total_acc2: 44.776119, total_acc3: 60.727612, total_acc4: 51.026119
+Epoch: 0, Subepoch: 536, Loss: 5.650979, batch_size: 2, total_acc1: 53.258846, total_acc2: 44.785847, total_acc3: 60.707634, total_acc4: 51.117317
+Epoch: 0, Subepoch: 537, Loss: 5.658054, batch_size: 2, total_acc1: 53.159851, total_acc2: 44.702602, total_acc3: 60.687733, total_acc4: 51.115242
+Epoch: 0, Subepoch: 538, Loss: 5.653327, batch_size: 2, total_acc1: 53.246754, total_acc2: 44.712429, total_acc3: 60.760670, total_acc4: 51.205936
+Epoch: 0, Subepoch: 539, Loss: 5.647755, batch_size: 2, total_acc1: 53.333332, total_acc2: 44.722221, total_acc3: 60.833332, total_acc4: 51.296295
+Epoch: 0, Subepoch: 540, Loss: 5.646610, batch_size: 2, total_acc1: 53.327171, total_acc2: 44.639557, total_acc3: 60.813309, total_acc4: 51.293900
+Epoch: 0, Subepoch: 541, Loss: 5.645978, batch_size: 2, total_acc1: 53.321033, total_acc2: 44.557198, total_acc3: 60.885609, total_acc4: 51.291515
+Epoch: 0, Subepoch: 542, Loss: 5.644426, batch_size: 2, total_acc1: 53.314919, total_acc2: 44.475140, total_acc3: 60.957645, total_acc4: 51.289135
+Epoch: 0, Subepoch: 543, Loss: 5.639442, batch_size: 2, total_acc1: 53.308823, total_acc2: 44.393383, total_acc3: 61.029411, total_acc4: 51.378677
+Epoch: 0, Subepoch: 544, Loss: 5.637020, batch_size: 2, total_acc1: 53.394497, total_acc2: 44.311928, total_acc3: 61.009174, total_acc4: 51.467892
+Epoch: 0, Subepoch: 545, Loss: 5.638950, batch_size: 2, total_acc1: 53.296703, total_acc2: 44.322346, total_acc3: 60.989010, total_acc4: 51.465202
+Epoch: 0, Subepoch: 546, Loss: 5.636084, batch_size: 2, total_acc1: 53.382084, total_acc2: 44.424133, total_acc3: 61.060329, total_acc4: 51.371117
+Epoch: 0, Subepoch: 547, Loss: 5.633292, batch_size: 2, total_acc1: 53.284672, total_acc2: 44.343067, total_acc3: 61.131386, total_acc4: 51.459854
+Epoch: 0, Subepoch: 548, Loss: 5.629096, batch_size: 2, total_acc1: 53.369762, total_acc2: 44.353371, total_acc3: 61.111111, total_acc4: 51.548267
+Epoch: 0, Subepoch: 549, Loss: 5.624846, batch_size: 2, total_acc1: 53.454544, total_acc2: 44.454544, total_acc3: 61.181820, total_acc4: 51.545456
+Epoch: 0, Subepoch: 550, Loss: 5.619209, batch_size: 2, total_acc1: 53.448277, total_acc2: 44.555355, total_acc3: 61.161526, total_acc4: 51.633392
+Epoch: 0, Subepoch: 551, Loss: 5.617060, batch_size: 2, total_acc1: 53.442032, total_acc2: 44.655796, total_acc3: 61.141304, total_acc4: 51.630436
+Epoch: 0, Subepoch: 552, Loss: 5.612555, batch_size: 2, total_acc1: 53.435806, total_acc2: 44.665462, total_acc3: 61.211575, total_acc4: 51.627487
+Epoch: 0, Subepoch: 553, Loss: 5.612725, batch_size: 2, total_acc1: 53.519855, total_acc2: 44.584839, total_acc3: 61.101082, total_acc4: 51.624550
+Epoch: 0, Subepoch: 554, Loss: 5.610552, batch_size: 2, total_acc1: 53.603603, total_acc2: 44.594597, total_acc3: 60.990993, total_acc4: 51.621624
+Epoch: 0, Subepoch: 555, Loss: 5.607286, batch_size: 2, total_acc1: 53.687050, total_acc2: 44.514389, total_acc3: 61.061153, total_acc4: 51.708633
+Epoch: 0, Subepoch: 556, Loss: 5.610530, batch_size: 2, total_acc1: 53.590664, total_acc2: 44.434471, total_acc3: 60.951527, total_acc4: 51.705566
+Epoch: 0, Subepoch: 557, Loss: 5.607199, batch_size: 2, total_acc1: 53.673836, total_acc2: 44.354839, total_acc3: 60.931900, total_acc4: 51.792114
+Epoch: 0, Subepoch: 558, Loss: 5.609601, batch_size: 2, total_acc1: 53.756706, total_acc2: 44.275490, total_acc3: 60.822895, total_acc4: 51.699463
+Epoch: 0, Subepoch: 559, Loss: 5.611625, batch_size: 2, total_acc1: 53.839287, total_acc2: 44.285713, total_acc3: 60.803574, total_acc4: 51.696430
+Epoch: 0, Subepoch: 560, Loss: 5.606775, batch_size: 2, total_acc1: 53.921566, total_acc2: 44.385025, total_acc3: 60.784313, total_acc4: 51.693405
+Epoch: 0, Subepoch: 561, Loss: 5.606929, batch_size: 2, total_acc1: 53.914589, total_acc2: 44.395016, total_acc3: 60.676155, total_acc4: 51.601421
+Epoch: 0, Subepoch: 562, Loss: 5.610412, batch_size: 2, total_acc1: 53.818829, total_acc2: 44.316166, total_acc3: 60.657196, total_acc4: 51.598579
+Epoch: 0, Subepoch: 563, Loss: 5.610363, batch_size: 2, total_acc1: 53.900707, total_acc2: 44.414894, total_acc3: 60.726948, total_acc4: 51.507092
+Epoch: 0, Subepoch: 564, Loss: 5.612501, batch_size: 2, total_acc1: 53.805309, total_acc2: 44.424778, total_acc3: 60.796459, total_acc4: 51.592918
+Epoch: 0, Subepoch: 565, Loss: 5.614395, batch_size: 2, total_acc1: 53.886925, total_acc2: 44.346291, total_acc3: 60.777386, total_acc4: 51.501766
+Epoch: 0, Subepoch: 566, Loss: 5.612085, batch_size: 2, total_acc1: 53.880070, total_acc2: 44.356258, total_acc3: 60.846558, total_acc4: 51.499115
+Epoch: 0, Subepoch: 567, Loss: 5.614230, batch_size: 2, total_acc1: 53.873238, total_acc2: 44.278168, total_acc3: 60.827465, total_acc4: 51.496479
+Epoch: 0, Subepoch: 568, Loss: 5.610533, batch_size: 2, total_acc1: 53.954308, total_acc2: 44.288227, total_acc3: 60.896309, total_acc4: 51.493851
+Epoch: 0, Subepoch: 569, Loss: 5.607684, batch_size: 2, total_acc1: 54.035088, total_acc2: 44.298248, total_acc3: 60.964912, total_acc4: 51.403511
+Epoch: 0, Subepoch: 570, Loss: 5.604799, batch_size: 2, total_acc1: 54.028019, total_acc2: 44.308231, total_acc3: 60.858143, total_acc4: 51.488617
+Epoch: 0, Subepoch: 571, Loss: 5.603571, batch_size: 2, total_acc1: 54.108391, total_acc2: 44.230770, total_acc3: 60.839161, total_acc4: 51.486012
+Epoch: 0, Subepoch: 572, Loss: 5.600241, batch_size: 2, total_acc1: 54.188480, total_acc2: 44.153580, total_acc3: 60.907505, total_acc4: 51.396160
+Epoch: 0, Subepoch: 573, Loss: 5.600145, batch_size: 2, total_acc1: 54.181187, total_acc2: 44.250870, total_acc3: 60.888504, total_acc4: 51.393730
+Epoch: 0, Subepoch: 574, Loss: 5.597638, batch_size: 2, total_acc1: 54.173916, total_acc2: 44.260872, total_acc3: 60.956524, total_acc4: 51.478264
+Epoch: 0, Subepoch: 575, Loss: 5.595076, batch_size: 2, total_acc1: 54.166668, total_acc2: 44.357639, total_acc3: 61.024307, total_acc4: 51.475697
+Epoch: 0, Subepoch: 576, Loss: 5.595678, batch_size: 2, total_acc1: 54.072792, total_acc2: 44.367416, total_acc3: 61.091854, total_acc4: 51.473137
+Epoch: 0, Subepoch: 577, Loss: 5.595489, batch_size: 2, total_acc1: 54.065746, total_acc2: 44.377163, total_acc3: 61.072666, total_acc4: 51.557095
+Epoch: 0, Subepoch: 578, Loss: 5.595676, batch_size: 2, total_acc1: 54.058723, total_acc2: 44.473228, total_acc3: 61.053539, total_acc4: 51.554405
+Epoch: 0, Subepoch: 579, Loss: 5.590532, batch_size: 2, total_acc1: 54.137932, total_acc2: 44.482758, total_acc3: 61.120689, total_acc4: 51.551723
+Epoch: 0, Subepoch: 580, Loss: 5.589475, batch_size: 2, total_acc1: 54.130810, total_acc2: 44.406197, total_acc3: 61.101547, total_acc4: 51.635113
+Epoch: 0, Subepoch: 581, Loss: 5.589556, batch_size: 2, total_acc1: 54.037800, total_acc2: 44.415810, total_acc3: 61.082474, total_acc4: 51.632301
+Epoch: 0, Subepoch: 582, Loss: 5.590299, batch_size: 2, total_acc1: 53.945114, total_acc2: 44.425388, total_acc3: 61.149231, total_acc4: 51.629505
+Epoch: 0, Subepoch: 583, Loss: 5.592040, batch_size: 2, total_acc1: 53.852737, total_acc2: 44.349316, total_acc3: 61.044521, total_acc4: 51.712330
+Epoch: 0, Subepoch: 584, Loss: 5.594899, batch_size: 2, total_acc1: 53.846153, total_acc2: 44.273506, total_acc3: 61.025642, total_acc4: 51.709404
+Epoch: 0, Subepoch: 585, Loss: 5.592785, batch_size: 2, total_acc1: 53.839588, total_acc2: 44.368599, total_acc3: 61.092148, total_acc4: 51.706482
+Epoch: 0, Subepoch: 586, Loss: 5.589872, batch_size: 2, total_acc1: 53.833050, total_acc2: 44.378193, total_acc3: 61.073254, total_acc4: 51.788754
+Epoch: 0, Subepoch: 587, Loss: 5.586232, batch_size: 2, total_acc1: 53.741497, total_acc2: 44.472790, total_acc3: 60.969387, total_acc4: 51.870747
+Epoch: 0, Subepoch: 588, Loss: 5.586292, batch_size: 2, total_acc1: 53.650257, total_acc2: 44.397285, total_acc3: 60.950764, total_acc4: 51.867573
+Epoch: 0, Subepoch: 589, Loss: 5.588155, batch_size: 2, total_acc1: 53.644066, total_acc2: 44.322033, total_acc3: 60.847458, total_acc4: 51.779659
+Epoch: 0, Subepoch: 590, Loss: 5.587579, batch_size: 2, total_acc1: 53.637901, total_acc2: 44.331642, total_acc3: 60.744499, total_acc4: 51.776649
+Epoch: 0, Subepoch: 591, Loss: 5.591267, batch_size: 2, total_acc1: 53.547298, total_acc2: 44.256760, total_acc3: 60.726353, total_acc4: 51.689190
+Epoch: 0, Subepoch: 592, Loss: 5.590943, batch_size: 2, total_acc1: 53.541317, total_acc2: 44.182125, total_acc3: 60.708263, total_acc4: 51.770657
+Epoch: 0, Subepoch: 593, Loss: 5.588853, batch_size: 2, total_acc1: 53.535351, total_acc2: 44.191917, total_acc3: 60.690235, total_acc4: 51.851852
+Epoch: 0, Subepoch: 594, Loss: 5.587380, batch_size: 2, total_acc1: 53.529411, total_acc2: 44.117649, total_acc3: 60.756302, total_acc4: 51.848740
+Epoch: 0, Subepoch: 595, Loss: 5.585528, batch_size: 2, total_acc1: 53.607384, total_acc2: 44.127518, total_acc3: 60.822147, total_acc4: 51.761745
+Epoch: 0, Subepoch: 596, Loss: 5.587411, batch_size: 2, total_acc1: 53.517586, total_acc2: 44.137352, total_acc3: 60.804020, total_acc4: 51.758793
+Epoch: 0, Subepoch: 597, Loss: 5.585375, batch_size: 2, total_acc1: 53.511703, total_acc2: 44.063545, total_acc3: 60.869564, total_acc4: 51.755852
+Epoch: 0, Subepoch: 598, Loss: 5.584676, batch_size: 2, total_acc1: 53.589314, total_acc2: 44.073456, total_acc3: 60.851418, total_acc4: 51.669449
+Epoch: 0, Subepoch: 599, Loss: 5.589373, batch_size: 2, total_acc1: 53.500000, total_acc2: 44.083336, total_acc3: 60.916668, total_acc4: 51.583336
+Epoch: 0, Subepoch: 600, Loss: 5.586952, batch_size: 2, total_acc1: 53.577370, total_acc2: 44.009983, total_acc3: 60.981697, total_acc4: 51.580696
+Epoch: 0, Subepoch: 601, Loss: 5.582348, batch_size: 2, total_acc1: 53.571426, total_acc2: 44.019932, total_acc3: 61.046509, total_acc4: 51.661129
+Epoch: 0, Subepoch: 602, Loss: 5.578705, batch_size: 2, total_acc1: 53.565506, total_acc2: 44.029850, total_acc3: 61.111111, total_acc4: 51.741295
+Epoch: 0, Subepoch: 603, Loss: 5.579117, batch_size: 2, total_acc1: 53.559601, total_acc2: 43.956955, total_acc3: 61.092716, total_acc4: 51.821194
+Epoch: 0, Subepoch: 604, Loss: 5.575976, batch_size: 2, total_acc1: 53.553719, total_acc2: 43.966942, total_acc3: 61.074379, total_acc4: 51.818180
+Epoch: 0, Subepoch: 605, Loss: 5.572085, batch_size: 2, total_acc1: 53.630363, total_acc2: 43.976898, total_acc3: 61.138615, total_acc4: 51.815182
+Epoch: 0, Subepoch: 606, Loss: 5.570461, batch_size: 2, total_acc1: 53.624382, total_acc2: 44.069191, total_acc3: 61.120262, total_acc4: 51.729816
+Epoch: 0, Subepoch: 607, Loss: 5.571062, batch_size: 2, total_acc1: 53.536186, total_acc2: 44.078949, total_acc3: 61.184212, total_acc4: 51.726974
+Epoch: 0, Subepoch: 608, Loss: 5.574979, batch_size: 2, total_acc1: 53.448277, total_acc2: 44.170773, total_acc3: 61.083744, total_acc4: 51.724140
+Epoch: 0, Subepoch: 609, Loss: 5.570730, batch_size: 2, total_acc1: 53.524590, total_acc2: 44.180328, total_acc3: 61.147541, total_acc4: 51.803280
+Epoch: 0, Subepoch: 610, Loss: 5.569266, batch_size: 2, total_acc1: 53.518822, total_acc2: 44.189854, total_acc3: 61.211132, total_acc4: 51.800327
+Epoch: 0, Subepoch: 611, Loss: 5.573440, batch_size: 2, total_acc1: 53.431374, total_acc2: 44.117649, total_acc3: 61.192810, total_acc4: 51.715687
+Epoch: 0, Subepoch: 612, Loss: 5.569219, batch_size: 2, total_acc1: 53.425774, total_acc2: 44.127243, total_acc3: 61.256119, total_acc4: 51.794453
+Epoch: 0, Subepoch: 613, Loss: 5.565093, batch_size: 2, total_acc1: 53.420193, total_acc2: 44.136806, total_acc3: 61.319218, total_acc4: 51.791531
+Epoch: 0, Subepoch: 614, Loss: 5.564652, batch_size: 2, total_acc1: 53.495934, total_acc2: 44.065041, total_acc3: 61.300812, total_acc4: 51.707317
+Epoch: 0, Subepoch: 615, Loss: 5.561412, batch_size: 2, total_acc1: 53.490261, total_acc2: 44.155846, total_acc3: 61.282467, total_acc4: 51.704544
+Epoch: 0, Subepoch: 616, Loss: 5.560753, batch_size: 2, total_acc1: 53.484604, total_acc2: 44.084278, total_acc3: 61.345219, total_acc4: 51.782818
+Epoch: 0, Subepoch: 617, Loss: 5.555373, batch_size: 2, total_acc1: 53.478966, total_acc2: 44.174759, total_acc3: 61.407768, total_acc4: 51.860844
+Epoch: 0, Subepoch: 618, Loss: 5.552762, batch_size: 2, total_acc1: 53.473347, total_acc2: 44.184170, total_acc3: 61.470116, total_acc4: 51.938610
+Epoch: 0, Subepoch: 619, Loss: 5.554699, batch_size: 2, total_acc1: 53.467743, total_acc2: 44.193546, total_acc3: 61.451611, total_acc4: 51.854839
+Epoch: 0, Subepoch: 620, Loss: 5.553548, batch_size: 2, total_acc1: 53.462158, total_acc2: 44.122383, total_acc3: 61.513687, total_acc4: 51.851852
+Epoch: 0, Subepoch: 621, Loss: 5.551824, batch_size: 2, total_acc1: 53.456593, total_acc2: 44.131832, total_acc3: 61.495174, total_acc4: 51.848873
+Epoch: 0, Subepoch: 622, Loss: 5.548900, batch_size: 2, total_acc1: 53.451042, total_acc2: 44.221508, total_acc3: 61.476727, total_acc4: 51.926163
+Epoch: 0, Subepoch: 623, Loss: 5.550542, batch_size: 2, total_acc1: 53.365387, total_acc2: 44.150642, total_acc3: 61.458336, total_acc4: 51.842949
+Epoch: 0, Subepoch: 624, Loss: 5.545964, batch_size: 2, total_acc1: 53.439999, total_acc2: 44.160000, total_acc3: 61.519997, total_acc4: 51.919998
+Epoch: 0, Subepoch: 625, Loss: 5.548469, batch_size: 2, total_acc1: 53.354633, total_acc2: 44.089455, total_acc3: 61.501595, total_acc4: 51.837059
+Epoch: 0, Subepoch: 626, Loss: 5.543761, batch_size: 2, total_acc1: 53.429028, total_acc2: 44.178627, total_acc3: 61.562996, total_acc4: 51.913876
+Epoch: 0, Subepoch: 627, Loss: 5.539802, batch_size: 2, total_acc1: 53.423569, total_acc2: 44.187901, total_acc3: 61.624207, total_acc4: 51.910828
+Epoch: 0, Subepoch: 628, Loss: 5.536931, batch_size: 2, total_acc1: 53.418125, total_acc2: 44.197140, total_acc3: 61.605724, total_acc4: 51.907791
+Epoch: 0, Subepoch: 629, Loss: 5.536930, batch_size: 2, total_acc1: 53.412701, total_acc2: 44.206348, total_acc3: 61.666668, total_acc4: 51.984127
+Epoch: 0, Subepoch: 630, Loss: 5.536195, batch_size: 2, total_acc1: 53.328053, total_acc2: 44.294773, total_acc3: 61.727417, total_acc4: 51.980984
+Epoch: 0, Subepoch: 631, Loss: 5.532066, batch_size: 2, total_acc1: 53.401901, total_acc2: 44.382912, total_acc3: 61.787975, total_acc4: 51.898735
+Epoch: 0, Subepoch: 632, Loss: 5.531153, batch_size: 2, total_acc1: 53.396526, total_acc2: 44.391785, total_acc3: 61.848343, total_acc4: 51.816746
+Epoch: 0, Subepoch: 633, Loss: 5.527943, batch_size: 2, total_acc1: 53.391167, total_acc2: 44.479496, total_acc3: 61.908520, total_acc4: 51.735016
+Epoch: 0, Subepoch: 634, Loss: 5.525845, batch_size: 2, total_acc1: 53.464565, total_acc2: 44.488190, total_acc3: 61.889763, total_acc4: 51.732285
+Epoch: 0, Subepoch: 635, Loss: 5.524472, batch_size: 2, total_acc1: 53.380501, total_acc2: 44.496853, total_acc3: 61.949684, total_acc4: 51.808174
+Epoch: 0, Subepoch: 636, Loss: 5.525292, batch_size: 2, total_acc1: 53.375198, total_acc2: 44.505497, total_acc3: 61.930927, total_acc4: 51.805340
+Epoch: 0, Subepoch: 637, Loss: 5.523056, batch_size: 2, total_acc1: 53.291534, total_acc2: 44.592476, total_acc3: 61.990593, total_acc4: 51.802505
+Epoch: 0, Subepoch: 638, Loss: 5.520091, batch_size: 2, total_acc1: 53.364632, total_acc2: 44.600937, total_acc3: 61.971828, total_acc4: 51.799686
+Epoch: 0, Subepoch: 639, Loss: 5.517401, batch_size: 2, total_acc1: 53.437500, total_acc2: 44.609375, total_acc3: 61.953125, total_acc4: 51.875000
+Epoch: 0, Subepoch: 640, Loss: 5.511945, batch_size: 2, total_acc1: 53.432137, total_acc2: 44.695789, total_acc3: 62.012482, total_acc4: 51.872074
+Epoch: 0, Subepoch: 641, Loss: 5.511816, batch_size: 2, total_acc1: 53.426788, total_acc2: 44.781929, total_acc3: 61.993767, total_acc4: 51.869156
+Epoch: 0, Subepoch: 642, Loss: 5.510821, batch_size: 2, total_acc1: 53.499222, total_acc2: 44.790047, total_acc3: 61.975117, total_acc4: 51.944012
+Epoch: 0, Subepoch: 643, Loss: 5.507778, batch_size: 2, total_acc1: 53.416149, total_acc2: 44.798138, total_acc3: 62.034164, total_acc4: 52.018635
+Epoch: 0, Subepoch: 644, Loss: 5.503597, batch_size: 2, total_acc1: 53.410854, total_acc2: 44.806202, total_acc3: 62.093021, total_acc4: 52.093021
+Epoch: 0, Subepoch: 645, Loss: 5.500122, batch_size: 2, total_acc1: 53.405571, total_acc2: 44.814240, total_acc3: 62.151703, total_acc4: 52.089783
+Epoch: 0, Subepoch: 646, Loss: 5.501776, batch_size: 2, total_acc1: 53.400307, total_acc2: 44.822254, total_acc3: 62.132919, total_acc4: 52.009274
+Epoch: 0, Subepoch: 647, Loss: 5.501563, batch_size: 2, total_acc1: 53.395061, total_acc2: 44.753086, total_acc3: 62.191357, total_acc4: 52.006172
+Epoch: 0, Subepoch: 648, Loss: 5.497235, batch_size: 2, total_acc1: 53.466873, total_acc2: 44.761173, total_acc3: 62.249619, total_acc4: 52.003082
+Epoch: 0, Subepoch: 649, Loss: 5.494731, batch_size: 2, total_acc1: 53.538460, total_acc2: 44.769230, total_acc3: 62.230770, total_acc4: 52.076923
+Epoch: 0, Subepoch: 650, Loss: 5.490968, batch_size: 2, total_acc1: 53.609833, total_acc2: 44.854069, total_acc3: 62.288788, total_acc4: 52.073734
+Epoch: 0, Subepoch: 651, Loss: 5.487014, batch_size: 2, total_acc1: 53.680981, total_acc2: 44.938648, total_acc3: 62.269936, total_acc4: 52.147240
+Epoch: 0, Subepoch: 652, Loss: 5.483816, batch_size: 2, total_acc1: 53.751915, total_acc2: 44.946404, total_acc3: 62.327721, total_acc4: 52.220524
+Epoch: 0, Subepoch: 653, Loss: 5.481195, batch_size: 2, total_acc1: 53.746178, total_acc2: 44.954128, total_acc3: 62.385323, total_acc4: 52.293579
+Epoch: 0, Subepoch: 654, Loss: 5.480335, batch_size: 2, total_acc1: 53.740459, total_acc2: 44.961834, total_acc3: 62.442749, total_acc4: 52.290077
+Epoch: 0, Subepoch: 655, Loss: 5.479766, batch_size: 2, total_acc1: 53.810974, total_acc2: 44.893291, total_acc3: 62.499996, total_acc4: 52.362804
+Epoch: 0, Subepoch: 656, Loss: 5.477425, batch_size: 2, total_acc1: 53.729073, total_acc2: 44.901066, total_acc3: 62.480976, total_acc4: 52.435314
+Epoch: 0, Subepoch: 657, Loss: 5.474789, batch_size: 2, total_acc1: 53.723404, total_acc2: 44.908813, total_acc3: 62.462006, total_acc4: 52.431610
+Epoch: 0, Subepoch: 658, Loss: 5.476665, batch_size: 2, total_acc1: 53.793625, total_acc2: 44.916538, total_acc3: 62.443096, total_acc4: 52.352047
+Epoch: 0, Subepoch: 659, Loss: 5.474816, batch_size: 2, total_acc1: 53.863636, total_acc2: 44.848484, total_acc3: 62.424240, total_acc4: 52.348484
+Epoch: 0, Subepoch: 660, Loss: 5.482116, batch_size: 2, total_acc1: 53.857788, total_acc2: 44.856277, total_acc3: 62.329800, total_acc4: 52.269287
+Epoch: 0, Subepoch: 661, Loss: 5.488445, batch_size: 2, total_acc1: 53.851963, total_acc2: 44.864048, total_acc3: 62.235649, total_acc4: 52.190331
+Epoch: 0, Subepoch: 662, Loss: 5.489649, batch_size: 2, total_acc1: 53.770741, total_acc2: 44.871796, total_acc3: 62.217197, total_acc4: 52.187031
+Epoch: 0, Subepoch: 663, Loss: 5.487170, batch_size: 2, total_acc1: 53.840359, total_acc2: 44.804214, total_acc3: 62.274094, total_acc4: 52.259033
+Epoch: 0, Subepoch: 664, Loss: 5.482656, batch_size: 2, total_acc1: 53.909775, total_acc2: 44.812031, total_acc3: 62.330826, total_acc4: 52.330826
+Epoch: 0, Subepoch: 665, Loss: 5.480320, batch_size: 2, total_acc1: 53.903904, total_acc2: 44.744747, total_acc3: 62.387390, total_acc4: 52.402405
+Epoch: 0, Subepoch: 666, Loss: 5.474753, batch_size: 2, total_acc1: 53.973015, total_acc2: 44.827587, total_acc3: 62.443779, total_acc4: 52.473766
+Epoch: 0, Subepoch: 667, Loss: 5.476904, batch_size: 2, total_acc1: 53.892216, total_acc2: 44.760479, total_acc3: 62.500004, total_acc4: 52.544910
+Epoch: 0, Subepoch: 668, Loss: 5.476037, batch_size: 2, total_acc1: 53.811661, total_acc2: 44.768311, total_acc3: 62.481316, total_acc4: 52.541107
+Epoch: 0, Subepoch: 669, Loss: 5.472844, batch_size: 2, total_acc1: 53.880596, total_acc2: 44.850746, total_acc3: 62.537315, total_acc4: 52.537315
+Epoch: 0, Subepoch: 670, Loss: 5.472945, batch_size: 2, total_acc1: 53.800297, total_acc2: 44.858421, total_acc3: 62.518631, total_acc4: 52.459019
+Epoch: 0, Subepoch: 671, Loss: 5.470715, batch_size: 2, total_acc1: 53.869049, total_acc2: 44.866074, total_acc3: 62.500000, total_acc4: 52.529762
+Epoch: 0, Subepoch: 672, Loss: 5.472003, batch_size: 2, total_acc1: 53.937592, total_acc2: 44.799404, total_acc3: 62.481426, total_acc4: 52.451706
+Epoch: 0, Subepoch: 673, Loss: 5.471629, batch_size: 2, total_acc1: 53.931751, total_acc2: 44.881306, total_acc3: 62.462906, total_acc4: 52.373886
+Epoch: 0, Subepoch: 674, Loss: 5.470196, batch_size: 2, total_acc1: 54.000000, total_acc2: 44.888889, total_acc3: 62.444443, total_acc4: 52.370369
+Epoch: 0, Subepoch: 675, Loss: 5.470849, batch_size: 2, total_acc1: 53.920120, total_acc2: 44.896450, total_acc3: 62.426037, total_acc4: 52.366863
+Epoch: 0, Subepoch: 676, Loss: 5.471446, batch_size: 2, total_acc1: 53.914326, total_acc2: 44.830132, total_acc3: 62.407681, total_acc4: 52.437222
+Epoch: 0, Subepoch: 677, Loss: 5.469142, batch_size: 2, total_acc1: 53.908554, total_acc2: 44.837757, total_acc3: 62.463127, total_acc4: 52.507374
+Epoch: 0, Subepoch: 678, Loss: 5.466877, batch_size: 2, total_acc1: 53.829163, total_acc2: 44.845360, total_acc3: 62.518410, total_acc4: 52.577320
+Epoch: 0, Subepoch: 679, Loss: 5.464481, batch_size: 2, total_acc1: 53.823532, total_acc2: 44.852943, total_acc3: 62.573532, total_acc4: 52.647060
+Epoch: 0, Subepoch: 680, Loss: 5.465521, batch_size: 2, total_acc1: 53.744492, total_acc2: 44.787079, total_acc3: 62.628487, total_acc4: 52.643169
+Epoch: 0, Subepoch: 681, Loss: 5.461219, batch_size: 2, total_acc1: 53.739002, total_acc2: 44.868034, total_acc3: 62.683285, total_acc4: 52.712608
+Epoch: 0, Subepoch: 682, Loss: 5.459287, batch_size: 2, total_acc1: 53.806736, total_acc2: 44.875549, total_acc3: 62.664715, total_acc4: 52.708637
+Epoch: 0, Subepoch: 683, Loss: 5.459663, batch_size: 2, total_acc1: 53.801170, total_acc2: 44.809940, total_acc3: 62.646198, total_acc4: 52.631580
+Epoch: 0, Subepoch: 684, Loss: 5.458548, batch_size: 2, total_acc1: 53.868610, total_acc2: 44.817516, total_acc3: 62.627735, total_acc4: 52.627735
+Epoch: 0, Subepoch: 685, Loss: 5.457600, batch_size: 2, total_acc1: 53.935863, total_acc2: 44.825073, total_acc3: 62.609333, total_acc4: 52.551022
+Epoch: 0, Subepoch: 686, Loss: 5.459892, batch_size: 2, total_acc1: 53.930130, total_acc2: 44.759827, total_acc3: 62.590977, total_acc4: 52.547306
+Epoch: 0, Subepoch: 687, Loss: 5.457207, batch_size: 2, total_acc1: 53.997093, total_acc2: 44.767441, total_acc3: 62.572674, total_acc4: 52.543606
+Epoch: 0, Subepoch: 688, Loss: 5.459397, batch_size: 2, total_acc1: 53.918724, total_acc2: 44.775036, total_acc3: 62.626995, total_acc4: 52.467342
+Epoch: 0, Subepoch: 689, Loss: 5.460137, batch_size: 2, total_acc1: 53.985508, total_acc2: 44.782612, total_acc3: 62.536236, total_acc4: 52.391308
+Epoch: 0, Subepoch: 690, Loss: 5.456677, batch_size: 2, total_acc1: 54.052097, total_acc2: 44.790157, total_acc3: 62.590446, total_acc4: 52.460201
+Epoch: 0, Subepoch: 691, Loss: 5.459279, batch_size: 2, total_acc1: 54.046242, total_acc2: 44.797688, total_acc3: 62.500000, total_acc4: 52.528900
+Epoch: 0, Subepoch: 692, Loss: 5.455820, batch_size: 2, total_acc1: 54.112553, total_acc2: 44.805195, total_acc3: 62.554111, total_acc4: 52.525253
+Epoch: 0, Subepoch: 693, Loss: 5.453299, batch_size: 2, total_acc1: 54.106628, total_acc2: 44.812679, total_acc3: 62.608067, total_acc4: 52.593658
+Epoch: 0, Subepoch: 694, Loss: 5.453969, batch_size: 2, total_acc1: 54.100719, total_acc2: 44.820145, total_acc3: 62.517986, total_acc4: 52.589928
+Epoch: 0, Subepoch: 695, Loss: 5.454452, batch_size: 2, total_acc1: 54.166668, total_acc2: 44.755749, total_acc3: 62.500000, total_acc4: 52.586208
+Epoch: 0, Subepoch: 696, Loss: 5.453243, batch_size: 2, total_acc1: 54.160690, total_acc2: 44.835007, total_acc3: 62.482067, total_acc4: 52.582497
+Epoch: 0, Subepoch: 697, Loss: 5.450798, batch_size: 2, total_acc1: 54.226364, total_acc2: 44.842407, total_acc3: 62.535820, total_acc4: 52.507164
+Epoch: 0, Subepoch: 698, Loss: 5.450394, batch_size: 2, total_acc1: 54.148785, total_acc2: 44.849785, total_acc3: 62.589417, total_acc4: 52.575108
+Epoch: 0, Subepoch: 699, Loss: 5.448174, batch_size: 2, total_acc1: 54.142857, total_acc2: 44.785713, total_acc3: 62.642857, total_acc4: 52.571426
+Epoch: 0, Subepoch: 700, Loss: 5.448351, batch_size: 2, total_acc1: 54.065620, total_acc2: 44.793156, total_acc3: 62.696152, total_acc4: 52.639088
+Epoch: 0, Subepoch: 701, Loss: 5.446883, batch_size: 2, total_acc1: 54.059830, total_acc2: 44.871796, total_acc3: 62.749287, total_acc4: 52.635326
+Epoch: 0, Subepoch: 702, Loss: 5.447250, batch_size: 2, total_acc1: 54.054054, total_acc2: 44.807964, total_acc3: 62.802277, total_acc4: 52.631577
+Epoch: 0, Subepoch: 703, Loss: 5.445500, batch_size: 2, total_acc1: 54.048298, total_acc2: 44.886364, total_acc3: 62.784092, total_acc4: 52.627842
+Epoch: 0, Subepoch: 704, Loss: 5.445269, batch_size: 2, total_acc1: 54.042553, total_acc2: 44.893616, total_acc3: 62.836876, total_acc4: 52.624111
+Epoch: 0, Subepoch: 705, Loss: 5.444795, batch_size: 2, total_acc1: 54.036827, total_acc2: 44.900848, total_acc3: 62.818695, total_acc4: 52.620396
+Epoch: 0, Subepoch: 706, Loss: 5.442023, batch_size: 2, total_acc1: 54.031120, total_acc2: 44.978783, total_acc3: 62.871288, total_acc4: 52.616692
+Epoch: 0, Subepoch: 707, Loss: 5.440164, batch_size: 2, total_acc1: 54.096046, total_acc2: 44.985874, total_acc3: 62.923729, total_acc4: 52.683617
+Epoch: 0, Subepoch: 708, Loss: 5.438576, batch_size: 2, total_acc1: 54.090271, total_acc2: 44.992950, total_acc3: 62.905502, total_acc4: 52.679832
+Epoch: 0, Subepoch: 709, Loss: 5.433338, batch_size: 2, total_acc1: 54.154926, total_acc2: 45.070419, total_acc3: 62.957745, total_acc4: 52.746475
+Epoch: 0, Subepoch: 710, Loss: 5.431100, batch_size: 2, total_acc1: 54.219410, total_acc2: 45.077354, total_acc3: 62.939522, total_acc4: 52.812939
+Epoch: 0, Subepoch: 711, Loss: 5.431669, batch_size: 2, total_acc1: 54.213482, total_acc2: 45.014046, total_acc3: 62.921349, total_acc4: 52.808990
+Epoch: 0, Subepoch: 712, Loss: 5.428940, batch_size: 2, total_acc1: 54.207573, total_acc2: 45.091164, total_acc3: 62.973351, total_acc4: 52.805050
+Epoch: 0, Subepoch: 713, Loss: 5.429935, batch_size: 2, total_acc1: 54.201683, total_acc2: 45.098042, total_acc3: 62.885155, total_acc4: 52.731094
+Epoch: 0, Subepoch: 714, Loss: 5.430827, batch_size: 2, total_acc1: 54.265736, total_acc2: 45.034966, total_acc3: 62.867134, total_acc4: 52.657345
+Epoch: 0, Subepoch: 715, Loss: 5.427585, batch_size: 2, total_acc1: 54.189941, total_acc2: 45.111729, total_acc3: 62.918991, total_acc4: 52.723461
+Epoch: 0, Subepoch: 716, Loss: 5.425141, batch_size: 2, total_acc1: 54.253834, total_acc2: 45.188286, total_acc3: 62.900978, total_acc4: 52.719666
+Epoch: 0, Subepoch: 717, Loss: 5.419984, batch_size: 2, total_acc1: 54.317547, total_acc2: 45.264622, total_acc3: 62.952644, total_acc4: 52.715878
+Epoch: 0, Subepoch: 718, Loss: 5.415709, batch_size: 2, total_acc1: 54.381084, total_acc2: 45.271210, total_acc3: 62.934631, total_acc4: 52.712101
+Epoch: 0, Subepoch: 719, Loss: 5.411493, batch_size: 2, total_acc1: 54.444447, total_acc2: 45.347225, total_acc3: 62.986115, total_acc4: 52.708336
+Epoch: 0, Subepoch: 720, Loss: 5.406293, batch_size: 2, total_acc1: 54.507629, total_acc2: 45.423023, total_acc3: 63.037449, total_acc4: 52.773926
+Epoch: 0, Subepoch: 721, Loss: 5.406627, batch_size: 2, total_acc1: 54.501385, total_acc2: 45.429363, total_acc3: 63.088642, total_acc4: 52.770081
+Epoch: 0, Subepoch: 722, Loss: 5.402509, batch_size: 2, total_acc1: 54.564316, total_acc2: 45.435684, total_acc3: 63.139698, total_acc4: 52.835411
+Epoch: 0, Subepoch: 723, Loss: 5.399723, batch_size: 2, total_acc1: 54.627075, total_acc2: 45.441990, total_acc3: 63.190609, total_acc4: 52.831493
+Epoch: 0, Subepoch: 724, Loss: 5.396626, batch_size: 2, total_acc1: 54.689655, total_acc2: 45.448277, total_acc3: 63.241383, total_acc4: 52.896553
+Epoch: 0, Subepoch: 725, Loss: 5.390459, batch_size: 2, total_acc1: 54.752068, total_acc2: 45.523418, total_acc3: 63.292011, total_acc4: 52.961433
+Epoch: 0, Subepoch: 726, Loss: 5.391075, batch_size: 2, total_acc1: 54.745529, total_acc2: 45.529575, total_acc3: 63.342503, total_acc4: 52.888584
+Epoch: 0, Subepoch: 727, Loss: 5.388667, batch_size: 2, total_acc1: 54.807693, total_acc2: 45.604397, total_acc3: 63.255497, total_acc4: 52.884617
+Epoch: 0, Subepoch: 728, Loss: 5.389050, batch_size: 2, total_acc1: 54.801098, total_acc2: 45.541840, total_acc3: 63.305897, total_acc4: 52.880657
+Epoch: 0, Subepoch: 729, Loss: 5.387699, batch_size: 2, total_acc1: 54.794521, total_acc2: 45.547947, total_acc3: 63.356167, total_acc4: 52.876713
+Epoch: 0, Subepoch: 730, Loss: 5.383570, batch_size: 2, total_acc1: 54.787964, total_acc2: 45.622437, total_acc3: 63.406296, total_acc4: 52.941177
+Epoch: 0, Subepoch: 731, Loss: 5.381744, batch_size: 2, total_acc1: 54.781418, total_acc2: 45.696720, total_acc3: 63.456284, total_acc4: 52.937157
+Epoch: 0, Subepoch: 732, Loss: 5.378868, batch_size: 2, total_acc1: 54.774899, total_acc2: 45.770805, total_acc3: 63.506138, total_acc4: 52.933151
+Epoch: 0, Subepoch: 733, Loss: 5.376154, batch_size: 2, total_acc1: 54.836510, total_acc2: 45.776566, total_acc3: 63.555859, total_acc4: 52.929153
+Epoch: 0, Subepoch: 734, Loss: 5.380315, batch_size: 2, total_acc1: 54.761906, total_acc2: 45.714287, total_acc3: 63.537415, total_acc4: 52.925171
+Epoch: 0, Subepoch: 735, Loss: 5.378318, batch_size: 2, total_acc1: 54.823372, total_acc2: 45.720108, total_acc3: 63.586956, total_acc4: 52.921196
+Epoch: 0, Subepoch: 736, Loss: 5.380703, batch_size: 2, total_acc1: 54.816826, total_acc2: 45.725918, total_acc3: 63.568523, total_acc4: 52.917233
+Epoch: 0, Subepoch: 737, Loss: 5.375227, batch_size: 2, total_acc1: 54.878052, total_acc2: 45.799458, total_acc3: 63.617886, total_acc4: 52.981030
+Epoch: 0, Subepoch: 738, Loss: 5.371283, batch_size: 2, total_acc1: 54.939106, total_acc2: 45.805141, total_acc3: 63.667114, total_acc4: 53.044651
+Epoch: 0, Subepoch: 739, Loss: 5.368711, batch_size: 2, total_acc1: 55.000000, total_acc2: 45.810810, total_acc3: 63.648651, total_acc4: 53.040543
+Epoch: 0, Subepoch: 740, Loss: 5.366481, batch_size: 2, total_acc1: 54.993252, total_acc2: 45.816463, total_acc3: 63.697704, total_acc4: 53.036434
+Epoch: 0, Subepoch: 741, Loss: 5.366661, batch_size: 2, total_acc1: 54.986523, total_acc2: 45.889488, total_acc3: 63.679245, total_acc4: 53.032345
+Epoch: 0, Subepoch: 742, Loss: 5.365737, batch_size: 2, total_acc1: 55.047104, total_acc2: 45.895020, total_acc3: 63.660835, total_acc4: 53.028263
+Epoch: 0, Subepoch: 743, Loss: 5.367633, batch_size: 2, total_acc1: 54.973118, total_acc2: 45.833332, total_acc3: 63.642471, total_acc4: 52.956989
+Epoch: 0, Subepoch: 744, Loss: 5.368852, batch_size: 2, total_acc1: 54.899330, total_acc2: 45.771812, total_acc3: 63.691277, total_acc4: 52.953022
+Epoch: 0, Subepoch: 745, Loss: 5.366339, batch_size: 2, total_acc1: 54.892765, total_acc2: 45.777481, total_acc3: 63.739948, total_acc4: 53.016087
+Epoch: 0, Subepoch: 746, Loss: 5.365730, batch_size: 2, total_acc1: 54.886211, total_acc2: 45.783131, total_acc3: 63.788486, total_acc4: 52.945114
+Epoch: 0, Subepoch: 747, Loss: 5.362589, batch_size: 2, total_acc1: 54.879681, total_acc2: 45.788773, total_acc3: 63.836899, total_acc4: 53.008022
+Epoch: 0, Subepoch: 748, Loss: 5.358835, batch_size: 2, total_acc1: 54.873165, total_acc2: 45.861149, total_acc3: 63.885181, total_acc4: 53.070763
+Epoch: 0, Subepoch: 749, Loss: 5.357079, batch_size: 2, total_acc1: 54.866665, total_acc2: 45.866665, total_acc3: 63.933334, total_acc4: 53.066666
+Epoch: 0, Subepoch: 750, Loss: 5.358831, batch_size: 2, total_acc1: 54.860184, total_acc2: 45.805592, total_acc3: 63.914776, total_acc4: 53.129158
+Epoch: 0, Subepoch: 751, Loss: 5.356155, batch_size: 2, total_acc1: 54.853722, total_acc2: 45.744678, total_acc3: 63.962765, total_acc4: 53.191486
+Epoch: 0, Subepoch: 752, Loss: 5.353768, batch_size: 2, total_acc1: 54.913681, total_acc2: 45.750332, total_acc3: 64.010628, total_acc4: 53.253654
+Epoch: 0, Subepoch: 753, Loss: 5.351819, batch_size: 2, total_acc1: 54.973473, total_acc2: 45.755966, total_acc3: 64.058357, total_acc4: 53.249336
+Epoch: 0, Subepoch: 754, Loss: 5.353420, batch_size: 2, total_acc1: 54.966888, total_acc2: 45.761589, total_acc3: 64.039734, total_acc4: 53.178810
+Epoch: 0, Subepoch: 755, Loss: 5.351002, batch_size: 2, total_acc1: 54.960316, total_acc2: 45.833332, total_acc3: 64.087303, total_acc4: 53.174603
+Epoch: 0, Subepoch: 756, Loss: 5.346840, batch_size: 2, total_acc1: 55.019817, total_acc2: 45.838840, total_acc3: 64.134743, total_acc4: 53.236462
+Epoch: 0, Subepoch: 757, Loss: 5.344990, batch_size: 2, total_acc1: 55.079159, total_acc2: 45.910294, total_acc3: 64.116096, total_acc4: 53.232193
+Epoch: 0, Subepoch: 758, Loss: 5.342514, batch_size: 2, total_acc1: 55.138340, total_acc2: 45.915680, total_acc3: 64.163376, total_acc4: 53.227932
+Epoch: 0, Subepoch: 759, Loss: 5.338109, batch_size: 2, total_acc1: 55.197372, total_acc2: 45.921055, total_acc3: 64.210526, total_acc4: 53.289474
+Epoch: 0, Subepoch: 760, Loss: 5.337839, batch_size: 2, total_acc1: 55.190536, total_acc2: 45.926411, total_acc3: 64.257553, total_acc4: 53.219448
+Epoch: 0, Subepoch: 761, Loss: 5.339288, batch_size: 2, total_acc1: 55.183727, total_acc2: 45.931759, total_acc3: 64.238846, total_acc4: 53.215221
+Epoch: 0, Subepoch: 762, Loss: 5.341184, batch_size: 2, total_acc1: 55.176933, total_acc2: 45.937092, total_acc3: 64.220184, total_acc4: 53.211010
+Epoch: 0, Subepoch: 763, Loss: 5.336078, batch_size: 2, total_acc1: 55.235603, total_acc2: 46.007854, total_acc3: 64.267014, total_acc4: 53.272251
+Epoch: 0, Subepoch: 764, Loss: 5.337065, batch_size: 2, total_acc1: 55.228760, total_acc2: 45.947712, total_acc3: 64.313728, total_acc4: 53.267975
+Epoch: 0, Subepoch: 765, Loss: 5.334703, batch_size: 2, total_acc1: 55.287209, total_acc2: 45.953003, total_acc3: 64.360313, total_acc4: 53.328983
+Epoch: 0, Subepoch: 766, Loss: 5.332022, batch_size: 2, total_acc1: 55.345501, total_acc2: 46.023468, total_acc3: 64.406776, total_acc4: 53.324642
+Epoch: 0, Subepoch: 767, Loss: 5.332446, batch_size: 2, total_acc1: 55.338543, total_acc2: 45.963543, total_acc3: 64.388023, total_acc4: 53.255211
+Epoch: 0, Subepoch: 768, Loss: 5.330327, batch_size: 2, total_acc1: 55.331600, total_acc2: 46.033810, total_acc3: 64.434334, total_acc4: 53.250977
+Epoch: 0, Subepoch: 769, Loss: 5.330771, batch_size: 2, total_acc1: 55.324673, total_acc2: 45.974026, total_acc3: 64.480515, total_acc4: 53.246754
+Epoch: 0, Subepoch: 770, Loss: 5.330376, batch_size: 2, total_acc1: 55.382622, total_acc2: 45.979248, total_acc3: 64.461739, total_acc4: 53.177692
+Epoch: 0, Subepoch: 771, Loss: 5.328828, batch_size: 2, total_acc1: 55.375645, total_acc2: 45.984455, total_acc3: 64.443001, total_acc4: 53.238342
+Epoch: 0, Subepoch: 772, Loss: 5.324378, batch_size: 2, total_acc1: 55.433376, total_acc2: 46.054333, total_acc3: 64.489006, total_acc4: 53.298836
+Epoch: 0, Subepoch: 773, Loss: 5.323142, batch_size: 2, total_acc1: 55.490959, total_acc2: 45.994835, total_acc3: 64.534889, total_acc4: 53.294575
+Epoch: 0, Subepoch: 774, Loss: 5.323071, batch_size: 2, total_acc1: 55.548389, total_acc2: 45.935486, total_acc3: 64.516129, total_acc4: 53.290325
+Epoch: 0, Subepoch: 775, Loss: 5.324128, batch_size: 2, total_acc1: 55.476803, total_acc2: 45.940720, total_acc3: 64.497421, total_acc4: 53.286079
+Epoch: 0, Subepoch: 776, Loss: 5.321684, batch_size: 2, total_acc1: 55.469757, total_acc2: 46.010296, total_acc3: 64.543114, total_acc4: 53.281853
+Epoch: 0, Subepoch: 777, Loss: 5.319051, batch_size: 2, total_acc1: 55.526993, total_acc2: 46.079693, total_acc3: 64.524422, total_acc4: 53.341904
+Epoch: 0, Subepoch: 778, Loss: 5.319368, batch_size: 2, total_acc1: 55.455715, total_acc2: 46.020542, total_acc3: 64.505775, total_acc4: 53.337612
+Epoch: 0, Subepoch: 779, Loss: 5.315644, batch_size: 2, total_acc1: 55.512821, total_acc2: 46.025642, total_acc3: 64.551285, total_acc4: 53.397438
+Epoch: 0, Subepoch: 780, Loss: 5.313567, batch_size: 2, total_acc1: 55.505764, total_acc2: 46.030731, total_acc3: 64.596672, total_acc4: 53.393085
+Epoch: 0, Subepoch: 781, Loss: 5.309841, batch_size: 2, total_acc1: 55.498722, total_acc2: 46.099743, total_acc3: 64.641945, total_acc4: 53.452686
+Epoch: 0, Subepoch: 782, Loss: 5.313481, batch_size: 2, total_acc1: 55.491695, total_acc2: 46.040867, total_acc3: 64.623245, total_acc4: 53.448273
+Epoch: 0, Subepoch: 783, Loss: 5.313156, batch_size: 2, total_acc1: 55.484692, total_acc2: 46.045918, total_acc3: 64.604591, total_acc4: 53.443878
+Epoch: 0, Subepoch: 784, Loss: 5.308470, batch_size: 2, total_acc1: 55.541401, total_acc2: 46.114651, total_acc3: 64.649681, total_acc4: 53.503185
+Epoch: 0, Subepoch: 785, Loss: 5.310595, batch_size: 2, total_acc1: 55.470737, total_acc2: 46.183205, total_acc3: 64.567429, total_acc4: 53.498730
+Epoch: 0, Subepoch: 786, Loss: 5.311086, batch_size: 2, total_acc1: 55.527317, total_acc2: 46.124523, total_acc3: 64.548920, total_acc4: 53.430748
+Epoch: 0, Subepoch: 787, Loss: 5.310849, batch_size: 2, total_acc1: 55.456852, total_acc2: 46.129440, total_acc3: 64.530457, total_acc4: 53.362942
+Epoch: 0, Subepoch: 788, Loss: 5.308984, batch_size: 2, total_acc1: 55.449936, total_acc2: 46.134346, total_acc3: 64.575409, total_acc4: 53.422054
+Epoch: 0, Subepoch: 789, Loss: 5.308244, batch_size: 2, total_acc1: 55.443039, total_acc2: 46.139240, total_acc3: 64.556961, total_acc4: 53.354431
+Epoch: 0, Subepoch: 790, Loss: 5.304434, batch_size: 2, total_acc1: 55.436157, total_acc2: 46.080914, total_acc3: 64.601768, total_acc4: 53.413403
+Epoch: 0, Subepoch: 791, Loss: 5.302007, batch_size: 2, total_acc1: 55.429295, total_acc2: 46.085857, total_acc3: 64.646461, total_acc4: 53.472221
+Epoch: 0, Subepoch: 792, Loss: 5.302917, batch_size: 2, total_acc1: 55.359394, total_acc2: 46.090794, total_acc3: 64.627998, total_acc4: 53.467842
+Epoch: 0, Subepoch: 793, Loss: 5.298782, batch_size: 2, total_acc1: 55.415615, total_acc2: 46.095715, total_acc3: 64.672539, total_acc4: 53.526447
+Epoch: 0, Subepoch: 794, Loss: 5.299480, batch_size: 2, total_acc1: 55.345913, total_acc2: 46.037735, total_acc3: 64.654083, total_acc4: 53.522011
+Epoch: 0, Subepoch: 795, Loss: 5.297795, batch_size: 2, total_acc1: 55.339195, total_acc2: 46.105526, total_acc3: 64.698494, total_acc4: 53.517586
+Epoch: 0, Subepoch: 796, Loss: 5.298558, batch_size: 2, total_acc1: 55.332497, total_acc2: 46.110413, total_acc3: 64.680046, total_acc4: 53.513172
+Epoch: 0, Subepoch: 797, Loss: 5.294489, batch_size: 2, total_acc1: 55.388470, total_acc2: 46.177944, total_acc3: 64.724312, total_acc4: 53.571426
+Epoch: 0, Subepoch: 798, Loss: 5.291722, batch_size: 2, total_acc1: 55.381729, total_acc2: 46.182728, total_acc3: 64.768463, total_acc4: 53.566959
+Epoch: 0, Subepoch: 799, Loss: 5.290609, batch_size: 2, total_acc1: 55.375000, total_acc2: 46.187500, total_acc3: 64.812500, total_acc4: 53.562500
+Epoch: 0, Subepoch: 800, Loss: 5.289832, batch_size: 2, total_acc1: 55.368290, total_acc2: 46.192257, total_acc3: 64.856430, total_acc4: 53.558052
+Epoch: 0, Subepoch: 801, Loss: 5.289595, batch_size: 2, total_acc1: 55.423943, total_acc2: 46.134666, total_acc3: 64.837906, total_acc4: 53.553619
+Epoch: 0, Subepoch: 802, Loss: 5.292678, batch_size: 2, total_acc1: 55.354916, total_acc2: 46.077209, total_acc3: 64.757156, total_acc4: 53.611454
+Epoch: 0, Subepoch: 803, Loss: 5.292895, batch_size: 2, total_acc1: 55.348259, total_acc2: 46.019901, total_acc3: 64.800995, total_acc4: 53.606964
+Epoch: 0, Subepoch: 804, Loss: 5.291151, batch_size: 2, total_acc1: 55.341614, total_acc2: 46.086956, total_acc3: 64.782608, total_acc4: 53.602482
+Epoch: 0, Subepoch: 805, Loss: 5.289975, batch_size: 2, total_acc1: 55.334988, total_acc2: 46.091812, total_acc3: 64.826302, total_acc4: 53.598015
+Epoch: 0, Subepoch: 806, Loss: 5.289396, batch_size: 2, total_acc1: 55.266418, total_acc2: 46.096657, total_acc3: 64.807930, total_acc4: 53.593559
+Epoch: 0, Subepoch: 807, Loss: 5.285121, batch_size: 2, total_acc1: 55.321781, total_acc2: 46.163364, total_acc3: 64.851486, total_acc4: 53.650990
+Epoch: 0, Subepoch: 808, Loss: 5.281820, batch_size: 2, total_acc1: 55.377007, total_acc2: 46.229912, total_acc3: 64.894928, total_acc4: 53.646477
+Epoch: 0, Subepoch: 809, Loss: 5.281644, batch_size: 2, total_acc1: 55.308643, total_acc2: 46.234570, total_acc3: 64.876549, total_acc4: 53.641979
+Epoch: 0, Subepoch: 810, Loss: 5.284112, batch_size: 2, total_acc1: 55.240444, total_acc2: 46.177559, total_acc3: 64.858200, total_acc4: 53.637482
+Epoch: 0, Subepoch: 811, Loss: 5.282495, batch_size: 2, total_acc1: 55.295567, total_acc2: 46.182266, total_acc3: 64.901474, total_acc4: 53.633003
+Epoch: 0, Subepoch: 812, Loss: 5.280546, batch_size: 2, total_acc1: 55.227551, total_acc2: 46.186962, total_acc3: 64.944649, total_acc4: 53.690037
+Epoch: 0, Subepoch: 813, Loss: 5.281031, batch_size: 2, total_acc1: 55.159702, total_acc2: 46.191647, total_acc3: 64.926292, total_acc4: 53.685501
+Epoch: 0, Subepoch: 814, Loss: 5.282221, batch_size: 2, total_acc1: 55.092026, total_acc2: 46.134968, total_acc3: 64.846626, total_acc4: 53.619633
+Epoch: 0, Subepoch: 815, Loss: 5.278232, batch_size: 2, total_acc1: 55.147060, total_acc2: 46.200981, total_acc3: 64.889709, total_acc4: 53.676472
+Epoch: 0, Subepoch: 816, Loss: 5.276467, batch_size: 2, total_acc1: 55.201958, total_acc2: 46.266830, total_acc3: 64.932678, total_acc4: 53.671970
+Epoch: 0, Subepoch: 817, Loss: 5.275398, batch_size: 2, total_acc1: 55.134476, total_acc2: 46.271397, total_acc3: 64.975555, total_acc4: 53.667484
+Epoch: 0, Subepoch: 818, Loss: 5.271191, batch_size: 2, total_acc1: 55.189259, total_acc2: 46.336998, total_acc3: 65.018318, total_acc4: 53.724056
+Epoch: 0, Subepoch: 819, Loss: 5.270128, batch_size: 2, total_acc1: 55.182926, total_acc2: 46.402439, total_acc3: 65.000000, total_acc4: 53.719513
+Epoch: 0, Subepoch: 820, Loss: 5.266211, batch_size: 2, total_acc1: 55.176617, total_acc2: 46.467724, total_acc3: 65.042633, total_acc4: 53.775887
+Epoch: 0, Subepoch: 821, Loss: 5.262636, batch_size: 2, total_acc1: 55.170315, total_acc2: 46.532845, total_acc3: 65.085159, total_acc4: 53.832115
+Epoch: 0, Subepoch: 822, Loss: 5.261782, batch_size: 2, total_acc1: 55.224789, total_acc2: 46.537060, total_acc3: 65.066833, total_acc4: 53.827461
+Epoch: 0, Subepoch: 823, Loss: 5.257236, batch_size: 2, total_acc1: 55.218449, total_acc2: 46.601944, total_acc3: 65.109222, total_acc4: 53.883495
+Epoch: 0, Subepoch: 824, Loss: 5.256682, batch_size: 2, total_acc1: 55.212120, total_acc2: 46.606060, total_acc3: 65.090912, total_acc4: 53.939396
+Epoch: 0, Subepoch: 825, Loss: 5.252013, batch_size: 2, total_acc1: 55.266346, total_acc2: 46.670704, total_acc3: 65.133171, total_acc4: 53.995159
+Epoch: 0, Subepoch: 826, Loss: 5.246600, batch_size: 2, total_acc1: 55.320438, total_acc2: 46.735188, total_acc3: 65.175331, total_acc4: 54.050789
+Epoch: 0, Subepoch: 827, Loss: 5.242813, batch_size: 2, total_acc1: 55.374397, total_acc2: 46.739128, total_acc3: 65.217392, total_acc4: 54.106281
+Epoch: 0, Subepoch: 828, Loss: 5.243301, batch_size: 2, total_acc1: 55.428226, total_acc2: 46.743065, total_acc3: 65.138725, total_acc4: 54.101326
+Epoch: 0, Subepoch: 829, Loss: 5.241372, batch_size: 2, total_acc1: 55.421688, total_acc2: 46.746990, total_acc3: 65.180725, total_acc4: 54.156628
+Epoch: 0, Subepoch: 830, Loss: 5.243954, batch_size: 2, total_acc1: 55.354996, total_acc2: 46.690735, total_acc3: 65.222626, total_acc4: 54.151627
+Epoch: 0, Subepoch: 831, Loss: 5.248869, batch_size: 2, total_acc1: 55.288464, total_acc2: 46.754810, total_acc3: 65.204330, total_acc4: 54.086540
+Epoch: 0, Subepoch: 832, Loss: 5.251639, batch_size: 2, total_acc1: 55.282112, total_acc2: 46.698677, total_acc3: 65.186073, total_acc4: 54.081631
+Epoch: 0, Subepoch: 833, Loss: 5.252224, batch_size: 2, total_acc1: 55.275780, total_acc2: 46.702641, total_acc3: 65.167870, total_acc4: 54.016788
+Epoch: 0, Subepoch: 834, Loss: 5.248727, batch_size: 2, total_acc1: 55.329342, total_acc2: 46.706589, total_acc3: 65.209579, total_acc4: 54.071857
+Epoch: 0, Subepoch: 835, Loss: 5.248719, batch_size: 2, total_acc1: 55.263157, total_acc2: 46.770332, total_acc3: 65.251190, total_acc4: 54.066982
+Epoch: 0, Subepoch: 836, Loss: 5.250147, batch_size: 2, total_acc1: 55.256866, total_acc2: 46.774193, total_acc3: 65.292709, total_acc4: 54.062126
+Epoch: 0, Subepoch: 837, Loss: 5.248002, batch_size: 2, total_acc1: 55.250599, total_acc2: 46.837711, total_acc3: 65.274467, total_acc4: 54.116947
+Epoch: 0, Subepoch: 838, Loss: 5.244640, batch_size: 2, total_acc1: 55.303932, total_acc2: 46.841476, total_acc3: 65.315849, total_acc4: 54.112038
+Epoch: 0, Subepoch: 839, Loss: 5.239894, batch_size: 2, total_acc1: 55.357143, total_acc2: 46.904762, total_acc3: 65.357147, total_acc4: 54.166668
+Epoch: 0, Subepoch: 840, Loss: 5.239255, batch_size: 2, total_acc1: 55.291321, total_acc2: 46.908443, total_acc3: 65.338882, total_acc4: 54.102257
+Epoch: 0, Subepoch: 841, Loss: 5.237245, batch_size: 2, total_acc1: 55.344421, total_acc2: 46.852734, total_acc3: 65.380051, total_acc4: 54.097389
+Epoch: 0, Subepoch: 842, Loss: 5.234876, batch_size: 2, total_acc1: 55.338081, total_acc2: 46.856464, total_acc3: 65.421120, total_acc4: 54.151840
+Epoch: 0, Subepoch: 843, Loss: 5.234472, batch_size: 2, total_acc1: 55.272514, total_acc2: 46.919434, total_acc3: 65.462090, total_acc4: 54.146923
+Epoch: 0, Subepoch: 844, Loss: 5.233056, batch_size: 2, total_acc1: 55.266273, total_acc2: 46.923077, total_acc3: 65.443787, total_acc4: 54.142010
+Epoch: 0, Subepoch: 845, Loss: 5.232976, batch_size: 2, total_acc1: 55.260048, total_acc2: 46.926716, total_acc3: 65.425529, total_acc4: 54.078014
+Epoch: 0, Subepoch: 846, Loss: 5.232408, batch_size: 2, total_acc1: 55.253834, total_acc2: 46.871307, total_acc3: 65.466347, total_acc4: 54.014168
+Epoch: 0, Subepoch: 847, Loss: 5.233039, batch_size: 2, total_acc1: 55.247643, total_acc2: 46.816040, total_acc3: 65.448112, total_acc4: 53.950474
+Epoch: 0, Subepoch: 848, Loss: 5.230217, batch_size: 2, total_acc1: 55.241463, total_acc2: 46.819790, total_acc3: 65.488815, total_acc4: 54.004715
+Epoch: 0, Subepoch: 849, Loss: 5.229449, batch_size: 2, total_acc1: 55.235291, total_acc2: 46.823528, total_acc3: 65.529411, total_acc4: 54.058823
+Epoch: 0, Subepoch: 850, Loss: 5.225988, batch_size: 2, total_acc1: 55.287895, total_acc2: 46.886017, total_acc3: 65.569916, total_acc4: 54.112808
+Epoch: 0, Subepoch: 851, Loss: 5.224920, batch_size: 2, total_acc1: 55.340378, total_acc2: 46.889671, total_acc3: 65.492958, total_acc4: 54.166668
+Epoch: 0, Subepoch: 852, Loss: 5.222288, batch_size: 2, total_acc1: 55.392731, total_acc2: 46.893318, total_acc3: 65.533409, total_acc4: 54.161781
+Epoch: 0, Subepoch: 853, Loss: 5.217902, batch_size: 2, total_acc1: 55.444962, total_acc2: 46.955502, total_acc3: 65.573769, total_acc4: 54.215454
+Epoch: 0, Subepoch: 854, Loss: 5.214404, batch_size: 2, total_acc1: 55.438595, total_acc2: 47.017544, total_acc3: 65.614037, total_acc4: 54.269005
+Epoch: 0, Subepoch: 855, Loss: 5.213296, batch_size: 2, total_acc1: 55.432240, total_acc2: 47.021027, total_acc3: 65.595795, total_acc4: 54.264015
+Epoch: 0, Subepoch: 856, Loss: 5.209311, batch_size: 2, total_acc1: 55.484249, total_acc2: 47.082848, total_acc3: 65.635941, total_acc4: 54.317387
+Epoch: 0, Subepoch: 857, Loss: 5.213798, batch_size: 2, total_acc1: 55.536133, total_acc2: 47.086246, total_acc3: 65.559441, total_acc4: 54.254082
+Epoch: 0, Subepoch: 858, Loss: 5.217179, batch_size: 2, total_acc1: 55.529686, total_acc2: 47.031433, total_acc3: 65.541328, total_acc4: 54.249126
+Epoch: 0, Subepoch: 859, Loss: 5.216134, batch_size: 2, total_acc1: 55.523254, total_acc2: 47.034885, total_acc3: 65.523254, total_acc4: 54.244186
+Epoch: 0, Subepoch: 860, Loss: 5.217533, batch_size: 2, total_acc1: 55.516838, total_acc2: 47.038326, total_acc3: 65.505226, total_acc4: 54.239254
+Epoch: 0, Subepoch: 861, Loss: 5.218264, batch_size: 2, total_acc1: 55.510441, total_acc2: 47.041763, total_acc3: 65.487236, total_acc4: 54.176331
+Epoch: 0, Subepoch: 862, Loss: 5.215608, batch_size: 2, total_acc1: 55.504055, total_acc2: 47.103127, total_acc3: 65.469292, total_acc4: 54.171494
+Epoch: 0, Subepoch: 863, Loss: 5.211697, batch_size: 2, total_acc1: 55.555557, total_acc2: 47.164352, total_acc3: 65.509262, total_acc4: 54.224537
+Epoch: 0, Subepoch: 864, Loss: 5.211578, batch_size: 2, total_acc1: 55.606934, total_acc2: 47.167629, total_acc3: 65.433525, total_acc4: 54.161850
+Epoch: 0, Subepoch: 865, Loss: 5.210301, batch_size: 2, total_acc1: 55.600460, total_acc2: 47.170902, total_acc3: 65.473442, total_acc4: 54.214779
+Epoch: 0, Subepoch: 866, Loss: 5.206847, batch_size: 2, total_acc1: 55.651669, total_acc2: 47.174164, total_acc3: 65.513260, total_acc4: 54.267586
+Epoch: 0, Subepoch: 867, Loss: 5.205965, batch_size: 2, total_acc1: 55.645161, total_acc2: 47.177418, total_acc3: 65.552994, total_acc4: 54.320278
+Epoch: 0, Subepoch: 868, Loss: 5.204948, batch_size: 2, total_acc1: 55.638664, total_acc2: 47.180668, total_acc3: 65.535095, total_acc4: 54.372841
+Epoch: 0, Subepoch: 869, Loss: 5.204499, batch_size: 2, total_acc1: 55.689655, total_acc2: 47.126438, total_acc3: 65.517242, total_acc4: 54.367817
+Epoch: 0, Subepoch: 870, Loss: 5.202206, batch_size: 2, total_acc1: 55.740528, total_acc2: 47.129734, total_acc3: 65.499428, total_acc4: 54.362801
+Epoch: 0, Subepoch: 871, Loss: 5.199069, batch_size: 2, total_acc1: 55.791283, total_acc2: 47.133026, total_acc3: 65.538986, total_acc4: 54.357796
+Epoch: 0, Subepoch: 872, Loss: 5.196889, batch_size: 2, total_acc1: 55.841927, total_acc2: 47.136314, total_acc3: 65.521194, total_acc4: 54.352810
+Epoch: 0, Subepoch: 873, Loss: 5.196389, batch_size: 2, total_acc1: 55.778030, total_acc2: 47.139587, total_acc3: 65.560638, total_acc4: 54.347824
+Epoch: 0, Subepoch: 874, Loss: 5.192301, batch_size: 2, total_acc1: 55.828571, total_acc2: 47.200001, total_acc3: 65.599998, total_acc4: 54.399998
+Epoch: 0, Subepoch: 875, Loss: 5.192099, batch_size: 2, total_acc1: 55.821915, total_acc2: 47.203194, total_acc3: 65.582191, total_acc4: 54.394974
+Epoch: 0, Subepoch: 876, Loss: 5.188091, batch_size: 2, total_acc1: 55.872292, total_acc2: 47.206383, total_acc3: 65.621437, total_acc4: 54.446976
+Epoch: 0, Subepoch: 877, Loss: 5.184027, batch_size: 2, total_acc1: 55.922554, total_acc2: 47.266518, total_acc3: 65.660599, total_acc4: 54.441917
+Epoch: 0, Subepoch: 878, Loss: 5.182100, batch_size: 2, total_acc1: 55.972694, total_acc2: 47.269623, total_acc3: 65.699654, total_acc4: 54.379974
+Epoch: 0, Subepoch: 879, Loss: 5.180364, batch_size: 2, total_acc1: 56.022724, total_acc2: 47.272724, total_acc3: 65.681816, total_acc4: 54.318180
+Epoch: 0, Subepoch: 880, Loss: 5.181553, batch_size: 2, total_acc1: 56.015892, total_acc2: 47.219070, total_acc3: 65.720772, total_acc4: 54.256531
+Epoch: 0, Subepoch: 881, Loss: 5.185034, batch_size: 2, total_acc1: 56.009071, total_acc2: 47.165535, total_acc3: 65.646263, total_acc4: 54.251701
+Epoch: 0, Subepoch: 882, Loss: 5.187266, batch_size: 2, total_acc1: 56.002262, total_acc2: 47.112118, total_acc3: 65.628540, total_acc4: 54.246883
+Epoch: 0, Subepoch: 883, Loss: 5.187599, batch_size: 2, total_acc1: 55.995476, total_acc2: 47.058826, total_acc3: 65.610863, total_acc4: 54.298645
+Epoch: 0, Subepoch: 884, Loss: 5.185336, batch_size: 2, total_acc1: 56.045200, total_acc2: 47.118645, total_acc3: 65.649719, total_acc4: 54.237289
+Epoch: 0, Subepoch: 885, Loss: 5.183809, batch_size: 2, total_acc1: 56.038376, total_acc2: 47.121899, total_acc3: 65.688492, total_acc4: 54.176075
+Epoch: 0, Subepoch: 886, Loss: 5.181895, batch_size: 2, total_acc1: 56.031563, total_acc2: 47.181507, total_acc3: 65.727165, total_acc4: 54.227730
+Epoch: 0, Subepoch: 887, Loss: 5.179059, batch_size: 2, total_acc1: 56.024776, total_acc2: 47.184685, total_acc3: 65.765770, total_acc4: 54.279282
+Epoch: 0, Subepoch: 888, Loss: 5.178247, batch_size: 2, total_acc1: 56.018002, total_acc2: 47.244095, total_acc3: 65.804276, total_acc4: 54.274467
+Epoch: 0, Subepoch: 889, Loss: 5.175105, batch_size: 2, total_acc1: 56.067417, total_acc2: 47.303371, total_acc3: 65.842697, total_acc4: 54.325844
+Epoch: 0, Subepoch: 890, Loss: 5.172369, batch_size: 2, total_acc1: 56.116726, total_acc2: 47.250282, total_acc3: 65.881035, total_acc4: 54.320992
+Epoch: 0, Subepoch: 891, Loss: 5.172383, batch_size: 2, total_acc1: 56.109867, total_acc2: 47.197311, total_acc3: 65.919289, total_acc4: 54.372200
+Epoch: 0, Subepoch: 892, Loss: 5.176189, batch_size: 2, total_acc1: 56.103024, total_acc2: 47.144459, total_acc3: 65.901459, total_acc4: 54.367302
+Epoch: 0, Subepoch: 893, Loss: 5.175320, batch_size: 2, total_acc1: 56.096199, total_acc2: 47.091724, total_acc3: 65.939598, total_acc4: 54.362415
+Epoch: 0, Subepoch: 894, Loss: 5.175133, batch_size: 2, total_acc1: 56.145248, total_acc2: 47.094971, total_acc3: 65.921783, total_acc4: 54.357540
+Epoch: 0, Subepoch: 895, Loss: 5.172864, batch_size: 2, total_acc1: 56.194199, total_acc2: 47.154018, total_acc3: 65.904022, total_acc4: 54.408485
+Epoch: 0, Subepoch: 896, Loss: 5.171555, batch_size: 2, total_acc1: 56.187294, total_acc2: 47.157192, total_acc3: 65.942032, total_acc4: 54.403568
+Epoch: 0, Subepoch: 897, Loss: 5.171435, batch_size: 2, total_acc1: 56.236080, total_acc2: 47.160358, total_acc3: 65.924278, total_acc4: 54.398666
+Epoch: 0, Subepoch: 898, Loss: 5.170425, batch_size: 2, total_acc1: 56.173523, total_acc2: 47.219131, total_acc3: 65.906563, total_acc4: 54.449387
+Epoch: 0, Subepoch: 899, Loss: 5.169641, batch_size: 2, total_acc1: 56.111111, total_acc2: 47.222225, total_acc3: 65.888893, total_acc4: 54.500000
+Epoch: 0, Subepoch: 900, Loss: 5.168206, batch_size: 2, total_acc1: 56.159824, total_acc2: 47.225307, total_acc3: 65.871254, total_acc4: 54.495007
+Epoch: 0, Subepoch: 901, Loss: 5.167478, batch_size: 2, total_acc1: 56.152992, total_acc2: 47.172947, total_acc3: 65.909088, total_acc4: 54.545456
+Epoch: 0, Subepoch: 902, Loss: 5.165084, batch_size: 2, total_acc1: 56.146179, total_acc2: 47.176079, total_acc3: 65.946846, total_acc4: 54.595791
+Epoch: 0, Subepoch: 903, Loss: 5.166258, batch_size: 2, total_acc1: 56.139381, total_acc2: 47.123894, total_acc3: 65.929207, total_acc4: 54.590706
+Epoch: 0, Subepoch: 904, Loss: 5.164311, batch_size: 2, total_acc1: 56.187843, total_acc2: 47.127071, total_acc3: 65.966850, total_acc4: 54.585632
+Epoch: 0, Subepoch: 905, Loss: 5.162217, batch_size: 2, total_acc1: 56.181015, total_acc2: 47.130241, total_acc3: 66.004417, total_acc4: 54.635761
+Epoch: 0, Subepoch: 906, Loss: 5.163384, batch_size: 2, total_acc1: 56.119076, total_acc2: 47.078281, total_acc3: 65.986771, total_acc4: 54.630653
+Epoch: 0, Subepoch: 907, Loss: 5.161285, batch_size: 2, total_acc1: 56.112331, total_acc2: 47.081497, total_acc3: 65.969162, total_acc4: 54.680614
+Epoch: 0, Subepoch: 908, Loss: 5.160850, batch_size: 2, total_acc1: 56.105610, total_acc2: 47.029701, total_acc3: 66.006599, total_acc4: 54.675468
+Epoch: 0, Subepoch: 909, Loss: 5.159338, batch_size: 2, total_acc1: 56.098904, total_acc2: 47.032970, total_acc3: 66.043961, total_acc4: 54.725277
+Epoch: 0, Subepoch: 910, Loss: 5.155814, batch_size: 2, total_acc1: 56.147091, total_acc2: 47.091110, total_acc3: 66.081230, total_acc4: 54.774975
+Epoch: 0, Subepoch: 911, Loss: 5.154762, batch_size: 2, total_acc1: 56.140350, total_acc2: 47.094299, total_acc3: 66.063599, total_acc4: 54.769737
+Epoch: 0, Subepoch: 912, Loss: 5.152070, batch_size: 2, total_acc1: 56.133629, total_acc2: 47.152248, total_acc3: 66.100769, total_acc4: 54.819279
+Epoch: 0, Subepoch: 913, Loss: 5.150499, batch_size: 2, total_acc1: 56.181622, total_acc2: 47.210068, total_acc3: 66.083153, total_acc4: 54.814007
+Epoch: 0, Subepoch: 914, Loss: 5.147566, batch_size: 2, total_acc1: 56.229511, total_acc2: 47.213116, total_acc3: 66.120224, total_acc4: 54.863392
+Epoch: 0, Subepoch: 915, Loss: 5.144669, batch_size: 2, total_acc1: 56.222710, total_acc2: 47.270744, total_acc3: 66.157204, total_acc4: 54.912666
+Epoch: 0, Subepoch: 916, Loss: 5.144054, batch_size: 2, total_acc1: 56.215919, total_acc2: 47.273716, total_acc3: 66.139580, total_acc4: 54.907303
+Epoch: 0, Subepoch: 917, Loss: 5.145316, batch_size: 2, total_acc1: 56.154682, total_acc2: 47.222221, total_acc3: 66.176468, total_acc4: 54.956425
+Epoch: 0, Subepoch: 918, Loss: 5.142509, batch_size: 2, total_acc1: 56.202393, total_acc2: 47.225243, total_acc3: 66.213272, total_acc4: 54.951031
+Epoch: 0, Subepoch: 919, Loss: 5.141079, batch_size: 2, total_acc1: 56.195648, total_acc2: 47.228260, total_acc3: 66.250000, total_acc4: 54.999996
+Epoch: 0, Subepoch: 920, Loss: 5.136887, batch_size: 2, total_acc1: 56.243217, total_acc2: 47.285561, total_acc3: 66.286644, total_acc4: 55.048862
+Epoch: 0, Subepoch: 921, Loss: 5.138369, batch_size: 2, total_acc1: 56.236443, total_acc2: 47.288506, total_acc3: 66.268982, total_acc4: 54.989155
+Epoch: 0, Subepoch: 922, Loss: 5.134412, batch_size: 2, total_acc1: 56.283855, total_acc2: 47.345612, total_acc3: 66.305527, total_acc4: 55.037918
+Epoch: 0, Subepoch: 923, Loss: 5.133195, batch_size: 2, total_acc1: 56.277058, total_acc2: 47.402596, total_acc3: 66.287880, total_acc4: 55.032467
+Epoch: 0, Subepoch: 924, Loss: 5.134129, batch_size: 2, total_acc1: 56.270271, total_acc2: 47.351353, total_acc3: 66.270271, total_acc4: 54.972973
+Epoch: 0, Subepoch: 925, Loss: 5.132993, batch_size: 2, total_acc1: 56.263496, total_acc2: 47.354210, total_acc3: 66.252701, total_acc4: 54.967602
+Epoch: 0, Subepoch: 926, Loss: 5.134807, batch_size: 2, total_acc1: 56.256741, total_acc2: 47.303127, total_acc3: 66.235168, total_acc4: 54.962242
+Epoch: 0, Subepoch: 927, Loss: 5.134991, batch_size: 2, total_acc1: 56.250000, total_acc2: 47.306034, total_acc3: 66.271553, total_acc4: 55.010777
+Epoch: 0, Subepoch: 928, Loss: 5.134154, batch_size: 2, total_acc1: 56.243271, total_acc2: 47.255112, total_acc3: 66.307854, total_acc4: 55.059204
+Epoch: 0, Subepoch: 929, Loss: 5.132363, batch_size: 2, total_acc1: 56.236561, total_acc2: 47.311829, total_acc3: 66.344086, total_acc4: 55.107529
+Epoch: 0, Subepoch: 930, Loss: 5.130578, batch_size: 2, total_acc1: 56.176155, total_acc2: 47.314716, total_acc3: 66.380241, total_acc4: 55.155746
+Epoch: 0, Subepoch: 931, Loss: 5.129442, batch_size: 2, total_acc1: 56.169529, total_acc2: 47.263947, total_acc3: 66.362663, total_acc4: 55.203861
+Epoch: 0, Subepoch: 932, Loss: 5.129294, batch_size: 2, total_acc1: 56.109322, total_acc2: 47.213287, total_acc3: 66.398712, total_acc4: 55.251873
+Epoch: 0, Subepoch: 933, Loss: 5.128580, batch_size: 2, total_acc1: 56.102783, total_acc2: 47.269806, total_acc3: 66.381157, total_acc4: 55.246250
+Epoch: 0, Subepoch: 934, Loss: 5.126642, batch_size: 2, total_acc1: 56.096256, total_acc2: 47.272728, total_acc3: 66.363640, total_acc4: 55.294117
+Epoch: 0, Subepoch: 935, Loss: 5.125097, batch_size: 2, total_acc1: 56.089745, total_acc2: 47.275642, total_acc3: 66.399574, total_acc4: 55.341885
+Epoch: 0, Subepoch: 936, Loss: 5.123748, batch_size: 2, total_acc1: 56.029881, total_acc2: 47.278549, total_acc3: 66.435432, total_acc4: 55.389542
+Epoch: 0, Subepoch: 937, Loss: 5.126509, batch_size: 2, total_acc1: 56.023457, total_acc2: 47.281452, total_acc3: 66.417915, total_acc4: 55.330490
+Epoch: 0, Subepoch: 938, Loss: 5.125794, batch_size: 2, total_acc1: 55.963791, total_acc2: 47.231094, total_acc3: 66.453674, total_acc4: 55.378059
+Epoch: 0, Subepoch: 939, Loss: 5.122864, batch_size: 2, total_acc1: 55.957443, total_acc2: 47.287231, total_acc3: 66.489357, total_acc4: 55.425529
+Epoch: 0, Subepoch: 940, Loss: 5.120876, batch_size: 2, total_acc1: 55.951115, total_acc2: 47.343250, total_acc3: 66.524971, total_acc4: 55.419765
+Epoch: 0, Subepoch: 941, Loss: 5.121183, batch_size: 2, total_acc1: 55.997879, total_acc2: 47.346073, total_acc3: 66.507431, total_acc4: 55.414017
+Valing...
+3300.9725329875946
+Validation loss decreased (inf -> 1.019119).
+Val Epoch: 0, Subepoch: 0, Loss: 1.019119, batch_size: 2,total_acc1: 100.000000, total_acc2: 0.000000, total_acc3: 100.000000, total_acc4: 100.000000, avgf11: 0.200000, avgf12: 0.000000, avgf13: 0.333333, avgf14: 0.200000
+Validation loss decreased (inf -> 0.963057).
+Val Epoch: 0, Subepoch: 1, Loss: 0.963057, batch_size: 2,total_acc1: 75.000000, total_acc2: 0.000000, total_acc3: 75.000000, total_acc4: 75.000000, avgf11: 0.171400, avgf12: 0.000000, avgf13: 0.285667, avgf14: 0.171400
+Validation loss decreased (inf -> 0.961685).
+Val Epoch: 0, Subepoch: 2, Loss: 0.961685, batch_size: 2,total_acc1: 66.666672, total_acc2: 0.000000, total_acc3: 83.333336, total_acc4: 83.333336, avgf11: 0.160000, avgf12: 0.000000, avgf13: 0.303000, avgf14: 0.181800
+Validation loss decreased (inf -> 1.021301).
+Val Epoch: 0, Subepoch: 3, Loss: 1.021301, batch_size: 2,total_acc1: 62.500000, total_acc2: 25.000000, total_acc3: 87.500000, total_acc4: 75.000000, avgf11: 0.345400, avgf12: 0.178571, avgf13: 0.641000, avgf14: 0.300000
+Validation loss decreased (inf -> 1.038672).
+Val Epoch: 0, Subepoch: 4, Loss: 1.038672, batch_size: 2,total_acc1: 70.000000, total_acc2: 20.000000, total_acc3: 90.000000, total_acc4: 80.000000, avgf11: 0.353800, avgf12: 0.107143, avgf13: 0.641000, avgf14: 0.338000
+Validation loss decreased (inf -> 1.015073).
+Val Epoch: 0, Subepoch: 5, Loss: 1.015073, batch_size: 2,total_acc1: 75.000000, total_acc2: 25.000000, total_acc3: 91.666672, total_acc4: 83.333336, avgf11: 0.364800, avgf12: 0.127000, avgf13: 0.644333, avgf14: 0.349200
+Validation loss decreased (inf -> 1.094589).
+Val Epoch: 0, Subepoch: 6, Loss: 1.094589, batch_size: 2,total_acc1: 64.285721, total_acc2: 28.571430, total_acc3: 85.714287, total_acc4: 78.571434, avgf11: 0.347400, avgf12: 0.142857, avgf13: 0.629667, avgf14: 0.342600
+Validation loss decreased (inf -> 1.105287).
+Val Epoch: 0, Subepoch: 7, Loss: 1.105287, batch_size: 2,total_acc1: 68.750000, total_acc2: 37.500000, total_acc3: 81.250000, total_acc4: 81.250000, avgf11: 0.432400, avgf12: 0.168429, avgf13: 0.614000, avgf14: 0.349400
+Validation loss decreased (inf -> 1.167194).
+Val Epoch: 0, Subepoch: 8, Loss: 1.167194, batch_size: 2,total_acc1: 61.111111, total_acc2: 38.888889, total_acc3: 77.777779, total_acc4: 72.222221, avgf11: 0.419200, avgf12: 0.174429, avgf13: 0.575667, avgf14: 0.318800
+Validation loss decreased (inf -> 1.154781).
+Val Epoch: 0, Subepoch: 9, Loss: 1.154781, batch_size: 2,total_acc1: 60.000000, total_acc2: 35.000000, total_acc3: 70.000000, total_acc4: 70.000000, avgf11: 0.418400, avgf12: 0.167286, avgf13: 0.553000, avgf14: 0.312400
+Validation loss decreased (inf -> 1.158609).
+Val Epoch: 0, Subepoch: 10, Loss: 1.158609, batch_size: 2,total_acc1: 59.090912, total_acc2: 36.363636, total_acc3: 72.727272, total_acc4: 68.181824, avgf11: 0.473400, avgf12: 0.174429, avgf13: 0.564000, avgf14: 0.301000
+Validation loss decreased (inf -> 1.187374).
+Val Epoch: 0, Subepoch: 11, Loss: 1.187374, batch_size: 2,total_acc1: 58.333336, total_acc2: 37.500000, total_acc3: 75.000000, total_acc4: 66.666672, avgf11: 0.453400, avgf12: 0.179143, avgf13: 0.574333, avgf14: 0.299600
+Validation loss decreased (inf -> 1.202637).
+Val Epoch: 0, Subepoch: 12, Loss: 1.202637, batch_size: 2,total_acc1: 57.692310, total_acc2: 34.615387, total_acc3: 73.076927, total_acc4: 65.384621, avgf11: 0.430800, avgf12: 0.176429, avgf13: 0.570333, avgf14: 0.290200
+Validation loss decreased (inf -> 1.222812).
+Val Epoch: 0, Subepoch: 13, Loss: 1.222812, batch_size: 2,total_acc1: 57.142860, total_acc2: 35.714287, total_acc3: 71.428574, total_acc4: 64.285721, avgf11: 0.447800, avgf12: 0.180286, avgf13: 0.567000, avgf14: 0.282000
+Validation loss decreased (inf -> 1.199435).
+Val Epoch: 0, Subepoch: 14, Loss: 1.199435, batch_size: 2,total_acc1: 60.000004, total_acc2: 36.666668, total_acc3: 73.333336, total_acc4: 63.333336, avgf11: 0.454800, avgf12: 0.183143, avgf13: 0.574333, avgf14: 0.281200
+Validation loss decreased (inf -> 1.235220).
+Val Epoch: 0, Subepoch: 15, Loss: 1.235220, batch_size: 2,total_acc1: 56.250000, total_acc2: 37.500000, total_acc3: 71.875000, total_acc4: 62.500000, avgf11: 0.408200, avgf12: 0.221714, avgf13: 0.552000, avgf14: 0.280200
+Validation loss decreased (inf -> 1.239005).
+Val Epoch: 0, Subepoch: 16, Loss: 1.239005, batch_size: 2,total_acc1: 55.882355, total_acc2: 35.294117, total_acc3: 73.529411, total_acc4: 58.823528, avgf11: 0.408000, avgf12: 0.217571, avgf13: 0.558333, avgf14: 0.270400
+Validation loss decreased (inf -> 1.231922).
+Val Epoch: 0, Subepoch: 17, Loss: 1.231922, batch_size: 2,total_acc1: 55.555557, total_acc2: 36.111111, total_acc3: 72.222221, total_acc4: 58.333332, avgf11: 0.396600, avgf12: 0.215286, avgf13: 0.538667, avgf14: 0.264800
+Validation loss decreased (inf -> 1.229601).
+Val Epoch: 0, Subepoch: 18, Loss: 1.229601, batch_size: 2,total_acc1: 55.263157, total_acc2: 36.842106, total_acc3: 73.684212, total_acc4: 57.894737, avgf11: 0.383400, avgf12: 0.235000, avgf13: 0.547333, avgf14: 0.266600
+Validation loss decreased (inf -> 1.258177).
+Val Epoch: 0, Subepoch: 19, Loss: 1.258177, batch_size: 2,total_acc1: 52.500000, total_acc2: 35.000000, total_acc3: 72.500000, total_acc4: 57.500000, avgf11: 0.356000, avgf12: 0.231571, avgf13: 0.544667, avgf14: 0.261800
+Validation loss decreased (inf -> 1.281197).
+Val Epoch: 0, Subepoch: 20, Loss: 1.281197, batch_size: 2,total_acc1: 52.380955, total_acc2: 33.333332, total_acc3: 71.428574, total_acc4: 54.761906, avgf11: 0.383200, avgf12: 0.228571, avgf13: 0.542333, avgf14: 0.255600
+Validation loss decreased (inf -> 1.297266).
+Val Epoch: 0, Subepoch: 21, Loss: 1.297266, batch_size: 2,total_acc1: 50.000000, total_acc2: 31.818182, total_acc3: 72.727272, total_acc4: 54.545456, avgf11: 0.372000, avgf12: 0.220571, avgf13: 0.547333, avgf14: 0.256200
+Validation loss decreased (inf -> 1.276387).
+Val Epoch: 0, Subepoch: 22, Loss: 1.276387, batch_size: 2,total_acc1: 52.173916, total_acc2: 32.608696, total_acc3: 73.913048, total_acc4: 54.347828, avgf11: 0.377600, avgf12: 0.219000, avgf13: 0.551667, avgf14: 0.256400
+Validation loss decreased (inf -> 1.285112).
+Val Epoch: 0, Subepoch: 23, Loss: 1.285112, batch_size: 2,total_acc1: 50.000000, total_acc2: 31.250000, total_acc3: 75.000000, total_acc4: 54.166668, avgf11: 0.351800, avgf12: 0.200714, avgf13: 0.558333, avgf14: 0.254600
+Validation loss decreased (inf -> 1.268629).
+Val Epoch: 0, Subepoch: 24, Loss: 1.268629, batch_size: 2,total_acc1: 52.000000, total_acc2: 32.000000, total_acc3: 76.000000, total_acc4: 54.000000, avgf11: 0.356600, avgf12: 0.203000, avgf13: 0.562000, avgf14: 0.254800
+Validation loss decreased (inf -> 1.257562).
+Val Epoch: 0, Subepoch: 25, Loss: 1.257562, batch_size: 2,total_acc1: 53.846157, total_acc2: 32.692310, total_acc3: 75.000000, total_acc4: 51.923080, avgf11: 0.360800, avgf12: 0.196429, avgf13: 0.559667, avgf14: 0.242600
+Validation loss decreased (inf -> 1.259311).
+Val Epoch: 0, Subepoch: 26, Loss: 1.259311, batch_size: 2,total_acc1: 51.851852, total_acc2: 35.185184, total_acc3: 75.925926, total_acc4: 51.851852, avgf11: 0.348200, avgf12: 0.202286, avgf13: 0.562667, avgf14: 0.243200
+Validation loss decreased (inf -> 1.254312).
+Val Epoch: 0, Subepoch: 27, Loss: 1.254312, batch_size: 2,total_acc1: 51.785717, total_acc2: 35.714287, total_acc3: 76.785721, total_acc4: 51.785717, avgf11: 0.345000, avgf12: 0.203714, avgf13: 0.565667, avgf14: 0.243800
+Validation loss decreased (inf -> 1.240253).
+Val Epoch: 0, Subepoch: 28, Loss: 1.240253, batch_size: 2,total_acc1: 53.448277, total_acc2: 36.206898, total_acc3: 77.586205, total_acc4: 53.448277, avgf11: 0.348600, avgf12: 0.202429, avgf13: 0.568000, avgf14: 0.248600
+Validation loss decreased (inf -> 1.235497).
+Val Epoch: 0, Subepoch: 29, Loss: 1.235497, batch_size: 2,total_acc1: 55.000004, total_acc2: 38.333336, total_acc3: 78.333336, total_acc4: 53.333336, avgf11: 0.351800, avgf12: 0.211571, avgf13: 0.573000, avgf14: 0.251200
+Validation loss decreased (inf -> 1.230812).
+Val Epoch: 0, Subepoch: 30, Loss: 1.230812, batch_size: 2,total_acc1: 54.838707, total_acc2: 37.096771, total_acc3: 79.032257, total_acc4: 53.225803, avgf11: 0.348600, avgf12: 0.209429, avgf13: 0.575333, avgf14: 0.251600
+Validation loss decreased (inf -> 1.234393).
+Val Epoch: 0, Subepoch: 31, Loss: 1.234393, batch_size: 2,total_acc1: 54.687500, total_acc2: 35.937500, total_acc3: 78.125000, total_acc4: 51.562500, avgf11: 0.339600, avgf12: 0.204857, avgf13: 0.573333, avgf14: 0.244400
+Validation loss decreased (inf -> 1.233597).
+Val Epoch: 0, Subepoch: 32, Loss: 1.233597, batch_size: 2,total_acc1: 54.545456, total_acc2: 36.363636, total_acc3: 78.787880, total_acc4: 51.515152, avgf11: 0.333200, avgf12: 0.198286, avgf13: 0.578000, avgf14: 0.247000
+Validation loss decreased (inf -> 1.227762).
+Val Epoch: 0, Subepoch: 33, Loss: 1.227762, batch_size: 2,total_acc1: 55.882355, total_acc2: 35.294117, total_acc3: 76.470589, total_acc4: 51.470589, avgf11: 0.335800, avgf12: 0.191286, avgf13: 0.561000, avgf14: 0.244200
+Validation loss decreased (inf -> 1.217256).
+Val Epoch: 0, Subepoch: 34, Loss: 1.217256, batch_size: 2,total_acc1: 57.142857, total_acc2: 35.714287, total_acc3: 74.285713, total_acc4: 51.428574, avgf11: 0.338400, avgf12: 0.196286, avgf13: 0.555333, avgf14: 0.241400
+Validation loss decreased (inf -> 1.239150).
+Val Epoch: 0, Subepoch: 35, Loss: 1.239150, batch_size: 2,total_acc1: 55.555557, total_acc2: 34.722221, total_acc3: 75.000000, total_acc4: 52.777779, avgf11: 0.325800, avgf12: 0.194571, avgf13: 0.557667, avgf14: 0.245200
+Validation loss decreased (inf -> 1.242499).
+Val Epoch: 0, Subepoch: 36, Loss: 1.242499, batch_size: 2,total_acc1: 54.054054, total_acc2: 35.135136, total_acc3: 75.675674, total_acc4: 54.054054, avgf11: 0.318200, avgf12: 0.195571, avgf13: 0.559667, avgf14: 0.248600
+Validation loss decreased (inf -> 1.223983).
+Val Epoch: 0, Subepoch: 37, Loss: 1.223983, batch_size: 2,total_acc1: 55.263157, total_acc2: 34.210526, total_acc3: 76.315788, total_acc4: 53.947369, avgf11: 0.337200, avgf12: 0.192000, avgf13: 0.564333, avgf14: 0.251000
+Validation loss decreased (inf -> 1.229956).
+Val Epoch: 0, Subepoch: 38, Loss: 1.229956, batch_size: 2,total_acc1: 53.846153, total_acc2: 33.333332, total_acc3: 76.923080, total_acc4: 55.128204, avgf11: 0.327800, avgf12: 0.190571, avgf13: 0.566333, avgf14: 0.254200
+Validation loss decreased (inf -> 1.225328).
+Val Epoch: 0, Subepoch: 39, Loss: 1.225328, batch_size: 2,total_acc1: 55.000000, total_acc2: 33.750000, total_acc3: 76.250000, total_acc4: 53.750000, avgf11: 0.343400, avgf12: 0.191571, avgf13: 0.555000, avgf14: 0.248800
+Validation loss decreased (inf -> 1.223378).
+Val Epoch: 0, Subepoch: 40, Loss: 1.223378, batch_size: 2,total_acc1: 54.878048, total_acc2: 32.926826, total_acc3: 76.829262, total_acc4: 54.878048, avgf11: 0.339400, avgf12: 0.190000, avgf13: 0.557000, avgf14: 0.251600
+Validation loss decreased (inf -> 1.232647).
+Val Epoch: 0, Subepoch: 41, Loss: 1.232647, batch_size: 2,total_acc1: 54.761906, total_acc2: 32.142857, total_acc3: 76.190475, total_acc4: 54.761906, avgf11: 0.338400, avgf12: 0.183429, avgf13: 0.548667, avgf14: 0.250200
+Validation loss decreased (inf -> 1.229407).
+Val Epoch: 0, Subepoch: 42, Loss: 1.229407, batch_size: 2,total_acc1: 55.813953, total_acc2: 31.395350, total_acc3: 75.581398, total_acc4: 54.651161, avgf11: 0.352800, avgf12: 0.180714, avgf13: 0.538333, avgf14: 0.252400
+Validation loss decreased (inf -> 1.234794).
+Val Epoch: 0, Subepoch: 43, Loss: 1.234794, batch_size: 2,total_acc1: 55.681820, total_acc2: 31.818182, total_acc3: 75.000000, total_acc4: 55.681820, avgf11: 0.342600, avgf12: 0.185143, avgf13: 0.537000, avgf14: 0.257000
+Validation loss decreased (inf -> 1.233216).
+Val Epoch: 0, Subepoch: 44, Loss: 1.233216, batch_size: 2,total_acc1: 55.555557, total_acc2: 33.333336, total_acc3: 75.555557, total_acc4: 54.444447, avgf11: 0.340200, avgf12: 0.188571, avgf13: 0.538667, avgf14: 0.254400
+Validation loss decreased (inf -> 1.235001).
+Val Epoch: 0, Subepoch: 45, Loss: 1.235001, batch_size: 2,total_acc1: 55.434784, total_acc2: 33.695652, total_acc3: 76.086960, total_acc4: 55.434784, avgf11: 0.348200, avgf12: 0.189571, avgf13: 0.540333, avgf14: 0.257000
+Validation loss decreased (inf -> 1.241231).
+Val Epoch: 0, Subepoch: 46, Loss: 1.241231, batch_size: 2,total_acc1: 55.319149, total_acc2: 32.978722, total_acc3: 75.531914, total_acc4: 56.382977, avgf11: 0.341200, avgf12: 0.184571, avgf13: 0.535333, avgf14: 0.262800
+Validation loss decreased (inf -> 1.245770).
+Val Epoch: 0, Subepoch: 47, Loss: 1.245770, batch_size: 2,total_acc1: 55.208336, total_acc2: 33.333336, total_acc3: 76.041672, total_acc4: 57.291668, avgf11: 0.336000, avgf12: 0.188143, avgf13: 0.540333, avgf14: 0.266400
+Validation loss decreased (inf -> 1.253406).
+Val Epoch: 0, Subepoch: 48, Loss: 1.253406, batch_size: 2,total_acc1: 55.102039, total_acc2: 33.673470, total_acc3: 75.510201, total_acc4: 56.122448, avgf11: 0.335800, avgf12: 0.189000, avgf13: 0.539000, avgf14: 0.265200
+Validation loss decreased (inf -> 1.253577).
+Val Epoch: 0, Subepoch: 49, Loss: 1.253577, batch_size: 2,total_acc1: 55.000000, total_acc2: 34.000000, total_acc3: 76.000000, total_acc4: 56.000000, avgf11: 0.333600, avgf12: 0.192143, avgf13: 0.543333, avgf14: 0.266800
+Validation loss decreased (inf -> 1.248912).
+Val Epoch: 0, Subepoch: 50, Loss: 1.248912, batch_size: 2,total_acc1: 55.882355, total_acc2: 33.333336, total_acc3: 75.490196, total_acc4: 55.882355, avgf11: 0.335400, avgf12: 0.185857, avgf13: 0.535667, avgf14: 0.267600
+Validation loss decreased (inf -> 1.242090).
+Val Epoch: 0, Subepoch: 51, Loss: 1.242090, batch_size: 2,total_acc1: 56.730770, total_acc2: 33.653847, total_acc3: 75.961540, total_acc4: 55.769234, avgf11: 0.337000, avgf12: 0.188571, avgf13: 0.537000, avgf14: 0.265600
+Validation loss decreased (inf -> 1.237228).
+Val Epoch: 0, Subepoch: 52, Loss: 1.237228, batch_size: 2,total_acc1: 56.603775, total_acc2: 34.905663, total_acc3: 76.415092, total_acc4: 55.660378, avgf11: 0.352400, avgf12: 0.193000, avgf13: 0.541667, avgf14: 0.266400
+Validation loss decreased (inf -> 1.230390).
+Val Epoch: 0, Subepoch: 53, Loss: 1.230390, batch_size: 2,total_acc1: 57.407410, total_acc2: 36.111111, total_acc3: 76.851852, total_acc4: 56.481483, avgf11: 0.367200, avgf12: 0.196857, avgf13: 0.545667, avgf14: 0.269800
+Validation loss decreased (inf -> 1.230158).
+Val Epoch: 0, Subepoch: 54, Loss: 1.230158, batch_size: 2,total_acc1: 56.363636, total_acc2: 35.454544, total_acc3: 76.363632, total_acc4: 56.363636, avgf11: 0.362000, avgf12: 0.191286, avgf13: 0.541333, avgf14: 0.269400
+Validation loss decreased (inf -> 1.231167).
+Val Epoch: 0, Subepoch: 55, Loss: 1.231167, batch_size: 2,total_acc1: 56.250004, total_acc2: 35.714287, total_acc3: 75.892860, total_acc4: 57.142860, avgf11: 0.358200, avgf12: 0.191714, avgf13: 0.542333, avgf14: 0.272200
+Validation loss decreased (inf -> 1.227741).
+Val Epoch: 0, Subepoch: 56, Loss: 1.227741, batch_size: 2,total_acc1: 56.140350, total_acc2: 35.964912, total_acc3: 76.315788, total_acc4: 57.017544, avgf11: 0.356600, avgf12: 0.192571, avgf13: 0.544000, avgf14: 0.272400
+Validation loss decreased (inf -> 1.221094).
+Val Epoch: 0, Subepoch: 57, Loss: 1.221094, batch_size: 2,total_acc1: 56.896553, total_acc2: 37.068966, total_acc3: 76.724136, total_acc4: 56.896553, avgf11: 0.368800, avgf12: 0.196000, avgf13: 0.547000, avgf14: 0.273000
+Validation loss decreased (inf -> 1.210981).
+Val Epoch: 0, Subepoch: 58, Loss: 1.210981, batch_size: 2,total_acc1: 57.627117, total_acc2: 37.288136, total_acc3: 76.271187, total_acc4: 57.627117, avgf11: 0.378200, avgf12: 0.194714, avgf13: 0.542667, avgf14: 0.275600
+Validation loss decreased (inf -> 1.215917).
+Val Epoch: 0, Subepoch: 59, Loss: 1.215917, batch_size: 2,total_acc1: 57.500004, total_acc2: 37.500004, total_acc3: 76.666672, total_acc4: 58.333336, avgf11: 0.372600, avgf12: 0.194143, avgf13: 0.548000, avgf14: 0.278600
+Validation loss decreased (inf -> 1.207772).
+Val Epoch: 0, Subepoch: 60, Loss: 1.207772, batch_size: 2,total_acc1: 58.196716, total_acc2: 36.885242, total_acc3: 76.229507, total_acc4: 58.196716, avgf11: 0.381200, avgf12: 0.191857, avgf13: 0.542000, avgf14: 0.277800
+Validation loss decreased (inf -> 1.210628).
+Val Epoch: 0, Subepoch: 61, Loss: 1.210628, batch_size: 2,total_acc1: 57.258064, total_acc2: 37.096771, total_acc3: 75.806450, total_acc4: 58.870968, avgf11: 0.374600, avgf12: 0.192571, avgf13: 0.541000, avgf14: 0.279800
+Validation loss decreased (inf -> 1.206051).
+Val Epoch: 0, Subepoch: 62, Loss: 1.206051, batch_size: 2,total_acc1: 57.936512, total_acc2: 37.301590, total_acc3: 76.190483, total_acc4: 59.523811, avgf11: 0.376000, avgf12: 0.194000, avgf13: 0.544000, avgf14: 0.282000
+Validation loss decreased (inf -> 1.209707).
+Val Epoch: 0, Subepoch: 63, Loss: 1.209707, batch_size: 2,total_acc1: 57.812500, total_acc2: 37.500000, total_acc3: 75.781250, total_acc4: 58.593750, avgf11: 0.371000, avgf12: 0.192857, avgf13: 0.538667, avgf14: 0.278400
+Validation loss decreased (inf -> 1.215663).
+Val Epoch: 0, Subepoch: 64, Loss: 1.215663, batch_size: 2,total_acc1: 57.692307, total_acc2: 36.923077, total_acc3: 76.153847, total_acc4: 59.230770, avgf11: 0.366600, avgf12: 0.191857, avgf13: 0.540000, avgf14: 0.280200
+Validation loss decreased (inf -> 1.218206).
+Val Epoch: 0, Subepoch: 65, Loss: 1.218206, batch_size: 2,total_acc1: 57.575760, total_acc2: 36.363636, total_acc3: 75.757576, total_acc4: 58.333336, avgf11: 0.362400, avgf12: 0.190000, avgf13: 0.539000, avgf14: 0.276600
+Validation loss decreased (inf -> 1.217790).
+Val Epoch: 0, Subepoch: 66, Loss: 1.217790, batch_size: 2,total_acc1: 57.462685, total_acc2: 35.820896, total_acc3: 76.119400, total_acc4: 58.208954, avgf11: 0.360800, avgf12: 0.188429, avgf13: 0.540000, avgf14: 0.274800
+Validation loss decreased (inf -> 1.211174).
+Val Epoch: 0, Subepoch: 67, Loss: 1.211174, batch_size: 2,total_acc1: 58.088234, total_acc2: 36.764706, total_acc3: 76.470589, total_acc4: 58.088234, avgf11: 0.370400, avgf12: 0.191429, avgf13: 0.543000, avgf14: 0.273600
+Validation loss decreased (inf -> 1.203058).
+Val Epoch: 0, Subepoch: 68, Loss: 1.203058, batch_size: 2,total_acc1: 58.695652, total_acc2: 36.231884, total_acc3: 76.811592, total_acc4: 57.971016, avgf11: 0.371600, avgf12: 0.189714, avgf13: 0.544000, avgf14: 0.273600
+Validation loss decreased (inf -> 1.205180).
+Val Epoch: 0, Subepoch: 69, Loss: 1.205180, batch_size: 2,total_acc1: 58.571430, total_acc2: 35.714287, total_acc3: 76.428574, total_acc4: 57.857143, avgf11: 0.368600, avgf12: 0.184000, avgf13: 0.538667, avgf14: 0.272000
+Validation loss decreased (inf -> 1.202624).
+Val Epoch: 0, Subepoch: 70, Loss: 1.202624, batch_size: 2,total_acc1: 58.450703, total_acc2: 36.619717, total_acc3: 76.056335, total_acc4: 58.450703, avgf11: 0.368400, avgf12: 0.186857, avgf13: 0.539667, avgf14: 0.274400
+Validation loss decreased (inf -> 1.197532).
+Val Epoch: 0, Subepoch: 71, Loss: 1.197532, batch_size: 2,total_acc1: 59.027779, total_acc2: 36.111111, total_acc3: 75.694443, total_acc4: 58.333332, avgf11: 0.369600, avgf12: 0.182000, avgf13: 0.535000, avgf14: 0.272600
+Validation loss decreased (inf -> 1.196524).
+Val Epoch: 0, Subepoch: 72, Loss: 1.196524, batch_size: 2,total_acc1: 58.904110, total_acc2: 36.986301, total_acc3: 76.027397, total_acc4: 58.219177, avgf11: 0.367800, avgf12: 0.184857, avgf13: 0.538000, avgf14: 0.273000
+Validation loss decreased (inf -> 1.195113).
+Val Epoch: 0, Subepoch: 73, Loss: 1.195113, batch_size: 2,total_acc1: 59.459461, total_acc2: 37.162163, total_acc3: 75.675674, total_acc4: 57.432434, avgf11: 0.375200, avgf12: 0.185286, avgf13: 0.533000, avgf14: 0.270000
+Validation loss decreased (inf -> 1.193192).
+Val Epoch: 0, Subepoch: 74, Loss: 1.193192, batch_size: 2,total_acc1: 59.333336, total_acc2: 36.666668, total_acc3: 74.666672, total_acc4: 57.333336, avgf11: 0.373400, avgf12: 0.182286, avgf13: 0.523333, avgf14: 0.268800
+Validation loss decreased (inf -> 1.189041).
+Val Epoch: 0, Subepoch: 75, Loss: 1.189041, batch_size: 2,total_acc1: 59.868420, total_acc2: 36.842106, total_acc3: 74.342102, total_acc4: 57.894737, avgf11: 0.374400, avgf12: 0.182571, avgf13: 0.524333, avgf14: 0.271000
+Validation loss decreased (inf -> 1.191567).
+Val Epoch: 0, Subepoch: 76, Loss: 1.191567, batch_size: 2,total_acc1: 59.740261, total_acc2: 36.363636, total_acc3: 74.025970, total_acc4: 57.792210, avgf11: 0.374400, avgf12: 0.181714, avgf13: 0.523667, avgf14: 0.271200
+Validation loss decreased (inf -> 1.192799).
+Val Epoch: 0, Subepoch: 77, Loss: 1.192799, batch_size: 2,total_acc1: 59.615387, total_acc2: 36.538464, total_acc3: 74.358978, total_acc4: 58.333336, avgf11: 0.374200, avgf12: 0.182429, avgf13: 0.526333, avgf14: 0.273200
+Validation loss decreased (inf -> 1.193217).
+Val Epoch: 0, Subepoch: 78, Loss: 1.193217, batch_size: 2,total_acc1: 59.493671, total_acc2: 36.708862, total_acc3: 73.417725, total_acc4: 58.227848, avgf11: 0.382000, avgf12: 0.183000, avgf13: 0.520667, avgf14: 0.272600
+Validation loss decreased (inf -> 1.187986).
+Val Epoch: 0, Subepoch: 79, Loss: 1.187986, batch_size: 2,total_acc1: 60.000000, total_acc2: 36.250000, total_acc3: 73.125000, total_acc4: 58.125000, avgf11: 0.383000, avgf12: 0.180857, avgf13: 0.516667, avgf14: 0.272000
+Validation loss decreased (inf -> 1.192749).
+Val Epoch: 0, Subepoch: 80, Loss: 1.192749, batch_size: 2,total_acc1: 59.259258, total_acc2: 35.802471, total_acc3: 72.222221, total_acc4: 57.407410, avgf11: 0.376000, avgf12: 0.179286, avgf13: 0.512000, avgf14: 0.267800
+Validation loss decreased (inf -> 1.197310).
+Val Epoch: 0, Subepoch: 81, Loss: 1.197310, batch_size: 2,total_acc1: 59.146339, total_acc2: 35.975609, total_acc3: 72.560974, total_acc4: 57.926826, avgf11: 0.375800, avgf12: 0.179857, avgf13: 0.513000, avgf14: 0.269200
+Validation loss decreased (inf -> 1.200695).
+Val Epoch: 0, Subepoch: 82, Loss: 1.200695, batch_size: 2,total_acc1: 59.036144, total_acc2: 35.542168, total_acc3: 72.891563, total_acc4: 57.831322, avgf11: 0.375600, avgf12: 0.179143, avgf13: 0.514333, avgf14: 0.269200
+Validation loss decreased (inf -> 1.200414).
+Val Epoch: 0, Subepoch: 83, Loss: 1.200414, batch_size: 2,total_acc1: 58.928574, total_acc2: 36.309525, total_acc3: 73.214287, total_acc4: 57.738098, avgf11: 0.374400, avgf12: 0.180857, avgf13: 0.515333, avgf14: 0.269200
+Validation loss decreased (inf -> 1.197954).
+Val Epoch: 0, Subepoch: 84, Loss: 1.197954, batch_size: 2,total_acc1: 59.411766, total_acc2: 36.470589, total_acc3: 73.529411, total_acc4: 58.235294, avgf11: 0.380600, avgf12: 0.187714, avgf13: 0.518000, avgf14: 0.271000
+Validation loss decreased (inf -> 1.195285).
+Val Epoch: 0, Subepoch: 85, Loss: 1.195285, batch_size: 2,total_acc1: 59.302326, total_acc2: 36.046513, total_acc3: 73.255814, total_acc4: 57.558140, avgf11: 0.387400, avgf12: 0.186143, avgf13: 0.514333, avgf14: 0.268400
+Validation loss decreased (inf -> 1.190661).
+Val Epoch: 0, Subepoch: 86, Loss: 1.190661, batch_size: 2,total_acc1: 59.770115, total_acc2: 35.632183, total_acc3: 72.988503, total_acc4: 56.896553, avgf11: 0.388400, avgf12: 0.185143, avgf13: 0.511000, avgf14: 0.265800
+Validation loss decreased (inf -> 1.185455).
+Val Epoch: 0, Subepoch: 87, Loss: 1.185455, batch_size: 2,total_acc1: 60.227276, total_acc2: 35.227272, total_acc3: 73.295456, total_acc4: 56.818184, avgf11: 0.402600, avgf12: 0.184143, avgf13: 0.512000, avgf14: 0.264400
+Validation loss decreased (inf -> 1.189585).
+Val Epoch: 0, Subepoch: 88, Loss: 1.189585, batch_size: 2,total_acc1: 59.550564, total_acc2: 34.831463, total_acc3: 73.595505, total_acc4: 57.303371, avgf11: 0.396800, avgf12: 0.182429, avgf13: 0.514667, avgf14: 0.266400
+Validation loss decreased (inf -> 1.191508).
+Val Epoch: 0, Subepoch: 89, Loss: 1.191508, batch_size: 2,total_acc1: 59.444447, total_acc2: 35.000000, total_acc3: 72.777779, total_acc4: 57.222225, avgf11: 0.392400, avgf12: 0.183286, avgf13: 0.510667, avgf14: 0.266000
+Validation loss decreased (inf -> 1.193379).
+Val Epoch: 0, Subepoch: 90, Loss: 1.193379, batch_size: 2,total_acc1: 59.340660, total_acc2: 34.615387, total_acc3: 73.076927, total_acc4: 57.692310, avgf11: 0.391800, avgf12: 0.181429, avgf13: 0.513333, avgf14: 0.267600
+Validation loss decreased (inf -> 1.197652).
+Val Epoch: 0, Subepoch: 91, Loss: 1.197652, batch_size: 2,total_acc1: 58.695652, total_acc2: 35.326088, total_acc3: 73.369568, total_acc4: 57.065220, avgf11: 0.388400, avgf12: 0.183286, avgf13: 0.514333, avgf14: 0.266200
+Validation loss decreased (inf -> 1.200033).
+Val Epoch: 0, Subepoch: 92, Loss: 1.200033, batch_size: 2,total_acc1: 58.064518, total_acc2: 34.946236, total_acc3: 73.118279, total_acc4: 56.989246, avgf11: 0.381800, avgf12: 0.182286, avgf13: 0.511333, avgf14: 0.265600
+Validation loss decreased (inf -> 1.204126).
+Val Epoch: 0, Subepoch: 93, Loss: 1.204126, batch_size: 2,total_acc1: 57.446808, total_acc2: 35.106380, total_acc3: 72.872337, total_acc4: 56.382977, avgf11: 0.379600, avgf12: 0.182857, avgf13: 0.508000, avgf14: 0.264000
+Validation loss decreased (inf -> 1.208054).
+Val Epoch: 0, Subepoch: 94, Loss: 1.208054, batch_size: 2,total_acc1: 56.842106, total_acc2: 35.789474, total_acc3: 73.157898, total_acc4: 56.315792, avgf11: 0.378400, avgf12: 0.185143, avgf13: 0.510333, avgf14: 0.264400
+Validation loss decreased (inf -> 1.207092).
+Val Epoch: 0, Subepoch: 95, Loss: 1.207092, batch_size: 2,total_acc1: 56.770836, total_acc2: 35.937500, total_acc3: 73.437500, total_acc4: 56.250000, avgf11: 0.375600, avgf12: 0.185000, avgf13: 0.511333, avgf14: 0.263800
+Validation loss decreased (inf -> 1.201078).
+Val Epoch: 0, Subepoch: 96, Loss: 1.201078, batch_size: 2,total_acc1: 57.216492, total_acc2: 35.567009, total_acc3: 73.711334, total_acc4: 56.185566, avgf11: 0.382200, avgf12: 0.184286, avgf13: 0.512000, avgf14: 0.262800
+Validation loss decreased (inf -> 1.207783).
+Val Epoch: 0, Subepoch: 97, Loss: 1.207783, batch_size: 2,total_acc1: 56.632652, total_acc2: 36.224487, total_acc3: 73.979591, total_acc4: 56.632652, avgf11: 0.378000, avgf12: 0.186000, avgf13: 0.513000, avgf14: 0.264200
+Validation loss decreased (inf -> 1.205765).
+Val Epoch: 0, Subepoch: 98, Loss: 1.205765, batch_size: 2,total_acc1: 57.070705, total_acc2: 36.363636, total_acc3: 74.242424, total_acc4: 57.070705, avgf11: 0.379000, avgf12: 0.186714, avgf13: 0.515333, avgf14: 0.265800
+Validation loss decreased (inf -> 1.207795).
+Val Epoch: 0, Subepoch: 99, Loss: 1.207795, batch_size: 2,total_acc1: 57.000000, total_acc2: 36.500000, total_acc3: 74.500000, total_acc4: 57.500000, avgf11: 0.376600, avgf12: 0.187571, avgf13: 0.518333, avgf14: 0.267400
+Validation loss decreased (inf -> 1.205712).
+Val Epoch: 0, Subepoch: 100, Loss: 1.205712, batch_size: 2,total_acc1: 57.425743, total_acc2: 36.633663, total_acc3: 74.752472, total_acc4: 56.930691, avgf11: 0.377600, avgf12: 0.188143, avgf13: 0.519000, avgf14: 0.266400
+Validation loss decreased (inf -> 1.202288).
+Val Epoch: 0, Subepoch: 101, Loss: 1.202288, batch_size: 2,total_acc1: 57.843140, total_acc2: 36.274509, total_acc3: 74.509804, total_acc4: 57.352943, avgf11: 0.382800, avgf12: 0.186857, avgf13: 0.519667, avgf14: 0.268000
+Validation loss decreased (inf -> 1.206147).
+Val Epoch: 0, Subepoch: 102, Loss: 1.206147, batch_size: 2,total_acc1: 57.281555, total_acc2: 36.893204, total_acc3: 74.757278, total_acc4: 57.281555, avgf11: 0.377600, avgf12: 0.188286, avgf13: 0.520667, avgf14: 0.268000
+Validation loss decreased (inf -> 1.206294).
+Val Epoch: 0, Subepoch: 103, Loss: 1.206294, batch_size: 2,total_acc1: 57.211540, total_acc2: 36.538464, total_acc3: 75.000000, total_acc4: 57.692310, avgf11: 0.375400, avgf12: 0.187571, avgf13: 0.521333, avgf14: 0.269200
+Validation loss decreased (inf -> 1.208799).
+Val Epoch: 0, Subepoch: 104, Loss: 1.208799, batch_size: 2,total_acc1: 57.142860, total_acc2: 36.666668, total_acc3: 74.761909, total_acc4: 57.619049, avgf11: 0.372400, avgf12: 0.187429, avgf13: 0.519333, avgf14: 0.268400
+Validation loss decreased (inf -> 1.207753).
+Val Epoch: 0, Subepoch: 105, Loss: 1.207753, batch_size: 2,total_acc1: 57.075474, total_acc2: 36.320755, total_acc3: 74.056602, total_acc4: 57.075474, avgf11: 0.374600, avgf12: 0.186714, avgf13: 0.515333, avgf14: 0.266400
+Validation loss decreased (inf -> 1.204261).
+Val Epoch: 0, Subepoch: 106, Loss: 1.204261, batch_size: 2,total_acc1: 57.476635, total_acc2: 35.981308, total_acc3: 73.831772, total_acc4: 57.009342, avgf11: 0.379600, avgf12: 0.185143, avgf13: 0.512333, avgf14: 0.265400
+Validation loss decreased (inf -> 1.212864).
+Val Epoch: 0, Subepoch: 107, Loss: 1.212864, batch_size: 2,total_acc1: 56.944447, total_acc2: 36.111111, total_acc3: 73.611115, total_acc4: 57.407410, avgf11: 0.378400, avgf12: 0.185571, avgf13: 0.512000, avgf14: 0.266600
+Validation loss decreased (inf -> 1.213602).
+Val Epoch: 0, Subepoch: 108, Loss: 1.213602, batch_size: 2,total_acc1: 56.880730, total_acc2: 35.779816, total_acc3: 73.853210, total_acc4: 57.339447, avgf11: 0.376400, avgf12: 0.184857, avgf13: 0.512667, avgf14: 0.266800
+Validation loss decreased (inf -> 1.209411).
+Val Epoch: 0, Subepoch: 109, Loss: 1.209411, batch_size: 2,total_acc1: 57.272724, total_acc2: 35.454544, total_acc3: 73.636360, total_acc4: 56.818180, avgf11: 0.377200, avgf12: 0.184286, avgf13: 0.512000, avgf14: 0.265600
+Validation loss decreased (inf -> 1.211543).
+Val Epoch: 0, Subepoch: 110, Loss: 1.211543, batch_size: 2,total_acc1: 57.207207, total_acc2: 35.135136, total_acc3: 73.873878, total_acc4: 56.756760, avgf11: 0.377400, avgf12: 0.183143, avgf13: 0.514333, avgf14: 0.265600
+Validation loss decreased (inf -> 1.211354).
+Val Epoch: 0, Subepoch: 111, Loss: 1.211354, batch_size: 2,total_acc1: 57.142860, total_acc2: 34.821430, total_acc3: 74.107147, total_acc4: 56.696430, avgf11: 0.375200, avgf12: 0.182143, avgf13: 0.515000, avgf14: 0.265200
+Validation loss decreased (inf -> 1.206929).
+Val Epoch: 0, Subepoch: 112, Loss: 1.206929, batch_size: 2,total_acc1: 57.522125, total_acc2: 34.513275, total_acc3: 73.451324, total_acc4: 56.637169, avgf11: 0.376200, avgf12: 0.179571, avgf13: 0.511000, avgf14: 0.264600
+Validation loss decreased (inf -> 1.212956).
+Val Epoch: 0, Subepoch: 113, Loss: 1.212956, batch_size: 2,total_acc1: 57.017544, total_acc2: 34.210526, total_acc3: 73.684212, total_acc4: 56.140350, avgf11: 0.373400, avgf12: 0.177714, avgf13: 0.511667, avgf14: 0.262600
+Validation loss decreased (inf -> 1.208103).
+Val Epoch: 0, Subepoch: 114, Loss: 1.208103, batch_size: 2,total_acc1: 57.391300, total_acc2: 33.913040, total_acc3: 73.913040, total_acc4: 56.086952, avgf11: 0.374200, avgf12: 0.177143, avgf13: 0.512333, avgf14: 0.262400
+Validation loss decreased (inf -> 1.208211).
+Val Epoch: 0, Subepoch: 115, Loss: 1.208211, batch_size: 2,total_acc1: 56.896553, total_acc2: 34.482758, total_acc3: 73.706894, total_acc4: 56.034481, avgf11: 0.370600, avgf12: 0.179000, avgf13: 0.513667, avgf14: 0.262000
+Validation loss decreased (inf -> 1.208801).
+Val Epoch: 0, Subepoch: 116, Loss: 1.208801, batch_size: 2,total_acc1: 56.837608, total_acc2: 34.615387, total_acc3: 73.931625, total_acc4: 55.982910, avgf11: 0.369000, avgf12: 0.179857, avgf13: 0.515667, avgf14: 0.261400
+Validation loss decreased (inf -> 1.210104).
+Val Epoch: 0, Subepoch: 117, Loss: 1.210104, batch_size: 2,total_acc1: 56.779659, total_acc2: 34.322033, total_acc3: 73.728813, total_acc4: 55.932205, avgf11: 0.368000, avgf12: 0.178286, avgf13: 0.515000, avgf14: 0.261000
+Validation loss decreased (inf -> 1.210584).
+Val Epoch: 0, Subepoch: 118, Loss: 1.210584, batch_size: 2,total_acc1: 56.722691, total_acc2: 34.033615, total_acc3: 73.109245, total_acc4: 55.882355, avgf11: 0.367200, avgf12: 0.177143, avgf13: 0.509333, avgf14: 0.260400
+Validation loss decreased (inf -> 1.212361).
+Val Epoch: 0, Subepoch: 119, Loss: 1.212361, batch_size: 2,total_acc1: 56.666668, total_acc2: 33.750000, total_acc3: 73.333336, total_acc4: 56.250004, avgf11: 0.368200, avgf12: 0.176286, avgf13: 0.511000, avgf14: 0.262000
+Validation loss decreased (inf -> 1.209994).
+Val Epoch: 0, Subepoch: 120, Loss: 1.209994, batch_size: 2,total_acc1: 57.024792, total_acc2: 33.471073, total_acc3: 73.553719, total_acc4: 56.611568, avgf11: 0.372800, avgf12: 0.175714, avgf13: 0.512000, avgf14: 0.263200
+Validation loss decreased (inf -> 1.211863).
+Val Epoch: 0, Subepoch: 121, Loss: 1.211863, batch_size: 2,total_acc1: 56.557373, total_acc2: 33.606556, total_acc3: 72.950813, total_acc4: 56.967209, avgf11: 0.367600, avgf12: 0.176143, avgf13: 0.510333, avgf14: 0.264200
+Validation loss decreased (inf -> 1.215311).
+Val Epoch: 0, Subepoch: 122, Loss: 1.215311, batch_size: 2,total_acc1: 56.097557, total_acc2: 33.333332, total_acc3: 72.764221, total_acc4: 56.910568, avgf11: 0.363600, avgf12: 0.175714, avgf13: 0.508000, avgf14: 0.263400
+Validation loss decreased (inf -> 1.215008).
+Val Epoch: 0, Subepoch: 123, Loss: 1.215008, batch_size: 2,total_acc1: 56.048386, total_acc2: 33.064514, total_acc3: 72.580643, total_acc4: 57.258064, avgf11: 0.365600, avgf12: 0.175143, avgf13: 0.507333, avgf14: 0.264200
+Validation loss decreased (inf -> 1.212289).
+Val Epoch: 0, Subepoch: 124, Loss: 1.212289, batch_size: 2,total_acc1: 56.400002, total_acc2: 32.800003, total_acc3: 72.400002, total_acc4: 56.800003, avgf11: 0.369800, avgf12: 0.173857, avgf13: 0.505000, avgf14: 0.261800
+Validation loss decreased (inf -> 1.210308).
+Val Epoch: 0, Subepoch: 125, Loss: 1.210308, batch_size: 2,total_acc1: 56.746037, total_acc2: 33.333336, total_acc3: 72.619049, total_acc4: 56.746037, avgf11: 0.370600, avgf12: 0.175571, avgf13: 0.507000, avgf14: 0.262000
+Validation loss decreased (inf -> 1.211571).
+Val Epoch: 0, Subepoch: 126, Loss: 1.211571, batch_size: 2,total_acc1: 56.299213, total_acc2: 33.070866, total_acc3: 72.440941, total_acc4: 56.692913, avgf11: 0.367600, avgf12: 0.174857, avgf13: 0.504667, avgf14: 0.261200
+Validation loss decreased (inf -> 1.215779).
+Val Epoch: 0, Subepoch: 127, Loss: 1.215779, batch_size: 2,total_acc1: 55.859375, total_acc2: 33.593750, total_acc3: 72.265625, total_acc4: 56.640625, avgf11: 0.362800, avgf12: 0.176286, avgf13: 0.502333, avgf14: 0.261600
+Validation loss decreased (inf -> 1.215559).
+Val Epoch: 0, Subepoch: 128, Loss: 1.215559, batch_size: 2,total_acc1: 55.813953, total_acc2: 33.333332, total_acc3: 72.093025, total_acc4: 56.589146, avgf11: 0.361600, avgf12: 0.175571, avgf13: 0.500000, avgf14: 0.261000
+Validation loss decreased (inf -> 1.216597).
+Val Epoch: 0, Subepoch: 129, Loss: 1.216597, batch_size: 2,total_acc1: 55.769230, total_acc2: 33.846153, total_acc3: 72.307693, total_acc4: 56.923077, avgf11: 0.366200, avgf12: 0.181143, avgf13: 0.503333, avgf14: 0.262600
+Validation loss decreased (inf -> 1.220537).
+Val Epoch: 0, Subepoch: 130, Loss: 1.220537, batch_size: 2,total_acc1: 55.343513, total_acc2: 33.587788, total_acc3: 72.137405, total_acc4: 56.870228, avgf11: 0.364600, avgf12: 0.180714, avgf13: 0.501667, avgf14: 0.262200
+Validation loss decreased (inf -> 1.217948).
+Val Epoch: 0, Subepoch: 131, Loss: 1.217948, batch_size: 2,total_acc1: 55.303032, total_acc2: 33.712124, total_acc3: 71.969696, total_acc4: 57.196972, avgf11: 0.363800, avgf12: 0.181143, avgf13: 0.499333, avgf14: 0.263600
+Validation loss decreased (inf -> 1.216791).
+Val Epoch: 0, Subepoch: 132, Loss: 1.216791, batch_size: 2,total_acc1: 55.639099, total_acc2: 33.458649, total_acc3: 71.804512, total_acc4: 57.142860, avgf11: 0.367800, avgf12: 0.180143, avgf13: 0.497333, avgf14: 0.263200
+Validation loss decreased (inf -> 1.222761).
+Val Epoch: 0, Subepoch: 133, Loss: 1.222761, batch_size: 2,total_acc1: 55.223881, total_acc2: 33.582088, total_acc3: 71.641792, total_acc4: 57.089550, avgf11: 0.365400, avgf12: 0.180857, avgf13: 0.496667, avgf14: 0.262800
+Validation loss decreased (inf -> 1.224008).
+Val Epoch: 0, Subepoch: 134, Loss: 1.224008, batch_size: 2,total_acc1: 55.185184, total_acc2: 33.703705, total_acc3: 71.851852, total_acc4: 57.407406, avgf11: 0.364600, avgf12: 0.181286, avgf13: 0.497333, avgf14: 0.263800
+Validation loss decreased (inf -> 1.223792).
+Val Epoch: 0, Subepoch: 135, Loss: 1.223792, batch_size: 2,total_acc1: 55.147060, total_acc2: 33.455883, total_acc3: 71.691177, total_acc4: 56.985294, avgf11: 0.362000, avgf12: 0.179714, avgf13: 0.495000, avgf14: 0.262000
+Validation loss decreased (inf -> 1.221736).
+Val Epoch: 0, Subepoch: 136, Loss: 1.221736, batch_size: 2,total_acc1: 55.474453, total_acc2: 33.211678, total_acc3: 71.532845, total_acc4: 56.934307, avgf11: 0.362800, avgf12: 0.178714, avgf13: 0.495000, avgf14: 0.261400
+Validation loss decreased (inf -> 1.224293).
+Val Epoch: 0, Subepoch: 137, Loss: 1.224293, batch_size: 2,total_acc1: 55.434784, total_acc2: 33.333332, total_acc3: 71.739128, total_acc4: 57.246376, avgf11: 0.362800, avgf12: 0.179286, avgf13: 0.495333, avgf14: 0.262400
+Validation loss decreased (inf -> 1.223007).
+Val Epoch: 0, Subepoch: 138, Loss: 1.223007, batch_size: 2,total_acc1: 55.755398, total_acc2: 33.453239, total_acc3: 71.942451, total_acc4: 57.553959, avgf11: 0.369400, avgf12: 0.179143, avgf13: 0.498333, avgf14: 0.264000
+Validation loss decreased (inf -> 1.223342).
+Val Epoch: 0, Subepoch: 139, Loss: 1.223342, batch_size: 2,total_acc1: 55.714287, total_acc2: 33.214287, total_acc3: 72.142860, total_acc4: 57.500000, avgf11: 0.368800, avgf12: 0.178571, avgf13: 0.500333, avgf14: 0.264200
+Validation loss decreased (inf -> 1.223561).
+Val Epoch: 0, Subepoch: 140, Loss: 1.223561, batch_size: 2,total_acc1: 55.673756, total_acc2: 32.978722, total_acc3: 72.340424, total_acc4: 57.446808, avgf11: 0.367400, avgf12: 0.178143, avgf13: 0.501333, avgf14: 0.264200
+Validation loss decreased (inf -> 1.222898).
+Val Epoch: 0, Subepoch: 141, Loss: 1.222898, batch_size: 2,total_acc1: 55.633801, total_acc2: 33.098591, total_acc3: 72.183098, total_acc4: 57.042252, avgf11: 0.369600, avgf12: 0.178429, avgf13: 0.499667, avgf14: 0.262600
+Validation loss decreased (inf -> 1.222801).
+Val Epoch: 0, Subepoch: 142, Loss: 1.222801, batch_size: 2,total_acc1: 55.594406, total_acc2: 32.867134, total_acc3: 72.377625, total_acc4: 57.342655, avgf11: 0.367400, avgf12: 0.177857, avgf13: 0.500333, avgf14: 0.263600
+Validation loss decreased (inf -> 1.221933).
+Val Epoch: 0, Subepoch: 143, Loss: 1.221933, batch_size: 2,total_acc1: 55.555557, total_acc2: 32.638889, total_acc3: 72.222221, total_acc4: 56.944447, avgf11: 0.366200, avgf12: 0.177429, avgf13: 0.498667, avgf14: 0.261400
+Validation loss decreased (inf -> 1.221046).
+Val Epoch: 0, Subepoch: 144, Loss: 1.221046, batch_size: 2,total_acc1: 55.862068, total_acc2: 32.413792, total_acc3: 72.413795, total_acc4: 57.241379, avgf11: 0.369800, avgf12: 0.177000, avgf13: 0.500000, avgf14: 0.262400
+Validation loss decreased (inf -> 1.221446).
+Val Epoch: 0, Subepoch: 145, Loss: 1.221446, batch_size: 2,total_acc1: 55.821918, total_acc2: 32.191780, total_acc3: 72.602737, total_acc4: 56.849316, avgf11: 0.368800, avgf12: 0.176714, avgf13: 0.500667, avgf14: 0.262000
+Validation loss decreased (inf -> 1.220532).
+Val Epoch: 0, Subepoch: 146, Loss: 1.220532, batch_size: 2,total_acc1: 56.122448, total_acc2: 31.972788, total_acc3: 72.448975, total_acc4: 56.802719, avgf11: 0.369600, avgf12: 0.176286, avgf13: 0.500333, avgf14: 0.262000
+Validation loss decreased (inf -> 1.222934).
+Val Epoch: 0, Subepoch: 147, Loss: 1.222934, batch_size: 2,total_acc1: 55.743244, total_acc2: 31.756758, total_acc3: 72.297302, total_acc4: 57.094597, avgf11: 0.366400, avgf12: 0.175429, avgf13: 0.500000, avgf14: 0.263000
+Validation loss decreased (inf -> 1.221544).
+Val Epoch: 0, Subepoch: 148, Loss: 1.221544, batch_size: 2,total_acc1: 55.704697, total_acc2: 31.543625, total_acc3: 72.147652, total_acc4: 57.046982, avgf11: 0.365800, avgf12: 0.175000, avgf13: 0.498000, avgf14: 0.262400
+Validation loss decreased (inf -> 1.220764).
+Val Epoch: 0, Subepoch: 149, Loss: 1.220764, batch_size: 2,total_acc1: 55.666668, total_acc2: 31.666668, total_acc3: 72.333336, total_acc4: 57.000000, avgf11: 0.364600, avgf12: 0.175714, avgf13: 0.500000, avgf14: 0.262600
+Validation loss decreased (inf -> 1.221265).
+Val Epoch: 0, Subepoch: 150, Loss: 1.221265, batch_size: 2,total_acc1: 55.629139, total_acc2: 31.788080, total_acc3: 72.516556, total_acc4: 56.953644, avgf11: 0.364000, avgf12: 0.176143, avgf13: 0.500333, avgf14: 0.262600
+Validation loss decreased (inf -> 1.222740).
+Val Epoch: 0, Subepoch: 151, Loss: 1.222740, batch_size: 2,total_acc1: 55.263157, total_acc2: 31.578947, total_acc3: 72.697372, total_acc4: 56.907894, avgf11: 0.361400, avgf12: 0.175857, avgf13: 0.501000, avgf14: 0.262600
+Validation loss decreased (inf -> 1.223244).
+Val Epoch: 0, Subepoch: 152, Loss: 1.223244, batch_size: 2,total_acc1: 55.555557, total_acc2: 31.372549, total_acc3: 72.875816, total_acc4: 57.189545, avgf11: 0.362000, avgf12: 0.174143, avgf13: 0.502667, avgf14: 0.263800
+Validation loss decreased (inf -> 1.221395).
+Val Epoch: 0, Subepoch: 153, Loss: 1.221395, batch_size: 2,total_acc1: 55.844154, total_acc2: 31.168831, total_acc3: 73.051949, total_acc4: 57.467533, avgf11: 0.362600, avgf12: 0.173429, avgf13: 0.503000, avgf14: 0.264600
+Validation loss decreased (inf -> 1.220699).
+Val Epoch: 0, Subepoch: 154, Loss: 1.220699, batch_size: 2,total_acc1: 56.129032, total_acc2: 31.290321, total_acc3: 73.225807, total_acc4: 57.741936, avgf11: 0.368800, avgf12: 0.173143, avgf13: 0.505667, avgf14: 0.266000
+Validation loss decreased (inf -> 1.226831).
+Val Epoch: 0, Subepoch: 155, Loss: 1.226831, batch_size: 2,total_acc1: 55.769230, total_acc2: 31.089745, total_acc3: 73.397438, total_acc4: 58.012821, avgf11: 0.363400, avgf12: 0.172714, avgf13: 0.507667, avgf14: 0.267000
+Validation loss decreased (inf -> 1.229283).
+Val Epoch: 0, Subepoch: 156, Loss: 1.229283, batch_size: 2,total_acc1: 55.732487, total_acc2: 31.210192, total_acc3: 73.566879, total_acc4: 57.643314, avgf11: 0.362200, avgf12: 0.173143, avgf13: 0.508333, avgf14: 0.266200
+Validation loss decreased (inf -> 1.227895).
+Val Epoch: 0, Subepoch: 157, Loss: 1.227895, batch_size: 2,total_acc1: 56.012661, total_acc2: 31.012659, total_acc3: 73.734177, total_acc4: 57.594936, avgf11: 0.362800, avgf12: 0.172857, avgf13: 0.509000, avgf14: 0.266200
+Validation loss decreased (inf -> 1.225678).
+Val Epoch: 0, Subepoch: 158, Loss: 1.225678, batch_size: 2,total_acc1: 56.289307, total_acc2: 30.817610, total_acc3: 73.584900, total_acc4: 57.861633, avgf11: 0.363400, avgf12: 0.171429, avgf13: 0.507000, avgf14: 0.267200
+Validation loss decreased (inf -> 1.227192).
+Val Epoch: 0, Subepoch: 159, Loss: 1.227192, batch_size: 2,total_acc1: 56.250000, total_acc2: 30.937500, total_acc3: 73.750000, total_acc4: 58.125000, avgf11: 0.361600, avgf12: 0.172000, avgf13: 0.507333, avgf14: 0.268000
+Validation loss decreased (inf -> 1.226088).
+Val Epoch: 0, Subepoch: 160, Loss: 1.226088, batch_size: 2,total_acc1: 56.521740, total_acc2: 31.055901, total_acc3: 73.291924, total_acc4: 58.074535, avgf11: 0.362000, avgf12: 0.172143, avgf13: 0.504667, avgf14: 0.267400
+Validation loss decreased (inf -> 1.223153).
+Val Epoch: 0, Subepoch: 161, Loss: 1.223153, batch_size: 2,total_acc1: 56.790123, total_acc2: 31.172840, total_acc3: 73.148148, total_acc4: 58.024693, avgf11: 0.362600, avgf12: 0.172143, avgf13: 0.504667, avgf14: 0.267200
+Validation loss decreased (inf -> 1.224517).
+Val Epoch: 0, Subepoch: 162, Loss: 1.224517, batch_size: 2,total_acc1: 56.748466, total_acc2: 31.288343, total_acc3: 73.312881, total_acc4: 58.282207, avgf11: 0.361600, avgf12: 0.171571, avgf13: 0.505667, avgf14: 0.268200
+Validation loss decreased (inf -> 1.225377).
+Val Epoch: 0, Subepoch: 163, Loss: 1.225377, batch_size: 2,total_acc1: 56.707314, total_acc2: 31.097559, total_acc3: 73.170731, total_acc4: 58.231705, avgf11: 0.360200, avgf12: 0.171000, avgf13: 0.505667, avgf14: 0.267600
+Validation loss decreased (inf -> 1.224146).
+Val Epoch: 0, Subepoch: 164, Loss: 1.224146, batch_size: 2,total_acc1: 56.969696, total_acc2: 30.909090, total_acc3: 72.727272, total_acc4: 57.878784, avgf11: 0.366200, avgf12: 0.170714, avgf13: 0.503000, avgf14: 0.265600
+Validation loss decreased (inf -> 1.225124).
+Val Epoch: 0, Subepoch: 165, Loss: 1.225124, batch_size: 2,total_acc1: 56.626503, total_acc2: 31.024096, total_acc3: 72.891563, total_acc4: 57.530117, avgf11: 0.363800, avgf12: 0.170857, avgf13: 0.503333, avgf14: 0.263800
+Validation loss decreased (inf -> 1.226725).
+Val Epoch: 0, Subepoch: 166, Loss: 1.226725, batch_size: 2,total_acc1: 56.586830, total_acc2: 31.137726, total_acc3: 73.053894, total_acc4: 57.485031, avgf11: 0.362800, avgf12: 0.171286, avgf13: 0.504000, avgf14: 0.263600
+Validation loss decreased (inf -> 1.227394).
+Val Epoch: 0, Subepoch: 167, Loss: 1.227394, batch_size: 2,total_acc1: 56.547619, total_acc2: 31.250000, total_acc3: 73.214287, total_acc4: 57.440475, avgf11: 0.362600, avgf12: 0.171429, avgf13: 0.504333, avgf14: 0.263600
+Validation loss decreased (inf -> 1.227949).
+Val Epoch: 0, Subepoch: 168, Loss: 1.227949, batch_size: 2,total_acc1: 56.508877, total_acc2: 31.360947, total_acc3: 73.076927, total_acc4: 57.100594, avgf11: 0.362000, avgf12: 0.171857, avgf13: 0.504333, avgf14: 0.262400
+Validation loss decreased (inf -> 1.227230).
+Val Epoch: 0, Subepoch: 169, Loss: 1.227230, batch_size: 2,total_acc1: 56.470589, total_acc2: 31.470589, total_acc3: 72.941177, total_acc4: 56.764706, avgf11: 0.361400, avgf12: 0.171286, avgf13: 0.502333, avgf14: 0.261000
+Validation loss decreased (inf -> 1.228509).
+Val Epoch: 0, Subepoch: 170, Loss: 1.228509, batch_size: 2,total_acc1: 56.140350, total_acc2: 31.286551, total_acc3: 72.807014, total_acc4: 57.017544, avgf11: 0.359000, avgf12: 0.170857, avgf13: 0.502333, avgf14: 0.261800
+Validation loss decreased (inf -> 1.229250).
+Val Epoch: 0, Subepoch: 171, Loss: 1.229250, batch_size: 2,total_acc1: 56.104652, total_acc2: 31.395350, total_acc3: 72.965118, total_acc4: 57.267441, avgf11: 0.358000, avgf12: 0.171286, avgf13: 0.502667, avgf14: 0.262400
+Validation loss decreased (inf -> 1.227989).
+Val Epoch: 0, Subepoch: 172, Loss: 1.227989, batch_size: 2,total_acc1: 56.358379, total_acc2: 31.791906, total_acc3: 73.121384, total_acc4: 56.936417, avgf11: 0.358600, avgf12: 0.172286, avgf13: 0.503000, avgf14: 0.261400
+Validation loss decreased (inf -> 1.228734).
+Val Epoch: 0, Subepoch: 173, Loss: 1.228734, batch_size: 2,total_acc1: 56.321838, total_acc2: 31.896551, total_acc3: 73.275864, total_acc4: 57.183907, avgf11: 0.360800, avgf12: 0.172286, avgf13: 0.504333, avgf14: 0.262600
+Validation loss decreased (inf -> 1.232737).
+Val Epoch: 0, Subepoch: 174, Loss: 1.232737, batch_size: 2,total_acc1: 56.000000, total_acc2: 32.285713, total_acc3: 73.428574, total_acc4: 57.428570, avgf11: 0.357800, avgf12: 0.173143, avgf13: 0.505000, avgf14: 0.263200
+Validation loss decreased (inf -> 1.234821).
+Val Epoch: 0, Subepoch: 175, Loss: 1.234821, batch_size: 2,total_acc1: 55.681820, total_acc2: 32.102272, total_acc3: 73.295456, total_acc4: 57.670456, avgf11: 0.355800, avgf12: 0.172571, avgf13: 0.503333, avgf14: 0.264000
+Validation loss decreased (inf -> 1.238115).
+Val Epoch: 0, Subepoch: 176, Loss: 1.238115, batch_size: 2,total_acc1: 55.367233, total_acc2: 31.920904, total_acc3: 73.446327, total_acc4: 57.909603, avgf11: 0.352200, avgf12: 0.172143, avgf13: 0.503667, avgf14: 0.264800
+Validation loss decreased (inf -> 1.236670).
+Val Epoch: 0, Subepoch: 177, Loss: 1.236670, batch_size: 2,total_acc1: 55.617977, total_acc2: 31.741573, total_acc3: 73.314606, total_acc4: 57.865170, avgf11: 0.352800, avgf12: 0.170857, avgf13: 0.502333, avgf14: 0.264200
+Validation loss decreased (inf -> 1.234756).
+Val Epoch: 0, Subepoch: 178, Loss: 1.234756, batch_size: 2,total_acc1: 55.586590, total_acc2: 32.122906, total_acc3: 73.463684, total_acc4: 57.541897, avgf11: 0.352200, avgf12: 0.171857, avgf13: 0.502667, avgf14: 0.263600
+Validation loss decreased (inf -> 1.234510).
+Val Epoch: 0, Subepoch: 179, Loss: 1.234510, batch_size: 2,total_acc1: 55.555557, total_acc2: 32.222221, total_acc3: 73.611115, total_acc4: 57.500000, avgf11: 0.351400, avgf12: 0.172000, avgf13: 0.503000, avgf14: 0.263600
+Validation loss decreased (inf -> 1.237575).
+Val Epoch: 0, Subepoch: 180, Loss: 1.237575, batch_size: 2,total_acc1: 55.248619, total_acc2: 32.044201, total_acc3: 73.756912, total_acc4: 57.734810, avgf11: 0.349600, avgf12: 0.171571, avgf13: 0.504667, avgf14: 0.264600
+Validation loss decreased (inf -> 1.234249).
+Val Epoch: 0, Subepoch: 181, Loss: 1.234249, batch_size: 2,total_acc1: 55.494507, total_acc2: 31.868134, total_acc3: 73.901100, total_acc4: 57.692310, avgf11: 0.350200, avgf12: 0.171286, avgf13: 0.505000, avgf14: 0.264600
+Validation loss decreased (inf -> 1.232056).
+Val Epoch: 0, Subepoch: 182, Loss: 1.232056, batch_size: 2,total_acc1: 55.737705, total_acc2: 31.693989, total_acc3: 74.043716, total_acc4: 57.923496, avgf11: 0.350600, avgf12: 0.171000, avgf13: 0.505333, avgf14: 0.265400
+Validation loss decreased (inf -> 1.231576).
+Val Epoch: 0, Subepoch: 183, Loss: 1.231576, batch_size: 2,total_acc1: 55.706524, total_acc2: 31.521740, total_acc3: 73.913048, total_acc4: 58.152176, avgf11: 0.350400, avgf12: 0.170429, avgf13: 0.503667, avgf14: 0.266200
+Validation loss decreased (inf -> 1.230341).
+Val Epoch: 0, Subepoch: 184, Loss: 1.230341, batch_size: 2,total_acc1: 55.945946, total_acc2: 31.621622, total_acc3: 73.783783, total_acc4: 58.378380, avgf11: 0.353600, avgf12: 0.170857, avgf13: 0.504333, avgf14: 0.267000
+Validation loss decreased (inf -> 1.228494).
+Val Epoch: 0, Subepoch: 185, Loss: 1.228494, batch_size: 2,total_acc1: 56.182796, total_acc2: 31.451612, total_acc3: 73.655914, total_acc4: 58.602150, avgf11: 0.356400, avgf12: 0.170571, avgf13: 0.504000, avgf14: 0.267800
+Validation loss decreased (inf -> 1.226777).
+Val Epoch: 0, Subepoch: 186, Loss: 1.226777, batch_size: 2,total_acc1: 56.417114, total_acc2: 31.550802, total_acc3: 73.796791, total_acc4: 58.556152, avgf11: 0.356800, avgf12: 0.170857, avgf13: 0.504333, avgf14: 0.267200
+Validation loss decreased (inf -> 1.225839).
+Val Epoch: 0, Subepoch: 187, Loss: 1.225839, batch_size: 2,total_acc1: 56.382977, total_acc2: 31.648935, total_acc3: 73.670212, total_acc4: 58.510635, avgf11: 0.356200, avgf12: 0.171143, avgf13: 0.504000, avgf14: 0.267000
+Validation loss decreased (inf -> 1.224304).
+Val Epoch: 0, Subepoch: 188, Loss: 1.224304, batch_size: 2,total_acc1: 56.349205, total_acc2: 31.481480, total_acc3: 73.544968, total_acc4: 58.730156, avgf11: 0.355200, avgf12: 0.170714, avgf13: 0.504000, avgf14: 0.267800
+Validation loss decreased (inf -> 1.226908).
+Val Epoch: 0, Subepoch: 189, Loss: 1.226908, batch_size: 2,total_acc1: 56.315792, total_acc2: 31.578949, total_acc3: 73.421059, total_acc4: 58.947372, avgf11: 0.355200, avgf12: 0.171143, avgf13: 0.503333, avgf14: 0.268200
+Validation loss decreased (inf -> 1.227858).
+Val Epoch: 0, Subepoch: 190, Loss: 1.227858, batch_size: 2,total_acc1: 56.020943, total_acc2: 31.937174, total_acc3: 73.560211, total_acc4: 58.900524, avgf11: 0.353600, avgf12: 0.172000, avgf13: 0.504000, avgf14: 0.268200
+Validation loss decreased (inf -> 1.228749).
+Val Epoch: 0, Subepoch: 191, Loss: 1.228749, batch_size: 2,total_acc1: 55.729168, total_acc2: 32.031250, total_acc3: 73.697922, total_acc4: 58.854168, avgf11: 0.350600, avgf12: 0.171286, avgf13: 0.505667, avgf14: 0.268000
+Validation loss decreased (inf -> 1.228745).
+Val Epoch: 0, Subepoch: 192, Loss: 1.228745, batch_size: 2,total_acc1: 55.699482, total_acc2: 31.865284, total_acc3: 73.575127, total_acc4: 58.808289, avgf11: 0.350200, avgf12: 0.170000, avgf13: 0.505000, avgf14: 0.267600
+Validation loss decreased (inf -> 1.232093).
+Val Epoch: 0, Subepoch: 193, Loss: 1.232093, batch_size: 2,total_acc1: 55.412369, total_acc2: 31.701031, total_acc3: 73.711334, total_acc4: 58.762886, avgf11: 0.348200, avgf12: 0.169571, avgf13: 0.505333, avgf14: 0.267000
+Validation loss decreased (inf -> 1.230672).
+Val Epoch: 0, Subepoch: 194, Loss: 1.230672, batch_size: 2,total_acc1: 55.384617, total_acc2: 31.794872, total_acc3: 73.589745, total_acc4: 58.461540, avgf11: 0.347400, avgf12: 0.169857, avgf13: 0.505333, avgf14: 0.266400
+Validation loss decreased (inf -> 1.231781).
+Val Epoch: 0, Subepoch: 195, Loss: 1.231781, batch_size: 2,total_acc1: 55.102039, total_acc2: 31.632652, total_acc3: 73.724487, total_acc4: 58.418365, avgf11: 0.345800, avgf12: 0.169571, avgf13: 0.505667, avgf14: 0.266400
+Validation loss decreased (inf -> 1.230009).
+Val Epoch: 0, Subepoch: 196, Loss: 1.230009, batch_size: 2,total_acc1: 55.329948, total_acc2: 31.725887, total_acc3: 73.857864, total_acc4: 58.121826, avgf11: 0.346400, avgf12: 0.169857, avgf13: 0.506000, avgf14: 0.265800
+Validation loss decreased (inf -> 1.230751).
+Val Epoch: 0, Subepoch: 197, Loss: 1.230751, batch_size: 2,total_acc1: 55.050507, total_acc2: 32.070705, total_acc3: 73.989899, total_acc4: 57.828281, avgf11: 0.345000, avgf12: 0.170571, avgf13: 0.506333, avgf14: 0.265200
+Validation loss decreased (inf -> 1.231158).
+Val Epoch: 0, Subepoch: 198, Loss: 1.231158, batch_size: 2,total_acc1: 55.025124, total_acc2: 31.909548, total_acc3: 74.120605, total_acc4: 58.040199, avgf11: 0.343400, avgf12: 0.170143, avgf13: 0.506667, avgf14: 0.265800
+Validation loss decreased (inf -> 1.230618).
+Val Epoch: 0, Subepoch: 199, Loss: 1.230618, batch_size: 2,total_acc1: 55.250000, total_acc2: 31.750000, total_acc3: 74.250000, total_acc4: 57.750000, avgf11: 0.343800, avgf12: 0.169857, avgf13: 0.507333, avgf14: 0.264800
+Validation loss decreased (inf -> 1.230709).
+Val Epoch: 0, Subepoch: 200, Loss: 1.230709, batch_size: 2,total_acc1: 55.223881, total_acc2: 32.089550, total_acc3: 74.129349, total_acc4: 57.462685, avgf11: 0.342600, avgf12: 0.170714, avgf13: 0.505667, avgf14: 0.263600
+Validation loss decreased (inf -> 1.231809).
+Val Epoch: 0, Subepoch: 201, Loss: 1.231809, batch_size: 2,total_acc1: 55.198017, total_acc2: 32.178219, total_acc3: 74.009903, total_acc4: 57.178215, avgf11: 0.345200, avgf12: 0.170857, avgf13: 0.504000, avgf14: 0.262800
+Validation loss decreased (inf -> 1.233392).
+Val Epoch: 0, Subepoch: 202, Loss: 1.233392, batch_size: 1,total_acc1: 55.061729, total_acc2: 32.098766, total_acc3: 74.074074, total_acc4: 57.283955, avgf11: 0.344400, avgf12: 0.170714, avgf13: 0.505000, avgf14: 0.263400
+Epoch: 0,best_precision: 54.629627,lowest_loss: 1.233392,best_avgf1: 0.320879
+===== Epoch 1/1 done in 3976.8s =====
+
+Successfully saved the model with the best precision!
+Successfully saved the model with the lowest loss!
+Successfully saved the model with the best avgf1!
+main mode...

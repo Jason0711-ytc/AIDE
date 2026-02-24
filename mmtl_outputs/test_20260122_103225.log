@@ -1,0 +1,28 @@
+running... mode= test cuda= True epochs= 20
+logging to: ./mmtl_outputs/test_20260122_103225.log
+Total epochs to run: 20
+Loading from previous checkpoint.
+Traceback (most recent call last):
+  File "run.py", line 1904, in <module>
+    test(use_cuda=cuda, batch_size=test_batch_size)
+  File "run.py", line 1722, in test
+    test_dataset = CarDataset(csv_file=test_csv, data_root=data_root)
+  File "run.py", line 54, in __init__
+    self.path = pd.read_csv(csv_file)
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/home/yanjing/anaconda3/envs/mmtl/lib/python3.8/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'testing.csv'

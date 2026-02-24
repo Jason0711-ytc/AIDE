@@ -1,0 +1,27 @@
+running... mode= test cuda= True epochs= 20
+logging to: ./mmtl_outputs/test_20260122_103426.log
+Total epochs to run: 20
+Loading from previous checkpoint.
+Loaded dataloader and loss function.
+Test  Subepoch: 0, batch_size: 24,total_acc1: 62.500000, total_acc2: 66.666672, total_acc3: 83.333336, total_acc4: 75.000000, avgf11: 0.437200, avgf12: 0.421714, avgf13: 0.597000, avgf14: 0.465400
+Test  Subepoch: 1, batch_size: 24,total_acc1: 64.583336, total_acc2: 66.666672, total_acc3: 89.583336, total_acc4: 77.083336, avgf11: 0.513200, avgf12: 0.390714, avgf13: 0.730000, avgf14: 0.515200
+Test  Subepoch: 2, batch_size: 24,total_acc1: 65.277779, total_acc2: 68.055557, total_acc3: 90.277779, total_acc4: 77.777779, avgf11: 0.517200, avgf12: 0.392286, avgf13: 0.721333, avgf14: 0.540600
+Test  Subepoch: 3, batch_size: 24,total_acc1: 65.625000, total_acc2: 65.625000, total_acc3: 87.500000, total_acc4: 78.125000, avgf11: 0.533200, avgf12: 0.382571, avgf13: 0.666333, avgf14: 0.526800
+Test  Subepoch: 4, batch_size: 24,total_acc1: 65.833336, total_acc2: 65.833336, total_acc3: 88.333336, total_acc4: 79.166672, avgf11: 0.520600, avgf12: 0.377000, avgf13: 0.703667, avgf14: 0.532400
+Test  Subepoch: 5, batch_size: 24,total_acc1: 67.361115, total_acc2: 66.666664, total_acc3: 88.888893, total_acc4: 78.472221, avgf11: 0.510600, avgf12: 0.376000, avgf13: 0.747667, avgf14: 0.508600
+Test  Subepoch: 6, batch_size: 24,total_acc1: 67.857147, total_acc2: 66.666664, total_acc3: 87.500000, total_acc4: 75.595238, avgf11: 0.547400, avgf12: 0.370714, avgf13: 0.723333, avgf14: 0.477800
+Test  Subepoch: 7, batch_size: 24,total_acc1: 68.229172, total_acc2: 65.104172, total_acc3: 85.937500, total_acc4: 76.041672, avgf11: 0.538000, avgf12: 0.388429, avgf13: 0.710667, avgf14: 0.472400
+Test  Subepoch: 8, batch_size: 24,total_acc1: 67.592590, total_acc2: 63.425926, total_acc3: 86.574074, total_acc4: 77.314812, avgf11: 0.534400, avgf12: 0.378857, avgf13: 0.708667, avgf14: 0.494800
+Test  Subepoch: 9, batch_size: 24,total_acc1: 66.666672, total_acc2: 63.750004, total_acc3: 85.833336, total_acc4: 76.666672, avgf11: 0.523200, avgf12: 0.388429, avgf13: 0.726667, avgf14: 0.480000
+Test  Subepoch: 10, batch_size: 24,total_acc1: 66.287880, total_acc2: 62.500000, total_acc3: 84.848488, total_acc4: 75.757576, avgf11: 0.525600, avgf12: 0.373286, avgf13: 0.709000, avgf14: 0.481800
+Test  Subepoch: 11, batch_size: 24,total_acc1: 67.013893, total_acc2: 62.500000, total_acc3: 85.763893, total_acc4: 76.041664, avgf11: 0.539000, avgf12: 0.370286, avgf13: 0.722333, avgf14: 0.482200
+Test  Subepoch: 12, batch_size: 24,total_acc1: 67.307693, total_acc2: 62.500000, total_acc3: 84.935898, total_acc4: 75.641029, avgf11: 0.535800, avgf12: 0.363714, avgf13: 0.706667, avgf14: 0.480800
+Test  Subepoch: 13, batch_size: 24,total_acc1: 67.261909, total_acc2: 63.392857, total_acc3: 85.119049, total_acc4: 76.488098, avgf11: 0.543600, avgf12: 0.365714, avgf13: 0.705000, avgf14: 0.518000
+Test  Subepoch: 14, batch_size: 24,total_acc1: 67.777779, total_acc2: 64.166672, total_acc3: 85.277779, total_acc4: 77.222221, avgf11: 0.537800, avgf12: 0.365714, avgf13: 0.701000, avgf14: 0.527200
+Test  Subepoch: 15, batch_size: 24,total_acc1: 67.968750, total_acc2: 64.583336, total_acc3: 85.677086, total_acc4: 76.822922, avgf11: 0.547600, avgf12: 0.365429, avgf13: 0.708000, avgf14: 0.524400
+Test  Subepoch: 16, batch_size: 24,total_acc1: 68.137260, total_acc2: 64.950981, total_acc3: 84.558830, total_acc4: 76.715691, avgf11: 0.536000, avgf12: 0.361000, avgf13: 0.691333, avgf14: 0.526800
+Test  Subepoch: 17, batch_size: 24,total_acc1: 67.592590, total_acc2: 65.509262, total_acc3: 84.722221, total_acc4: 76.620369, avgf11: 0.527800, avgf12: 0.362714, avgf13: 0.700667, avgf14: 0.518400
+Test  Subepoch: 18, batch_size: 24,total_acc1: 67.982460, total_acc2: 64.692986, total_acc3: 85.307014, total_acc4: 76.535088, avgf11: 0.522200, avgf12: 0.356714, avgf13: 0.707667, avgf14: 0.515800
+Test  Subepoch: 19, batch_size: 24,total_acc1: 67.708336, total_acc2: 64.166672, total_acc3: 85.208336, total_acc4: 76.875008, avgf11: 0.513800, avgf12: 0.363714, avgf13: 0.703667, avgf14: 0.527000
+Test  Subepoch: 20, batch_size: 24,total_acc1: 67.261909, total_acc2: 63.293655, total_acc3: 84.920639, total_acc4: 76.984131, avgf11: 0.505200, avgf12: 0.369857, avgf13: 0.698000, avgf14: 0.530600
+Test  Subepoch: 21, batch_size: 24,total_acc1: 66.856064, total_acc2: 64.204544, total_acc3: 85.227272, total_acc4: 77.462120, avgf11: 0.505400, avgf12: 0.380000, avgf13: 0.698000, avgf14: 0.533800

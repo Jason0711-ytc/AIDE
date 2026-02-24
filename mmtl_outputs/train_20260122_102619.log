@@ -1,0 +1,8 @@
+running... mode= train cuda= True epochs= 20
+logging to: ./mmtl_outputs/train_20260122_102619.log
+Total epochs to run: 20
+Loaded dataloader and loss function.
+Optimizer loaded.
+No checkpoint found, starting from scratch
+
+===== Epoch 1/20 =====
