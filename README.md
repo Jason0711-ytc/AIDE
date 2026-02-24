@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MMTL-UniAD: A Unified Framework for Multimodal and Multi-Task Learning in Assistive Driving Perception
 
 <div align="center">
@@ -75,3 +76,7 @@ mode = "train"  # Training mode
 python run.py
 ```
 
+=======
+# AIDE
+record and save the process when changing codes
+>>>>>>> bd23fd38061a9aa60bc0d133521e531f3fdc87d9
