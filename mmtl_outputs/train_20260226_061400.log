@@ -1,0 +1,39 @@
+running... mode= train cuda= True epochs= 20
+logging to: ./mmtl_outputs/train_20260226_061400.log
+Total epochs to run: 20
+Loaded dataloader and loss function.
+Optimizer loaded.
+No checkpoint found, starting from scratch
+
+===== Epoch 1/20 =====
+151.542959690094
+Traceback (most recent call last):
+  File "run.py", line 1940, in <module>
+    main(use_cuda=cuda, EPOCHS=int(epochs), batch_size=train_batch_size)
+  File "run.py", line 1462, in main
+    out1, out2, out3, out4 = model(img1,img2,img3,img4,face,body,gesture,posture)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 161, in forward
+    inputs, kwargs = self.scatter(inputs, kwargs, self.device_ids)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 178, in scatter
+    return scatter_kwargs(inputs, kwargs, device_ids, dim=self.dim)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 52, in scatter_kwargs
+    inputs = scatter(inputs, target_gpus, dim) if inputs else []
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 44, in scatter
+    res = scatter_map(inputs)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 31, in scatter_map
+    return list(zip(*map(scatter_map, obj)))
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 27, in scatter_map
+    return Scatter.apply(target_gpus, None, dim, obj)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/_functions.py", line 96, in forward
+    outputs = comm.scatter(input, target_gpus, chunk_sizes, ctx.dim, streams)
+  File "/data/common/conda_envs_shared/tianchengyu/MMTL/lib/python3.8/site-packages/torch/nn/parallel/comm.py", line 189, in scatter
+    return tuple(torch._C._scatter(tensor, devices, chunk_sizes, dim, streams))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

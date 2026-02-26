@@ -26,6 +26,17 @@ from torch.autograd import *
 from torch import nn
 from torch.nn import functional as F
 from matplotlib import pyplot as plt
+
+# Performance knobs: prefer GPU when available
+torch.backends.cudnn.benchmark = True
+# Allow TF32 on Ampere+ for speed (safe for training classification)
+try:
+    torch.backends.cuda.matmul.allow_tf32 = True
+    torch.backends.cudnn.allow_tf32 = True
+    torch.set_float32_matmul_precision('high')
+except Exception:
+    pass
+
 # GLIBlock is provided by Attention.py in this repo
 import shutil
 import time
@@ -461,14 +472,15 @@ def _resolve_aide_root(aide_root_env: str) -> str:
     return ''
 
 
-data_root = _resolve_aide_root(os.environ.get('AIDE_ROOT', ''))
-if not data_root:
-    raise FileNotFoundError(
-        "AIDE dataset root not found. CSV entries look like 'AIDE_Dataset/...', so you must set AIDE_ROOT "
-        "to the directory that contains the 'AIDE_Dataset' folder.\n"
-        "Example:\n"
-        "  export AIDE_ROOT=/data1/yanjing/datasets/AIDE/extracted"
-    )
+data_root = r"F:\AIDE_Dataset"
+# data_root = _resolve_aide_root(os.environ.get('AIDE_ROOT', ''))
+# if not data_root:
+#     raise FileNotFoundError(
+#         "AIDE dataset root not found. CSV entries look like 'AIDE_Dataset/...', so you must set AIDE_ROOT "
+#         "to the directory that contains the 'AIDE_Dataset' folder.\n"
+#         "Example:\n"
+#         "  export AIDE_ROOT=/data1/yanjing/datasets/AIDE/extracted"
+#     )
 
 
 def _precheck_csv_paths(csv_path: str, aide_root: str, *, n: int = 5) -> None:
@@ -507,9 +519,33 @@ train_dataset = CarDataset(csv_file=train_csv, data_root=data_root)  # 'training
 val_dataset = CarDataset(csv_file=val_csv, data_root=data_root)
 test_dataset = CarDataset(csv_file=test_csv, data_root=data_root)
 
-train_dataloader = DataLoader(train_dataset, batch_size=train_batch_size, shuffle=True, num_workers=num_workers, drop_last=False)
-val_dataloader = DataLoader(val_dataset, batch_size=val_batch_size, shuffle=False, num_workers=num_workers, drop_last=False)
-test_dataloader = DataLoader(test_dataset, batch_size=test_batch_size, shuffle=False, num_workers=test_num_workers, drop_last=False)
+train_dataloader = DataLoader(
+    train_dataset,
+    batch_size=train_batch_size,
+    shuffle=True,
+    num_workers=num_workers,
+    drop_last=False,
+    pin_memory=torch.cuda.is_available(),
+    persistent_workers=(num_workers > 0),
+)
+val_dataloader = DataLoader(
+    val_dataset,
+    batch_size=val_batch_size,
+    shuffle=False,
+    num_workers=num_workers,
+    drop_last=False,
+    pin_memory=torch.cuda.is_available(),
+    persistent_workers=(num_workers > 0),
+)
+test_dataloader = DataLoader(
+    test_dataset,
+    batch_size=test_batch_size,
+    shuffle=False,
+    num_workers=test_num_workers,
+    drop_last=False,
+    pin_memory=torch.cuda.is_available(),
+    persistent_workers=(test_num_workers > 0),
+)
 
 
     
@@ -1301,7 +1337,9 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
     
     model = model.to(device)
 
-
+    # AMP (mixed precision) speeds up training on GPU
+    use_amp = (device.type == 'cuda')
+    scaler = torch.cuda.amp.GradScaler(enabled=use_amp)
 
     crossEntropy1 = nn.CrossEntropyLoss()
     crossEntropy2 = nn.CrossEntropyLoss()
@@ -1315,7 +1353,7 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
     print("Optimizer loaded.")
     model.train()
 
-    # state_dict = torch.load(os.path.join(checkpoint_dir, model_name))
+    # state_dict = torch.load(os.path.join(checkpoint_dir, model_name, map_location=device))
     # model.load_state_dict(state_dict)
     # try:
     #     best_precision = 0
@@ -1335,9 +1373,9 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
 
     # with open("result_body_res.txt", "w") as f:
     #     pass
-    def load_checkpoint(model, optimizer, checkpoint_path):
+    def load_checkpoint(model, optimizer, checkpoint_path, device):
         if os.path.exists(checkpoint_path):
-            checkpoint = torch.load(checkpoint_path)
+            checkpoint = torch.load(checkpoint_path, map_location=device)
             model.load_state_dict(checkpoint['model_state_dict'])
             optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
             start_epoch = checkpoint['epoch'] + 1
@@ -1349,7 +1387,7 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
     checkpoint_path = './checkpoint.pth'
 
 # Example usage before starting the training loop:
-    start_epoch = load_checkpoint(model, optim, checkpoint_path)
+    start_epoch = load_checkpoint(model, optim, checkpoint_path, device)
 
     for epoch in range(start_epoch, EPOCHS):
 
@@ -1395,7 +1433,7 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
             if (epoch == 0 and subepoch == 0):
                 print(time.time() - end)
             # 梯度清零
-            optim.zero_grad()
+            optim.zero_grad(set_to_none=True)
             # 改变图像张量形状（五维->四维），使其与模型兼容
             B, _, _, H, W = img1.shape
             img1 = img1.view(B, -1,  H, W)  # [16, 3, 16, 224, 224]
@@ -1413,46 +1451,39 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
             M = img1.shape[0]
             # 将数据移到GPU上
             if use_cuda:
-                img1 = img1.cuda()
-                img2 = img2.cuda()
-                img3 = img3.cuda()
-                img4 = img4.cuda()
+                img1 = img1.to(device, non_blocking=(device.type=='cuda'))
+                img2 = img2.to(device, non_blocking=(device.type=='cuda'))
+                img3 = img3.to(device, non_blocking=(device.type=='cuda'))
+                img4 = img4.to(device, non_blocking=(device.type=='cuda'))
                 
-                face = face.cuda()
-                body = body.cuda()
+                face = face.to(device, non_blocking=(device.type=='cuda'))
+                body = body.to(device, non_blocking=(device.type=='cuda'))
                 
-                gesture = gesture.cuda()
-                posture = posture.cuda()
+                gesture = gesture.to(device, non_blocking=(device.type=='cuda'))
+                posture = posture.to(device, non_blocking=(device.type=='cuda'))
                 
-            emotion_label = emotion_label.cuda()
-            behavior_label = behavior_label.cuda()
-            context_label = context_label.cuda()
-            vehicle_label = vehicle_label.cuda()
+            emotion_label = emotion_label.to(device, non_blocking=(device.type=='cuda'))
+            behavior_label = behavior_label.to(device, non_blocking=(device.type=='cuda'))
+            context_label = context_label.to(device, non_blocking=(device.type=='cuda'))
+            vehicle_label = vehicle_label.to(device, non_blocking=(device.type=='cuda'))
 
-            # 将输入图像传递到模型(前向传播)
-            out1, out2, out3, out4 = model(img1,img2,img3,img4,face,body,gesture,posture)
-            # if subepoch%400 == 0:
-            # 	print(o)
-            # 	print(out)
-            # print(o.shape, out.shape)
-            # print(out1.shape, emotion_label.shape)
+            # 将输入图像传递到模型(前向传播) + AMP
+            with torch.cuda.amp.autocast(enabled=use_amp):
+                out1, out2, out3, out4 = model(img1, img2, img3, img4, face, body, gesture, posture)
 
-            # 计算单独损失和总损失
-            loss1 = crossEntropy1(out1, emotion_label)
-            # print(out2.shape, behavior_label.shape)
-            loss2 = crossEntropy2(out2, behavior_label)
-            # print(out3.shape, context_label.shape)
-            loss3 = crossEntropy3(out3, context_label)
-            # print(out4.shape, vehicle_label.shape)
-            loss4 = crossEntropy4(out4, vehicle_label)
-            loss = loss1 + loss2 + loss3 + loss4
-            # print(loss)
+                # 计算单独损失和总损失
+                loss1 = crossEntropy1(out1, emotion_label)
+                loss2 = crossEntropy2(out2, behavior_label)
+                loss3 = crossEntropy3(out3, context_label)
+                loss4 = crossEntropy4(out4, vehicle_label)
+                loss = loss1 + loss2 + loss3 + loss4
 
             # 更新训练损失
             train_losses.update(loss.item(), M)
             # 反向传播，进一步优化
-            loss.backward()
-            optim.step()
+            scaler.scale(loss).backward()
+            scaler.step(optim)
+            scaler.update()
 
             # Calculate accuracy
             out1 = F.softmax(out1, 1)  # Softmax将一组数值转换为概率分布
@@ -1490,7 +1521,7 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
                 train_acc3.getacc(),
                 train_acc4.getacc()))
 
-            with open(file=os.path.join(checkpoint_dir, "CNNTrans_basic_v5.txt"), mode="a+") as f:
+            with open(file=os.path.join(checkpoint_dir, "CNNTrans_basic_20260129.txt"), mode="a+") as f:
                 f.write("Epoch: %d, Subepoch: %d, Loss: %f, batch_size: %d, total_acc1: %f,total_acc2: %f, total_acc3: %f, total_acc4: %f"\
                      %(epoch, subepoch, train_losses.avg, M, train_acc1.getacc(), train_acc2.getacc(), train_acc3.getacc(), train_acc4.getacc()))
             
@@ -1546,24 +1577,25 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
                 M = img1.shape[0]
                 # 将数据移到GPU上
                 if use_cuda:
-                    img1 = img1.cuda()
-                    img2 = img2.cuda()
-                    img3 = img3.cuda()
-                    img4 = img4.cuda()
+                    img1 = img1.to(device, non_blocking=(device.type=='cuda'))
+                    img2 = img2.to(device, non_blocking=(device.type=='cuda'))
+                    img3 = img3.to(device, non_blocking=(device.type=='cuda'))
+                    img4 = img4.to(device, non_blocking=(device.type=='cuda'))
 
-                    face = face.cuda()
-                    body = body.cuda()
+                    face = face.to(device, non_blocking=(device.type=='cuda'))
+                    body = body.to(device, non_blocking=(device.type=='cuda'))
 
-                    gesture = gesture.cuda()
-                    posture = posture.cuda()
+                    gesture = gesture.to(device, non_blocking=(device.type=='cuda'))
+                    posture = posture.to(device, non_blocking=(device.type=='cuda'))
 
-                emotion_label = emotion_label.cuda()
-                behavior_label = behavior_label.cuda()
-                context_label = context_label.cuda()
-                vehicle_label = vehicle_label.cuda()
+                emotion_label = emotion_label.to(device, non_blocking=(device.type=='cuda'))
+                behavior_label = behavior_label.to(device, non_blocking=(device.type=='cuda'))
+                context_label = context_label.to(device, non_blocking=(device.type=='cuda'))
+                vehicle_label = vehicle_label.to(device, non_blocking=(device.type=='cuda'))
 
                 # 将输入图像传递到模型(前向传播)
-                out1, out2, out3, out4 = model(img1,img2,img3,img4,face,body,gesture,posture)
+                with torch.cuda.amp.autocast(enabled=(device.type=='cuda')):
+                    out1, out2, out3, out4 = model(img1, img2, img3, img4, face, body, gesture, posture)
                
 
                 loss1 = crossEntropy1(out1, emotion_label)
@@ -1576,9 +1608,9 @@ def main(use_cuda=True, EPOCHS=100, batch_size=48):
                 loss = loss1 + loss2 + loss3 + loss4
                 # print(loss)
                 val_losses1.update(loss1.item(), M)
-                val_losses2.update(loss1.item(), M)
-                val_losses3.update(loss1.item(), M)
-                val_losses4.update(loss1.item(), M)
+                val_losses2.update(loss2.item(), M)
+                val_losses3.update(loss3.item(), M)
+                val_losses4.update(loss4.item(), M)
 
                 val_losses = (val_losses1.avg + val_losses2.avg + val_losses3.avg + val_losses4.avg) / 4.0
                 #早停，防止过拟合
@@ -1708,7 +1740,7 @@ def test(use_cuda=True, batch_size=16, model_name: str = ""):
 
     model = TotalNet()  # 创建模型实例
     model = nn.DataParallel(model)  # 使用 DataParallel 包装模型
-    model = model.cuda()  # 将模型移动到 CUDA 上
+    model = model.to(device)  # 将模型移动到 CUDA 上
     if not model_name:
         model_name = os.environ.get('MMTL_MODEL_PATH', os.path.join(checkpoint_dir, 'best_model_CNNTrans_basic_v5.pt'))
 
@@ -1770,29 +1802,31 @@ def test(use_cuda=True, batch_size=16, model_name: str = ""):
             posture = posture.view(B,3,16, 42, 1)    
             # gesture = gesture.view(B, -1,  39, 1)
             # posture = posture.view(B,-1, 24, 1)             
+            
 
             # 批次大小
             M = img1.shape[0]
             # 将数据移到GPU上
             if use_cuda:
-                img1 = img1.cuda()
-                img2 = img2.cuda()
-                img3 = img3.cuda()
-                img4 = img4.cuda()
+                img1 = img1.to(device, non_blocking=(device.type=='cuda'))
+                img2 = img2.to(device, non_blocking=(device.type=='cuda'))
+                img3 = img3.to(device, non_blocking=(device.type=='cuda'))
+                img4 = img4.to(device, non_blocking=(device.type=='cuda'))
 
-                face = face.cuda()
-                body = body.cuda()
+                face = face.to(device, non_blocking=(device.type=='cuda'))
+                body = body.to(device, non_blocking=(device.type=='cuda'))
 
-                gesture = gesture.cuda()
-                posture = posture.cuda()
+                gesture = gesture.to(device, non_blocking=(device.type=='cuda'))
+                posture = posture.to(device, non_blocking=(device.type=='cuda'))
 
-            emotion_label = emotion_label.cuda()
-            behavior_label = behavior_label.cuda()
-            context_label = context_label.cuda()
-            vehicle_label = vehicle_label.cuda()
+            emotion_label = emotion_label.to(device, non_blocking=(device.type=='cuda'))
+            behavior_label = behavior_label.to(device, non_blocking=(device.type=='cuda'))
+            context_label = context_label.to(device, non_blocking=(device.type=='cuda'))
+            vehicle_label = vehicle_label.to(device, non_blocking=(device.type=='cuda'))
 
             # 将输入图像传递到模型(前向传播)
-            out1, out2, out3, out4 = model(img1,img2,img3,img4,face,body,gesture,posture)
+            with torch.cuda.amp.autocast(enabled=(device.type=='cuda')):
+                    out1, out2, out3, out4 = model(img1, img2, img3, img4, face, body, gesture, posture)
 
 
             # Calculate accuracy

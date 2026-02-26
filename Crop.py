@@ -69,7 +69,7 @@ def process_data(data_dir, annotation_dir, start_from=0):
                                 else:
                                     print(f"图像为空，跳过: {subdir}/{img_name}")
 
-data_directory = "/Volumes/Research/AIDE_Dataset/AIDE_Dataset"
+data_directory = "/data/tianchengyu/datasets/AIDE_Dataset"
 annotation_directory = os.path.join(data_directory, "annotation")
 
 process_data(data_directory, annotation_directory, start_from=2441)
